@@ -1,0 +1,115 @@
+<section class="section-services">
+  <div class="section-services__header">
+    <h2 class="section-services__title">{{ section.settings.title }}</h2>
+    {%- if section.settings.description != blank -%}
+      <p class="section-services__desc">{{ section.settings.description }}</p>
+    {%- endif -%}
+  </div>
+
+  <div class="section-services__image-wrap">
+    {%- if section.settings.image != blank -%}
+      <img
+        src="{{ section.settings.image | image_url: width: 2000 }}"
+        alt="{{ section.settings.title }}"
+        loading="lazy"
+        width="{{ section.settings.image.width }}"
+        height="{{ section.settings.image.height }}">
+    {%- else -%}
+      <div class="section-services__placeholder"></div>
+    {%- endif -%}
+
+    {%- for block in section.blocks -%}
+      <a
+        href="{{ block.settings.link | default: '#' }}"
+        class="hotspot"
+        style="top:{{ block.settings.pos_y }}%;left:{{ block.settings.pos_x }}%;"
+        {{ block.shopify_attributes }}
+      >
+        <span class="hotspot__dot"></span>
+        <span class="hotspot__label">{{ block.settings.label }}</span>
+      </a>
+    {%- endfor -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Services",
+  "tag": "section",
+  "blocks": [
+    {
+      "type": "hotspot",
+      "name": "Point d'intérêt",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Étiquette",
+          "default": "Studio"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Lien"
+        },
+        {
+          "type": "range",
+          "id": "pos_x",
+          "label": "Position horizontale (%)",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 50
+        },
+        {
+          "type": "range",
+          "id": "pos_y",
+          "label": "Position verticale (%)",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 50
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre",
+      "default": "Services"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image de fond"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Services",
+      "blocks": [
+        {
+          "type": "hotspot",
+          "settings": { "label": "Travaux", "pos_x": 37, "pos_y": 35 }
+        },
+        {
+          "type": "hotspot",
+          "settings": { "label": "Café", "pos_x": 73, "pos_y": 47 }
+        },
+        {
+          "type": "hotspot",
+          "settings": { "label": "Studio", "pos_x": 14, "pos_y": 68 }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

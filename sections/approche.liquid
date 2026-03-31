@@ -1,0 +1,45 @@
+<section class="section-approche">
+  <div class="section-approche__inner">
+    <div class="section-approche__heading">
+      {%- if section.settings.script_text != blank -%}
+        <span class="section-approche__script">{{ section.settings.script_text }}</span>
+      {%- endif -%}
+      <h2 class="section-approche__title">{{ section.settings.title }}</h2>
+    </div>
+    <div class="section-approche__text">
+      {{ section.settings.content }}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Notre Approche",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "script_text",
+      "label": "Texte script",
+      "default": "notre"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre",
+      "default": "APPROCHE"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Texte",
+      "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Notre Approche"
+    }
+  ]
+}
+{% endschema %}

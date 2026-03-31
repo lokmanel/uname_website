@@ -1,0 +1,39 @@
+{
+  "general": {
+    "locale_name": "Français"
+  },
+  "cart": {
+    "general": {
+      "title": "Panier",
+      "empty": "Votre panier est vide",
+      "checkout": "Commander",
+      "total": "Total",
+      "remove": "Supprimer"
+    }
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Ajouter au panier",
+      "sold_out": "Épuisé",
+      "unavailable": "Indisponible"
+    }
+  },
+  "customer": {
+    "login": {
+      "title": "Se connecter"
+    },
+    "register": {
+      "title": "Créer un compte"
+    }
+  },
+  "layout": {
+    "footer": {
+      "newsletter_placeholder": "Votre email"
+    }
+  },
+  "accessibility": {
+    "skip_to_content": "Passer au contenu",
+    "close": "Fermer",
+    "open_nav": "Ouvrir le menu"
+  }
+}

@@ -1,0 +1,134 @@
+<section class="hero-split">
+
+  {%- comment -%} Panel gauche {%- endcomment -%}
+  <div class="hero-split__panel">
+    {%- if section.settings.panel1_image != blank -%}
+      <img
+        class="hero-split__bg"
+        src="{{ section.settings.panel1_image | image_url: width: 1400 }}"
+        alt="{{ section.settings.panel1_title }}"
+        loading="eager"
+        fetchpriority="high"
+        width="960" height="1080">
+    {%- else -%}
+      <div class="hero-split__bg" style="background:#c9c1b9;"></div>
+    {%- endif -%}
+    <div class="hero-split__overlay"></div>
+    <div class="hero-split__content">
+      <div class="hero-split__label-wrapper">
+        {%- if section.settings.panel1_script != blank -%}
+          <span class="hero-split__script">{{ section.settings.panel1_script }}</span>
+        {%- endif -%}
+        <h2 class="hero-split__title">{{ section.settings.panel1_title }}</h2>
+      </div>
+      <a href="{{ section.settings.panel1_link }}" class="hero-split__btn">
+        {{ section.settings.panel1_cta | default: 'Je découvre' }}
+      </a>
+    </div>
+  </div>
+
+  {%- comment -%} Panel droit {%- endcomment -%}
+  <div class="hero-split__panel">
+    {%- if section.settings.panel2_image != blank -%}
+      <img
+        class="hero-split__bg"
+        src="{{ section.settings.panel2_image | image_url: width: 1400 }}"
+        alt="{{ section.settings.panel2_title }}"
+        loading="eager"
+        width="960" height="1080">
+    {%- else -%}
+      <div class="hero-split__bg" style="background:#b5ac9e;"></div>
+    {%- endif -%}
+    <div class="hero-split__overlay"></div>
+    <div class="hero-split__content">
+      <div class="hero-split__label-wrapper">
+        {%- if section.settings.panel2_script != blank -%}
+          <span class="hero-split__script">{{ section.settings.panel2_script }}</span>
+        {%- endif -%}
+        <h2 class="hero-split__title">{{ section.settings.panel2_title }}</h2>
+      </div>
+      <a href="{{ section.settings.panel2_link }}" class="hero-split__btn">
+        {{ section.settings.panel2_cta | default: 'Je découvre' }}
+      </a>
+    </div>
+  </div>
+
+</section>
+
+{% schema %}
+{
+  "name": "Hero divisé",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Panneau gauche"
+    },
+    {
+      "type": "image_picker",
+      "id": "panel1_image",
+      "label": "Image gauche"
+    },
+    {
+      "type": "text",
+      "id": "panel1_script",
+      "label": "Texte script (ex : le)",
+      "default": "le"
+    },
+    {
+      "type": "text",
+      "id": "panel1_title",
+      "label": "Titre",
+      "default": "STUDIO"
+    },
+    {
+      "type": "url",
+      "id": "panel1_link",
+      "label": "Lien"
+    },
+    {
+      "type": "text",
+      "id": "panel1_cta",
+      "label": "Texte du bouton",
+      "default": "Je découvre"
+    },
+    {
+      "type": "header",
+      "content": "Panneau droit"
+    },
+    {
+      "type": "image_picker",
+      "id": "panel2_image",
+      "label": "Image droite"
+    },
+    {
+      "type": "text",
+      "id": "panel2_script",
+      "label": "Texte script",
+      "default": "le"
+    },
+    {
+      "type": "text",
+      "id": "panel2_title",
+      "label": "Titre",
+      "default": "CAFÉ"
+    },
+    {
+      "type": "url",
+      "id": "panel2_link",
+      "label": "Lien"
+    },
+    {
+      "type": "text",
+      "id": "panel2_cta",
+      "label": "Texte du bouton",
+      "default": "Je découvre"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero divisé"
+    }
+  ]
+}
+{% endschema %}

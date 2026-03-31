@@ -1,0 +1,32 @@
+<div class="cart-drawer-overlay" id="cart-drawer-overlay" aria-hidden="true"></div>
+
+<div
+  class="cart-drawer"
+  id="cart-drawer"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Panier"
+>
+  <div class="cart-drawer__header">
+    <h2 class="cart-drawer__title">Panier</h2>
+    <button class="cart-drawer__close" id="cart-drawer-close" aria-label="Fermer le panier">
+      &times;
+    </button>
+  </div>
+
+  <div class="cart-drawer__body" id="cart-drawer-body">
+    <p class="cart-drawer__empty">Votre panier est vide</p>
+  </div>
+
+  <div class="cart-drawer__footer">
+    <div class="cart-drawer__subtotal">
+      <span class="cart-drawer__subtotal-label">Total</span>
+      <span class="cart-drawer__subtotal-price" id="cart-drawer-total">
+        {{- cart.total_price | money -}}
+      </span>
+    </div>
+    <a href="{{ routes.checkout }}" class="cart-drawer__checkout">
+      Commander
+    </a>
+  </div>
+</div>

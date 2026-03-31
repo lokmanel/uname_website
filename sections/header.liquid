@@ -1,0 +1,70 @@
+<header class="site-header" role="banner">
+  <a class="header__logo" href="{{ routes.root_url }}" aria-label="{{ shop.name }}">
+    {%- if section.settings.logo_image != blank -%}
+      <img
+        src="{{ section.settings.logo_image | image_url: height: 40 }}"
+        alt="{{ shop.name }}"
+        height="40"
+        loading="eager">
+    {%- else -%}
+      {{ section.settings.logo_text }}<sup>©</sup>
+    {%- endif -%}
+  </a>
+
+  <nav id="header-nav" class="header__nav" aria-label="Navigation principale">
+    <ul class="header__nav-list">
+      {%- for link in linklists[section.settings.menu].links -%}
+        <li>
+          <a class="header__nav-link{% if link.active %} is-active{% endif %}" href="{{ link.url }}">
+            {{ link.title }}
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+
+  <div class="header__actions">
+    <button class="header__action-btn" aria-label="Rechercher">
+      {%- render 'icon-search' -%}
+    </button>
+    <a class="header__action-btn" href="{{ routes.account_url }}" aria-label="Mon compte">
+      {%- render 'icon-account' -%}
+    </a>
+    <button class="header__action-btn" data-open-cart aria-label="Panier ({{ cart.item_count }} articles)">
+      {%- render 'icon-cart' -%}
+      <span class="header__cart-count" data-cart-count data-count="{{ cart.item_count }}">
+        {{ cart.item_count }}
+      </span>
+    </button>
+    <button class="header__burger" id="header-burger" aria-label="Menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+{% schema %}
+{
+  "name": "Header",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo_image",
+      "label": "Logo (image)"
+    },
+    {
+      "type": "text",
+      "id": "logo_text",
+      "label": "Texte du logo (si pas d'image)",
+      "default": "UNAMÉ"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu principal",
+      "default": "main-menu"
+    }
+  ]
+}
+{% endschema %}

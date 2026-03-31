@@ -1,0 +1,60 @@
+<section class="main-cart" style="padding:calc(var(--header-h) + 48px) var(--container-pad) var(--spacing-xl);min-height:60vh;">
+  <h1 style="font-family:var(--font-display);font-size:clamp(2rem,4vw,3.5rem);font-weight:400;letter-spacing:0.15em;text-transform:uppercase;margin-bottom:var(--spacing-lg);">Panier</h1>
+
+  {%- if cart.item_count == 0 -%}
+    <p style="font-size:.9rem;font-weight:300;color:var(--color-text-muted);">
+      Votre panier est vide. <a href="{{ routes.root_url }}" style="text-decoration:underline;">Continuer les achats</a>
+    </p>
+  {%- else -%}
+    <form action="{{ routes.cart_url }}" method="post">
+      <div style="display:grid;grid-template-columns:1fr 340px;gap:var(--spacing-lg);align-items:start;">
+        <div>
+          {%- for item in cart.items -%}
+            <div style="display:grid;grid-template-columns:100px 1fr;gap:var(--spacing-sm);padding:var(--spacing-sm) 0;border-bottom:1px solid var(--color-border);">
+              <a href="{{ item.url }}">
+                <img src="{{ item.image | image_url: width: 200 }}" alt="{{ item.title }}" width="100" height="100" style="object-fit:cover;">
+              </a>
+              <div style="display:flex;flex-direction:column;gap:6px;">
+                <a href="{{ item.url }}" style="font-size:.85rem;font-weight:400;">{{ item.product_title }}</a>
+                {%- if item.variant_title -%}
+                  <span style="font-size:.75rem;color:var(--color-text-muted);">{{ item.variant_title }}</span>
+                {%- endif -%}
+                <span style="font-size:.85rem;">{{ item.line_price | money }}</span>
+                <div style="display:flex;align-items:center;gap:8px;margin-top:auto;">
+                  <label for="qty-{{ item.index }}" class="visually-hidden">Quantité</label>
+                  <input id="qty-{{ item.index }}" type="number" name="updates[]" value="{{ item.quantity }}" min="0"
+                         style="width:56px;padding:6px;border:1px solid var(--color-border);text-align:center;font-size:.82rem;">
+                  <a href="{{ item.url_to_remove }}" style="font-size:.72rem;color:var(--color-text-muted);text-decoration:underline;">Supprimer</a>
+                </div>
+              </div>
+            </div>
+          {%- endfor -%}
+          <button type="submit" name="update" style="margin-top:var(--spacing-sm);font-size:.75rem;color:var(--color-text-muted);text-decoration:underline;background:none;border:none;cursor:pointer;">
+            Mettre à jour le panier
+          </button>
+        </div>
+
+        <div style="border:1px solid var(--color-border);padding:var(--spacing-md);position:sticky;top:calc(var(--header-h) + 24px);">
+          <div style="display:flex;justify-content:space-between;margin-bottom:var(--spacing-md);">
+            <span style="font-size:.8rem;font-weight:400;letter-spacing:.1em;text-transform:uppercase;">Total</span>
+            <span style="font-family:var(--font-display);font-size:1.2rem;">{{ cart.total_price | money }}</span>
+          </div>
+          <button type="submit" name="checkout"
+                  style="display:block;width:100%;padding:15px;background:var(--color-text);color:var(--color-bg);font-size:.8rem;font-weight:400;letter-spacing:.12em;text-transform:uppercase;border:none;cursor:pointer;">
+            Commander
+          </button>
+          <a href="{{ routes.root_url }}" style="display:block;text-align:center;margin-top:var(--spacing-sm);font-size:.78rem;color:var(--color-text-muted);text-decoration:underline;">
+            Continuer les achats
+          </a>
+        </div>
+      </div>
+    </form>
+  {%- endif -%}
+</section>
+
+{% schema %}
+{
+  "name": "Panier principal",
+  "settings": []
+}
+{% endschema %}

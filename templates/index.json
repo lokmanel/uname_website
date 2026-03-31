@@ -1,0 +1,63 @@
+{
+  "sections": {
+    "hero-split": {
+      "type": "hero-split",
+      "settings": {
+        "panel1_script": "le",
+        "panel1_title": "STUDIO",
+        "panel1_cta": "Je découvre",
+        "panel2_script": "le",
+        "panel2_title": "CAFÉ",
+        "panel2_cta": "Je découvre"
+      }
+    },
+    "approche": {
+      "type": "approche",
+      "settings": {
+        "script_text": "notre",
+        "title": "APPROCHE",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+      }
+    },
+    "gallery": {
+      "type": "gallery",
+      "settings": {
+        "title": "Galerie",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "blocks": {
+        "img1": { "type": "image", "settings": {} },
+        "img2": { "type": "image", "settings": {} },
+        "img3": { "type": "image", "settings": {} },
+        "img4": { "type": "image", "settings": {} },
+        "img5": { "type": "image", "settings": {} },
+        "img6": { "type": "image", "settings": {} },
+        "img7": { "type": "image", "settings": {} }
+      },
+      "block_order": ["img1", "img2", "img3", "img4", "img5", "img6", "img7"]
+    },
+    "services": {
+      "type": "services",
+      "settings": {
+        "title": "Services",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "blocks": {
+        "hs1": {
+          "type": "hotspot",
+          "settings": { "label": "Travaux", "pos_x": 37, "pos_y": 35 }
+        },
+        "hs2": {
+          "type": "hotspot",
+          "settings": { "label": "Café", "pos_x": 73, "pos_y": 47 }
+        },
+        "hs3": {
+          "type": "hotspot",
+          "settings": { "label": "Studio", "pos_x": 14, "pos_y": 68 }
+        }
+      },
+      "block_order": ["hs1", "hs2", "hs3"]
+    }
+  },
+  "order": ["hero-split", "approche", "gallery", "services"]
+}

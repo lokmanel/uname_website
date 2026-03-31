@@ -1,0 +1,136 @@
+<footer class="site-footer" role="contentinfo">
+
+  <div class="footer__main">
+    {%- comment -%} Navigation {%- endcomment -%}
+    <nav aria-label="Navigation pied de page">
+      <ul class="footer__nav-list">
+        {%- for link in linklists[section.settings.footer_menu].links -%}
+          <li>
+            <a class="footer__nav-link" href="{{ link.url }}">{{ link.title }}</a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+
+    {%- comment -%} Contact + réseaux {%- endcomment -%}
+    <div class="footer__contact">
+      {%- if section.settings.contact_title != blank -%}
+        <h3 class="footer__contact-title">{{ section.settings.contact_title }}</h3>
+      {%- endif -%}
+      {%- if section.settings.contact_desc != blank -%}
+        <p class="footer__contact-desc">{{ section.settings.contact_desc }}</p>
+      {%- endif -%}
+
+      {%- form 'customer', id: 'footer-newsletter-form' -%}
+        {%- if form.posted_successfully? -%}
+          <p style="font-size:.85rem;margin-bottom:1rem;">Merci pour votre inscription !</p>
+        {%- else -%}
+          <input
+            class="footer__email-input"
+            type="email"
+            name="contact[email]"
+            placeholder="{{ section.settings.email_placeholder | default: 'Votre email' }}"
+            aria-label="Adresse email"
+            autocomplete="email"
+            required>
+        {%- endif -%}
+      {%- endform -%}
+
+      <ul class="footer__social-list">
+        {%- if section.settings.facebook_url != blank -%}
+          <li>
+            <a class="footer__social-link" href="{{ section.settings.facebook_url }}" target="_blank" rel="noopener" aria-label="Facebook">
+              {%- render 'icon-facebook' -%}
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if section.settings.linkedin_url != blank -%}
+          <li>
+            <a class="footer__social-link" href="{{ section.settings.linkedin_url }}" target="_blank" rel="noopener" aria-label="LinkedIn">
+              {%- render 'icon-linkedin' -%}
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if section.settings.instagram_url != blank -%}
+          <li>
+            <a class="footer__social-link" href="{{ section.settings.instagram_url }}" target="_blank" rel="noopener" aria-label="Instagram">
+              {%- render 'icon-instagram' -%}
+            </a>
+          </li>
+        {%- endif -%}
+      </ul>
+    </div>
+  </div>
+
+  {%- comment -%} Grand logo {%- endcomment -%}
+  <div class="footer__brand">
+    <span class="footer__brand-name">{{ section.settings.brand_name | default: shop.name }}<sup>©</sup></span>
+  </div>
+
+  {%- comment -%} Mentions légales {%- endcomment -%}
+  <div class="footer__legal">
+    {%- for link in linklists[section.settings.legal_menu].links -%}
+      <a class="footer__legal-link" href="{{ link.url }}">{{ link.title }}</a>
+    {%- endfor -%}
+  </div>
+
+</footer>
+
+{% schema %}
+{
+  "name": "Footer",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "footer_menu",
+      "label": "Menu pied de page",
+      "default": "footer"
+    },
+    {
+      "type": "text",
+      "id": "contact_title",
+      "label": "Titre contact",
+      "default": "Écrivez-nous"
+    },
+    {
+      "type": "textarea",
+      "id": "contact_desc",
+      "label": "Description contact",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+    },
+    {
+      "type": "text",
+      "id": "email_placeholder",
+      "label": "Placeholder email",
+      "default": "Votre email"
+    },
+    {
+      "type": "url",
+      "id": "facebook_url",
+      "label": "URL Facebook"
+    },
+    {
+      "type": "url",
+      "id": "linkedin_url",
+      "label": "URL LinkedIn"
+    },
+    {
+      "type": "url",
+      "id": "instagram_url",
+      "label": "URL Instagram"
+    },
+    {
+      "type": "text",
+      "id": "brand_name",
+      "label": "Nom de la marque (grand logo)",
+      "default": "UNAMÉ"
+    },
+    {
+      "type": "link_list",
+      "id": "legal_menu",
+      "label": "Menu mentions légales",
+      "default": "footer"
+    }
+  ]
+}
+{% endschema %}
