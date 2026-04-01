@@ -391,7 +391,7 @@ ul, ol { list-style: none; }
   display: block;
   position: relative;
   z-index: 2;
-  margin-bottom: -20px;
+  margin-bottom: -10px;
 }
 
 .section-approche__title {
@@ -937,7 +937,7 @@ ul, ol { list-style: none; }
   .hero-split__title  { font-size: 36px; }
 
   /* Approche */
-  .section-approche__script { font-size: 38px; margin-bottom: -14px; }
+  .section-approche__script { font-size: 38px; margin-bottom: -7px; }
   .section-approche__title  { font-size: 26px; }
   .section-approche__text   { font-size: 16px; line-height: 26px; }
 
