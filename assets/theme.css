@@ -272,7 +272,9 @@ ul, ol { list-style: none; }
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding-bottom: 72px;
 }
 
 .hero-split__bg {
@@ -281,7 +283,7 @@ ul, ol { list-style: none; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.8s ease;
+  transition: transform 0.9s ease;
 }
 
 .hero-split__panel:hover .hero-split__bg {
@@ -291,7 +293,7 @@ ul, ol { list-style: none; }
 .hero-split__overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.12);
 }
 
 .hero-split__content {
@@ -300,7 +302,7 @@ ul, ol { list-style: none; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--sp-md);
+  gap: 28px;
   color: #fff;
   text-align: center;
 }
@@ -308,27 +310,29 @@ ul, ol { list-style: none; }
 .hero-split__label-wrapper {
   display: inline-block;
   position: relative;
-  padding-top: 1.8rem;
+  padding-top: 1.6rem;
 }
 
 .hero-split__script {
   font-family: var(--f-display);
   font-style: italic;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   font-weight: 400;
   color: #fff;
   position: absolute;
   top: 0;
-  left: 0.2em;
+  left: 0;
   line-height: 1;
   pointer-events: none;
+  opacity: 0.9;
 }
 
 .hero-split__title {
   font-family: var(--f-display);
-  font-size: clamp(2.5rem, 4vw, 5rem);
+  font-style: normal;
+  font-size: clamp(2.8rem, 4.5vw, 5.5rem);
   font-weight: 400;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
   line-height: 1;
   color: #fff;
@@ -338,20 +342,21 @@ ul, ol { list-style: none; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 30px;
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  border-radius: 50px;
+  padding: 9px 26px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 100px;
   font-family: var(--f-body);
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 400;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
   color: #fff;
-  transition: background var(--ease), border-color var(--ease);
+  background: transparent;
+  transition: border-color var(--ease), background var(--ease);
 }
 
 .hero-split__btn:hover {
-  background: rgba(255, 255, 255, 0.18);
-  border-color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 /* ── APPROCHE ────────────────────────────────────────────────── */
