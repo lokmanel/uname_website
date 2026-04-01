@@ -323,7 +323,7 @@ ul, ol { list-style: none; }
   display: block;
   position: relative;
   z-index: 2;
-  margin-bottom: -24px;
+  margin-bottom: -32px;
 }
 
 .hero-split__title {
