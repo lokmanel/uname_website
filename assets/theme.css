@@ -323,7 +323,7 @@ ul, ol { list-style: none; }
   display: block;
   position: relative;
   z-index: 2;
-  margin-bottom: -32px;
+  margin-bottom: -30px;
 }
 
 .hero-split__title {
@@ -923,7 +923,7 @@ ul, ol { list-style: none; }
     margin-top: var(--header-h);
   }
   .hero-split__panel { height: 50vh; min-height: 320px; }
-  .hero-split__script { font-size: 56px; }
+  .hero-split__script { font-size: 56px; margin-bottom: -17px; }
   .hero-split__title  { font-size: 36px; }
 
   /* Gallery & Services titres */
