@@ -1,16 +1,17 @@
 <header class="site-header" role="banner">
+
   <a class="header__logo" href="{{ routes.root_url }}" aria-label="{{ shop.name }}">
     {%- if section.settings.logo_image != blank -%}
       <img
-        src="{{ section.settings.logo_image | image_url: height: 40 }}"
+        src="{{ section.settings.logo_image | image_url: height: 116 }}"
         alt="{{ shop.name }}"
-        height="40"
+        height="58"
         loading="eager">
     {%- else -%}
       <img
         src="{{ 'logo-uname.png' | asset_url }}"
         alt="{{ shop.name }}"
-        height="32"
+        height="58"
         loading="eager">
     {%- endif -%}
   </a>
@@ -34,18 +35,13 @@
     <a class="header__action-btn" href="{{ routes.account_url }}" aria-label="Mon compte">
       {%- render 'icon-account' -%}
     </a>
-    <button class="header__action-btn" data-open-cart aria-label="Panier ({{ cart.item_count }} articles)">
-      {%- render 'icon-cart' -%}
-      <span class="header__cart-count" data-cart-count data-count="{{ cart.item_count }}">
-        {{ cart.item_count }}
-      </span>
-    </button>
     <button class="header__burger" id="header-burger" aria-label="Menu" aria-expanded="false">
       <span></span>
       <span></span>
       <span></span>
     </button>
   </div>
+
 </header>
 
 {% schema %}
