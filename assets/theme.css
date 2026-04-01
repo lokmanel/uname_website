@@ -57,7 +57,7 @@
   --c-black:      #1a1a1a;
   --c-muted:      #8a8a8a;
   --c-border:     #e8e8e8;
-  --c-footer-bg:  #7b8c5a;
+  --c-footer-bg:  #747A4D;
 
   /* Typography */
   --f-display: 'Canora', Georgia, serif;
@@ -640,42 +640,69 @@ ul, ol { list-style: none; }
   background: var(--c-footer-bg);
 }
 
+/* Niveau 1 — deux colonnes */
 .footer__main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: var(--sp-xl) var(--gutter) var(--sp-lg);
-  gap: var(--sp-lg);
-  border-bottom: 1px solid rgba(26, 26, 26, 0.15);
+  border-bottom: 2px solid var(--c-black);
+}
+
+/* Colonne gauche — nav centrée */
+.footer__col--nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--sp-xl) var(--gutter);
+  border-right: 2px solid var(--c-black);
 }
 
 .footer__nav-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px 30px;
 }
 
 .footer__nav-link {
   font-family: var(--f-body);
-  font-size: 0.875rem;
+  font-size: 18px;
   font-weight: 400;
   color: var(--c-black);
-  transition: opacity var(--ease);
+  position: relative;
+  padding-bottom: 2px;
 }
 
-.footer__nav-link:hover { opacity: 0.5; }
+.footer__nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 0; height: 1px;
+  background: var(--c-black);
+  transition: width 0.4s ease;
+}
+
+.footer__nav-link:hover::after { width: 100%; }
+
+/* Colonne droite — contact */
+.footer__col--contact {
+  padding: var(--sp-xl) var(--gutter);
+}
 
 .footer__contact-title {
   font-family: var(--f-body);
-  font-size: 1.1rem;
+  font-size: 35px;
   font-weight: 400;
+  line-height: 35px;
   color: var(--c-black);
-  margin-bottom: var(--sp-xs);
+  margin-bottom: var(--sp-sm);
 }
 
 .footer__contact-desc {
-  font-size: 0.85rem;
+  font-family: var(--f-body);
+  font-size: 20px;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 30px;
   color: var(--c-black);
   margin-bottom: var(--sp-md);
 }
@@ -684,8 +711,8 @@ ul, ol { list-style: none; }
   display: block;
   width: 100%;
   padding: 11px 14px;
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(26, 26, 26, 0.25);
+  background: var(--c-footer-bg);
+  border: 1px solid var(--c-black);
   border-radius: 2px;
   font-family: var(--f-body);
   font-size: 0.85rem;
@@ -696,7 +723,6 @@ ul, ol { list-style: none; }
   margin-bottom: var(--sp-md);
 }
 
-.footer__email-input::placeholder { color: rgba(26, 26, 26, 0.4); }
 .footer__email-input:focus { border-color: var(--c-black); }
 
 .footer__social-list {
@@ -715,22 +741,23 @@ ul, ol { list-style: none; }
 .footer__social-link:hover { opacity: 0.5; }
 .footer__social-link svg { width: 22px; height: 22px; }
 
-/* Grand logo footer */
+/* Niveau 2 — grand logo */
 .footer__brand {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: var(--sp-lg) var(--gutter);
-  border-bottom: 1px solid rgba(26, 26, 26, 0.15);
+  border-bottom: 2px solid var(--c-black);
 }
 
 .footer__brand-logo {
   display: block;
-  height: 80px;
+  height: clamp(120px, 18vw, 280px);
   width: auto;
   object-fit: contain;
 }
 
+/* Niveau 3 — mentions légales */
 .footer__legal {
   display: flex;
   flex-wrap: wrap;
@@ -1040,6 +1067,6 @@ ul, ol { list-style: none; }
 
   /* Footer */
   .footer__main { grid-template-columns: 1fr; }
-
-  .footer__brand-logo { height: 52px; }
+  .footer__col--nav { border-right: none; border-bottom: 2px solid var(--c-black); }
+  .footer__brand-logo { height: clamp(80px, 18vw, 160px); }
 }

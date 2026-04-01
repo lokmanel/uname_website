@@ -1,19 +1,22 @@
 <footer class="site-footer" role="contentinfo">
 
   <div class="footer__main">
-    {%- comment -%} Navigation {%- endcomment -%}
-    <nav aria-label="Navigation pied de page">
-      <ul class="footer__nav-list">
-        {%- for link in linklists[section.settings.footer_menu].links -%}
-          <li>
-            <a class="footer__nav-link" href="{{ link.url }}">{{ link.title }}</a>
-          </li>
-        {%- endfor -%}
-      </ul>
-    </nav>
 
-    {%- comment -%} Contact + réseaux {%- endcomment -%}
-    <div class="footer__contact">
+    {%- comment -%} Colonne gauche — navigation centrée {%- endcomment -%}
+    <div class="footer__col footer__col--nav">
+      <nav aria-label="Navigation pied de page">
+        <ul class="footer__nav-list">
+          {%- for link in linklists[section.settings.footer_menu].links -%}
+            <li>
+              <a class="footer__nav-link" href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </nav>
+    </div>
+
+    {%- comment -%} Colonne droite — contact + réseaux {%- endcomment -%}
+    <div class="footer__col footer__col--contact">
       {%- if section.settings.contact_title != blank -%}
         <h3 class="footer__contact-title">{{ section.settings.contact_title }}</h3>
       {%- endif -%}
@@ -29,7 +32,6 @@
             class="footer__email-input"
             type="email"
             name="contact[email]"
-            placeholder="{{ section.settings.email_placeholder | default: 'Votre email' }}"
             aria-label="Adresse email"
             autocomplete="email"
             required>
@@ -60,21 +62,22 @@
         {%- endif -%}
       </ul>
     </div>
+
   </div>
 
   {%- comment -%} Grand logo {%- endcomment -%}
   <div class="footer__brand">
     {%- if section.settings.logo_image != blank -%}
       <img
-        src="{{ section.settings.logo_image | image_url: height: 120 }}"
+        src="{{ section.settings.logo_image | image_url: height: 400 }}"
         alt="{{ shop.name }}"
-        height="120"
-        loading="lazy">
+        height="400"
+        loading="lazy"
+        class="footer__brand-logo">
     {%- else -%}
       <img
         src="{{ 'logo-uname.png' | asset_url }}"
         alt="{{ shop.name }}"
-        height="80"
         loading="lazy"
         class="footer__brand-logo">
     {%- endif -%}
@@ -101,8 +104,8 @@
     {
       "type": "link_list",
       "id": "footer_menu",
-      "label": "Menu pied de page",
-      "default": "footer"
+      "label": "Menu colonne gauche",
+      "default": "main-menu"
     },
     {
       "type": "text",
@@ -115,12 +118,6 @@
       "id": "contact_desc",
       "label": "Description contact",
       "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
-    },
-    {
-      "type": "text",
-      "id": "email_placeholder",
-      "label": "Placeholder email",
-      "default": "Votre email"
     },
     {
       "type": "url",
