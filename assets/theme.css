@@ -868,6 +868,19 @@ ul, ol { list-style: none; }
 
 /* ── RESPONSIVE ──────────────────────────────────────────────── */
 
+/* Gallery — réduction progressive des hauteurs de rangées */
+@media (max-width: 1400px) {
+  .gallery-grid {
+    grid-template-rows: 460px 460px 460px 460px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .gallery-grid {
+    grid-template-rows: 380px 380px 380px 380px;
+  }
+}
+
 @media (max-width: 1024px) {
   :root { --gutter: 28px; }
 
