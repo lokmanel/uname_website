@@ -487,6 +487,7 @@ ul, ol { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
   opacity: 0;
   transition: opacity var(--ease-slow);
 }
@@ -1020,13 +1021,20 @@ ul, ol { list-style: none; }
 
   .gallery-grid {
     grid-template-columns: 1fr;
-    grid-template-rows: none;
+    grid-auto-rows: auto;
   }
   .gallery-grid__item {
     grid-column: 1 !important;
     grid-row: auto !important;
     aspect-ratio: 4/3 !important;
   }
+
+  /* Texte hover réduit pour les petites cellules */
+  .gallery-grid__script { font-size: 32px; line-height: 1; }
+  .gallery-grid__name   { font-size: 20px; letter-spacing: 0.06em; }
+
+  /* Bloquer le débordement du texte dans l'overlay */
+  .gallery-grid__overlay { overflow: hidden; }
 
   .section-services__image-wrap { aspect-ratio: 3/2; }
 
