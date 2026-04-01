@@ -20,7 +20,7 @@
     <ul class="header__nav-list">
       {%- for link in linklists[section.settings.menu].links -%}
         <li>
-          <a class="header__nav-link{% if link.active %} is-active{% endif %}" href="{{ link.url }}">
+          <a class="header__nav-link" href="{{ link.url }}">
             {{ link.title }}
           </a>
         </li>

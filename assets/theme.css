@@ -202,8 +202,7 @@ ul, ol { list-style: none; }
   transition: width 0.4s ease;
 }
 
-.header__nav-link:hover::after,
-.header__nav-link.is-active::after {
+.header__nav-link:hover::after {
   width: 100%;
 }
 
