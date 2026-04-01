@@ -64,7 +64,20 @@
 
   {%- comment -%} Grand logo {%- endcomment -%}
   <div class="footer__brand">
-    <span class="footer__brand-name">{{ section.settings.brand_name | default: shop.name }}<sup>©</sup></span>
+    {%- if section.settings.logo_image != blank -%}
+      <img
+        src="{{ section.settings.logo_image | image_url: height: 120 }}"
+        alt="{{ shop.name }}"
+        height="120"
+        loading="lazy">
+    {%- else -%}
+      <img
+        src="{{ 'logo-uname.png' | asset_url }}"
+        alt="{{ shop.name }}"
+        height="80"
+        loading="lazy"
+        class="footer__brand-logo">
+    {%- endif -%}
   </div>
 
   {%- comment -%} Mentions légales {%- endcomment -%}
@@ -80,6 +93,11 @@
 {
   "name": "Footer",
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo_image",
+      "label": "Logo (override)"
+    },
     {
       "type": "link_list",
       "id": "footer_menu",
@@ -118,12 +136,6 @@
       "type": "url",
       "id": "instagram_url",
       "label": "URL Instagram"
-    },
-    {
-      "type": "text",
-      "id": "brand_name",
-      "label": "Nom de la marque (grand logo)",
-      "default": "UNAMÉ"
     },
     {
       "type": "link_list",

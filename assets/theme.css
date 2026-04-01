@@ -18,7 +18,23 @@
   font-display: swap;
 }
 
-/* Neue Haas Grotesk Display Pro — typo principale */
+/* Akzidenz Grotesk Pro — typo principale pour tous les textes */
+@font-face {
+  font-family: 'AkzidenzGroteskPro';
+  src: url('AkzidenzGroteskPro-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'AkzidenzGroteskPro';
+  src: url('AkzidenzGroteskPro-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Neue Haas Grotesk Display Pro — conservé en reserve */
 @font-face {
   font-family: 'NeueHaasDisplay';
   src: url('NeueHaasDisplayLight.ttf') format('truetype');
@@ -60,7 +76,7 @@
   --color-footer-text: #1a1a1a;
 
   --font-display: 'Canora', Georgia, serif;
-  --font-body: 'NeueHaasDisplay', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'AkzidenzGroteskPro', 'Helvetica Neue', Arial, sans-serif;
 
   --spacing-xs: 8px;
   --spacing-sm: 16px;
@@ -480,15 +496,12 @@ ul, ol { list-style: none; }
   border-bottom: 1px solid rgba(26,26,26,0.18);
 }
 
-.footer__brand-name {
-  font-family: var(--font-display);
-  font-size: clamp(3.5rem, 9vw, 9rem);
-  font-weight: 600; letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--color-footer-text);
-  line-height: 1;
+.footer__brand-logo {
+  display: block;
+  height: 80px;
+  width: auto;
+  object-fit: contain;
 }
-.footer__brand-name sup { font-size: 0.28em; vertical-align: super; }
 
 .footer__legal {
   display: flex; flex-wrap: wrap;
