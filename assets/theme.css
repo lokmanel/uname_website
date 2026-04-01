@@ -352,12 +352,13 @@ ul, ol { list-style: none; }
   letter-spacing: 0.03em;
   color: #fff;
   background: transparent;
-  transition: border-color var(--ease), background var(--ease);
+  transition: background var(--ease), border-color var(--ease), color var(--ease);
 }
 
 .hero-split__btn:hover {
-  border-color: rgba(255, 255, 255, 0.9);
-  background: rgba(255, 255, 255, 0.1);
+  background: #fff;
+  border-color: #fff;
+  color: #1a1a1a;
 }
 
 /* ── APPROCHE ────────────────────────────────────────────────── */
