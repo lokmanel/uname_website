@@ -76,6 +76,12 @@
           "settings": {
             "alt": ""
           }
+        },
+        "img8": {
+          "type": "image",
+          "settings": {
+            "alt": ""
+          }
         }
       },
       "block_order": [
@@ -85,7 +91,8 @@
         "img4",
         "img5",
         "img6",
-        "img7"
+        "img7",
+        "img8"
       ],
       "settings": {
         "title": "Galerie",
