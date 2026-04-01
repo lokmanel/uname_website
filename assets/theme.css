@@ -1,14 +1,24 @@
 /* =========================================
    CUSTOM FONTS
    ========================================= */
+
+/* Canora — display serif, utilisé en romain et en italique pour l'effet luxe */
 @font-face {
-  font-family: 'CanoraTest';
+  font-family: 'Canora';
   src: url('CanoraTest-Frente.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Canora';
+  src: url('CanoraTest-Frente.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
 
+/* Neue Haas Grotesk Display Pro — typo principale */
 @font-face {
   font-family: 'NeueHaasDisplay';
   src: url('NeueHaasDisplayLight.ttf') format('truetype');
@@ -16,7 +26,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: 'NeueHaasDisplay';
   src: url('NeueHaasDisplayRoman.ttf') format('truetype');
@@ -24,7 +33,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: 'NeueHaasDisplay';
   src: url('NeueHaasDisplayMediu.ttf') format('truetype');
@@ -32,19 +40,10 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: 'NeueHaasDisplay';
   src: url('NeueHaasDisplayBold.ttf') format('truetype');
   font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Caveat';
-  src: url('Caveat-VariableFont_wght.ttf') format('truetype');
-  font-weight: 400 700;
   font-style: normal;
   font-display: swap;
 }
@@ -60,9 +59,8 @@
   --color-footer-bg: #7b8c5a;
   --color-footer-text: #1a1a1a;
 
-  --font-display: 'CanoraTest', Georgia, serif;
-  --font-script: 'Caveat', cursive;
-  --font-body: 'NeueHaasDisplay', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+  --font-display: 'Canora', Georgia, serif;
+  --font-body: 'NeueHaasDisplay', 'Helvetica Neue', Arial, sans-serif;
 
   --spacing-xs: 8px;
   --spacing-sm: 16px;
@@ -213,7 +211,8 @@ ul, ol { list-style: none; }
 }
 
 .hero-split__script {
-  font-family: var(--font-script);
+  font-family: var(--font-display);
+  font-style: italic;
   font-size: 2rem;
   color: #fff;
   font-weight: 400;
@@ -259,7 +258,8 @@ ul, ol { list-style: none; }
 .section-approche__heading { margin-bottom: var(--spacing-md); }
 
 .section-approche__script {
-  font-family: var(--font-script);
+  font-family: var(--font-display);
+  font-style: italic;
   font-size: 1.9rem;
   display: block;
   line-height: 1.1;

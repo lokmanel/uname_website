@@ -7,7 +7,11 @@
         height="40"
         loading="eager">
     {%- else -%}
-      {{ section.settings.logo_text }}<sup>©</sup>
+      <img
+        src="{{ 'logo-uname.png' | asset_url }}"
+        alt="{{ shop.name }}"
+        height="32"
+        loading="eager">
     {%- endif -%}
   </a>
 
