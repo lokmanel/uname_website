@@ -747,7 +747,6 @@ ul, ol { list-style: none; }
   align-items: center;
   justify-content: center;
   padding: var(--sp-lg) var(--gutter);
-  border-bottom: 2px solid var(--c-black);
 }
 
 .footer__brand-logo {
