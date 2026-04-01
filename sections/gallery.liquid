@@ -10,16 +10,32 @@
     <div class="gallery-grid">
       {%- for block in section.blocks -%}
         <div class="gallery-grid__item gallery-grid__item--{{ forloop.index }}" {{ block.shopify_attributes }}>
-          {%- if block.settings.image != blank -%}
-            <img
-              src="{{ block.settings.image | image_url: width: 1200 }}"
-              alt="{{ block.settings.alt | default: block.settings.image.alt | default: '' }}"
-              loading="lazy"
-              width="{{ block.settings.image.width }}"
-              height="{{ block.settings.image.height }}">
-          {%- else -%}
-            <div class="gallery-grid__placeholder"></div>
-          {%- endif -%}
+          <a
+            href="{{ block.settings.link | default: '#' }}"
+            class="gallery-grid__link"
+            {%- if block.settings.link == blank %} tabindex="-1" aria-hidden="true"{% endif %}>
+
+            {%- if block.settings.image != blank -%}
+              <img
+                src="{{ block.settings.image | image_url: width: 1200 }}"
+                alt="{{ block.settings.alt | default: block.settings.image.alt | default: '' }}"
+                loading="lazy"
+                width="{{ block.settings.image.width }}"
+                height="{{ block.settings.image.height }}">
+            {%- else -%}
+              <div class="gallery-grid__placeholder"></div>
+            {%- endif -%}
+
+            {%- if block.settings.project_name != blank -%}
+              <div class="gallery-grid__overlay">
+                <div class="gallery-grid__label">
+                  <span class="gallery-grid__script">projet</span>
+                  <span class="gallery-grid__name">{{ block.settings.project_name | upcase }}</span>
+                </div>
+              </div>
+            {%- endif -%}
+
+          </a>
         </div>
       {%- endfor -%}
     </div>
@@ -44,6 +60,16 @@
           "type": "text",
           "id": "alt",
           "label": "Texte alternatif"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Lien (rend l'image cliquable)"
+        },
+        {
+          "type": "text",
+          "id": "project_name",
+          "label": "Nom du projet (visible au hover)"
         }
       ]
     }
