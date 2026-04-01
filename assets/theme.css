@@ -262,8 +262,8 @@ ul, ol { list-style: none; }
 .hero-split {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 100vh;
-  min-height: 600px;
+  height: calc(100vh - var(--header-h));
+  min-height: 500px;
   margin-top: var(--header-h);
 }
 
@@ -272,9 +272,7 @@ ul, ol { list-style: none; }
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  flex-direction: column;
-  padding-bottom: 72px;
+  justify-content: center;
 }
 
 .hero-split__bg {
@@ -302,37 +300,36 @@ ul, ol { list-style: none; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 28px;
+  gap: 24px;
   color: #fff;
   text-align: center;
 }
 
+/* "le" + titre empilés, "le" en calligraphique Canora au dessus */
 .hero-split__label-wrapper {
-  display: inline-block;
-  position: relative;
-  padding-top: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
 }
 
 .hero-split__script {
   font-family: var(--f-display);
   font-style: italic;
-  font-size: 1.6rem;
+  font-size: 100px;
   font-weight: 400;
+  line-height: 0.75;
+  letter-spacing: 0;
   color: #fff;
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 1;
-  pointer-events: none;
-  opacity: 0.9;
+  display: block;
 }
 
 .hero-split__title {
-  font-family: var(--f-display);
+  font-family: var(--f-body);
   font-style: normal;
-  font-size: clamp(2.8rem, 4.5vw, 5.5rem);
+  font-size: 60px;
   font-weight: 400;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   line-height: 1;
   color: #fff;
@@ -918,8 +915,11 @@ ul, ol { list-style: none; }
   .hero-split {
     grid-template-columns: 1fr;
     height: auto;
+    margin-top: var(--header-h);
   }
-  .hero-split__panel { height: 55vh; }
+  .hero-split__panel { height: 50vh; min-height: 320px; }
+  .hero-split__script { font-size: 56px; }
+  .hero-split__title  { font-size: 36px; }
 
   /* Gallery & Services titres */
   .section-gallery__title,
