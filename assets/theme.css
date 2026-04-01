@@ -439,9 +439,10 @@ ul, ol { list-style: none; }
 
 .section-gallery__desc {
   font-family: var(--f-body);
-  font-size: 0.875rem;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 1.8;
+  line-height: 30px;
+  letter-spacing: 0;
   max-width: 480px;
   padding-bottom: var(--sp-sm);
   color: var(--c-black);
