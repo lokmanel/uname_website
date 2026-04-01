@@ -1,13 +1,26 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero-split": {
       "type": "hero-split",
       "settings": {
+        "panel1_image": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.08.png",
         "panel1_script": "le",
         "panel1_title": "STUDIO",
+        "panel1_link": "",
         "panel1_cta": "Je découvre",
+        "panel2_image": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.18.png",
         "panel2_script": "le",
         "panel2_title": "CAFÉ",
+        "panel2_link": "",
         "panel2_cta": "Je découvre"
       }
     },
@@ -21,43 +34,110 @@
     },
     "gallery": {
       "type": "gallery",
+      "blocks": {
+        "img1": {
+          "type": "image",
+          "settings": {
+            "alt": ""
+          }
+        },
+        "img2": {
+          "type": "image",
+          "settings": {
+            "alt": ""
+          }
+        },
+        "img3": {
+          "type": "image",
+          "settings": {
+            "alt": ""
+          }
+        },
+        "img4": {
+          "type": "image",
+          "settings": {
+            "alt": ""
+          }
+        },
+        "img5": {
+          "type": "image",
+          "settings": {
+            "alt": ""
+          }
+        },
+        "img6": {
+          "type": "image",
+          "settings": {
+            "alt": ""
+          }
+        },
+        "img7": {
+          "type": "image",
+          "settings": {
+            "alt": ""
+          }
+        }
+      },
+      "block_order": [
+        "img1",
+        "img2",
+        "img3",
+        "img4",
+        "img5",
+        "img6",
+        "img7"
+      ],
       "settings": {
         "title": "Galerie",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      "blocks": {
-        "img1": { "type": "image", "settings": {} },
-        "img2": { "type": "image", "settings": {} },
-        "img3": { "type": "image", "settings": {} },
-        "img4": { "type": "image", "settings": {} },
-        "img5": { "type": "image", "settings": {} },
-        "img6": { "type": "image", "settings": {} },
-        "img7": { "type": "image", "settings": {} }
-      },
-      "block_order": ["img1", "img2", "img3", "img4", "img5", "img6", "img7"]
+      }
     },
     "services": {
       "type": "services",
-      "settings": {
-        "title": "Services",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
       "blocks": {
         "hs1": {
           "type": "hotspot",
-          "settings": { "label": "Travaux", "pos_x": 37, "pos_y": 35 }
+          "settings": {
+            "label": "Travaux",
+            "link": "",
+            "pos_x": 37,
+            "pos_y": 35
+          }
         },
         "hs2": {
           "type": "hotspot",
-          "settings": { "label": "Café", "pos_x": 73, "pos_y": 47 }
+          "settings": {
+            "label": "Café",
+            "link": "",
+            "pos_x": 73,
+            "pos_y": 47
+          }
         },
         "hs3": {
           "type": "hotspot",
-          "settings": { "label": "Studio", "pos_x": 14, "pos_y": 68 }
+          "settings": {
+            "label": "Studio",
+            "link": "",
+            "pos_x": 14,
+            "pos_y": 68
+          }
         }
       },
-      "block_order": ["hs1", "hs2", "hs3"]
+      "block_order": [
+        "hs1",
+        "hs2",
+        "hs3"
+      ],
+      "settings": {
+        "title": "Services",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
     }
   },
-  "order": ["hero-split", "approche", "gallery", "services"]
+  "order": [
+    "hero-split",
+    "approche",
+    "gallery",
+    "services"
+  ]
 }
