@@ -1,0 +1,39 @@
+<section class="section-equipes">
+
+  <h2 class="section-equipes__title">{{ section.settings.title }}</h2>
+
+  <div class="section-equipes__image-wrap">
+    {%- if section.settings.image != blank -%}
+      <img
+        src="{{ section.settings.image | image_url: width: 1600 }}"
+        alt="{{ section.settings.image.alt | default: section.settings.title }}"
+        loading="lazy">
+    {%- else -%}
+      <div class="section-equipes__placeholder"></div>
+    {%- endif -%}
+  </div>
+
+</section>
+
+{% schema %}
+{
+  "name": "Les équipes",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre",
+      "default": "Les équipes"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image (format paysage recommandé)"
+    }
+  ],
+  "presets": [
+    { "name": "Les équipes" }
+  ]
+}
+{% endschema %}

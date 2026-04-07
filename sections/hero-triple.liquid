@@ -1,0 +1,71 @@
+<section class="hero-triple">
+
+  {%- for i in (1..3) -%}
+    {%- assign img_key   = 'panel' | append: i | append: '_image' -%}
+    {%- assign script_key = 'panel' | append: i | append: '_script' -%}
+    {%- assign title_key = 'panel' | append: i | append: '_title' -%}
+    {%- assign link_key  = 'panel' | append: i | append: '_link' -%}
+    {%- assign cta_key   = 'panel' | append: i | append: '_cta' -%}
+
+    <div class="hero-triple__panel">
+      {%- if section.settings[img_key] != blank -%}
+        <img
+          class="hero-triple__bg"
+          src="{{ section.settings[img_key] | image_url: width: 900 }}"
+          alt="{{ section.settings[title_key] }}"
+          loading="{{ forloop.first | replace: 'true', 'eager' | replace: 'false', 'lazy' }}"
+          fetchpriority="{{ forloop.first | replace: 'true', 'high' | replace: 'false', 'auto' }}">
+      {%- else -%}
+        <div class="hero-triple__bg" style="background: #b5ac9e;"></div>
+      {%- endif -%}
+
+      <div class="hero-triple__overlay"></div>
+
+      <div class="hero-triple__content">
+        <div class="hero-triple__label-wrapper">
+          {%- if section.settings[script_key] != blank -%}
+            <span class="hero-triple__script">{{ section.settings[script_key] }}</span>
+          {%- endif -%}
+          <h2 class="hero-triple__title">{{ section.settings[title_key] }}</h2>
+        </div>
+        <a href="{{ section.settings[link_key] | default: '#' }}" class="hero-triple__btn">
+          {{ section.settings[cta_key] | default: 'Je découvre' }}
+        </a>
+      </div>
+    </div>
+
+  {%- endfor -%}
+
+</section>
+
+{% schema %}
+{
+  "name": "Hero triple",
+  "tag": "section",
+  "settings": [
+    { "type": "header", "content": "Panneau 1" },
+    { "type": "image_picker", "id": "panel1_image", "label": "Image" },
+    { "type": "text", "id": "panel1_script", "label": "Texte script", "default": "l'" },
+    { "type": "text", "id": "panel1_title", "label": "Titre", "default": "AUDIT" },
+    { "type": "url",  "id": "panel1_link",  "label": "Lien" },
+    { "type": "text", "id": "panel1_cta",   "label": "Bouton", "default": "Je découvre" },
+
+    { "type": "header", "content": "Panneau 2" },
+    { "type": "image_picker", "id": "panel2_image", "label": "Image" },
+    { "type": "text", "id": "panel2_script", "label": "Texte script", "default": "la" },
+    { "type": "text", "id": "panel2_title",  "label": "Titre", "default": "CONCEPTION" },
+    { "type": "url",  "id": "panel2_link",   "label": "Lien" },
+    { "type": "text", "id": "panel2_cta",    "label": "Bouton", "default": "Je découvre" },
+
+    { "type": "header", "content": "Panneau 3" },
+    { "type": "image_picker", "id": "panel3_image", "label": "Image" },
+    { "type": "text", "id": "panel3_script", "label": "Texte script", "default": "les" },
+    { "type": "text", "id": "panel3_title",  "label": "Titre", "default": "TRAVAUX" },
+    { "type": "url",  "id": "panel3_link",   "label": "Lien" },
+    { "type": "text", "id": "panel3_cta",    "label": "Bouton", "default": "Je découvre" }
+  ],
+  "presets": [
+    { "name": "Hero triple" }
+  ]
+}
+{% endschema %}

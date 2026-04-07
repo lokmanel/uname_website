@@ -1,0 +1,52 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-triple",
+      "settings": {
+        "panel1_script": "l'",
+        "panel1_title": "AUDIT",
+        "panel1_cta": "Je découvre",
+        "panel2_script": "la",
+        "panel2_title": "CONCEPTION",
+        "panel2_cta": "Je découvre",
+        "panel3_script": "les",
+        "panel3_title": "TRAVAUX",
+        "panel3_cta": "Je découvre"
+      }
+    },
+    "audit": {
+      "type": "service-block",
+      "settings": {
+        "title": "Audit",
+        "reverse": false,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "btn_text": "En savoir plus"
+      }
+    },
+    "conception": {
+      "type": "service-block",
+      "settings": {
+        "title": "Conception",
+        "reverse": true,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "btn_text": "En savoir plus"
+      }
+    },
+    "travaux": {
+      "type": "service-block",
+      "settings": {
+        "title": "Travaux",
+        "reverse": false,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "btn_text": "En savoir plus"
+      }
+    },
+    "equipes": {
+      "type": "equipes",
+      "settings": {
+        "title": "Les équipes"
+      }
+    }
+  },
+  "order": ["hero", "audit", "conception", "travaux", "equipes"]
+}

@@ -1,0 +1,81 @@
+<section class="service-block {% if section.settings.reverse %}service-block--reverse{% endif %}">
+
+  <h2 class="service-block__title">{{ section.settings.title }}</h2>
+
+  <div class="service-block__content">
+
+    <div class="service-block__images">
+      {%- for i in (1..3) -%}
+        {%- assign img_key = 'image_' | append: i -%}
+        <div class="service-block__img service-block__img--{{ i }}">
+          {%- if section.settings[img_key] != blank -%}
+            <img
+              src="{{ section.settings[img_key] | image_url: width: 900 }}"
+              alt="{{ section.settings[img_key].alt | default: '' }}"
+              loading="lazy">
+          {%- else -%}
+            <div class="service-block__placeholder"></div>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+
+    <div class="service-block__text">
+      {%- if section.settings.description != blank -%}
+        <p class="service-block__desc">{{ section.settings.description }}</p>
+      {%- endif -%}
+      {%- if section.settings.btn_text != blank -%}
+        <a class="service-block__btn" href="{{ section.settings.btn_url | default: '#' }}">
+          {{ section.settings.btn_text }}
+        </a>
+      {%- endif -%}
+    </div>
+
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Bloc service",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre",
+      "default": "Audit"
+    },
+    {
+      "type": "checkbox",
+      "id": "reverse",
+      "label": "Inverser (texte à gauche, images à droite)",
+      "default": false
+    },
+    { "type": "header", "content": "Images" },
+    { "type": "image_picker", "id": "image_1", "label": "Image 1 (grande, à gauche)" },
+    { "type": "image_picker", "id": "image_2", "label": "Image 2 (haut droite)" },
+    { "type": "image_picker", "id": "image_3", "label": "Image 3 (bas droite)" },
+    { "type": "header", "content": "Texte" },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Texte du bouton",
+      "default": "En savoir plus"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Lien du bouton"
+    }
+  ],
+  "presets": [
+    { "name": "Bloc service" }
+  ]
+}
+{% endschema %}
