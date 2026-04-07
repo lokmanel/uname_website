@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
@@ -5,12 +14,15 @@
       "settings": {
         "panel1_script": "l'",
         "panel1_title": "AUDIT",
+        "panel1_link": "",
         "panel1_cta": "Je découvre",
         "panel2_script": "la",
         "panel2_title": "CONCEPTION",
+        "panel2_link": "",
         "panel2_cta": "Je découvre",
         "panel3_script": "les",
         "panel3_title": "TRAVAUX",
+        "panel3_link": "",
         "panel3_cta": "Je découvre"
       }
     },
@@ -20,7 +32,8 @@
         "title": "Audit",
         "reverse": false,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "btn_text": "En savoir plus"
+        "btn_text": "En savoir plus",
+        "btn_url": ""
       }
     },
     "conception": {
@@ -28,8 +41,11 @@
       "settings": {
         "title": "Conception",
         "reverse": true,
+        "image_1": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.18.png",
+        "image_2": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.08.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "btn_text": "En savoir plus"
+        "btn_text": "En savoir plus",
+        "btn_url": ""
       }
     },
     "travaux": {
@@ -37,8 +53,11 @@
       "settings": {
         "title": "Travaux",
         "reverse": false,
+        "image_1": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.08.png",
+        "image_2": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.18.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "btn_text": "En savoir plus"
+        "btn_text": "En savoir plus",
+        "btn_url": ""
       }
     },
     "equipes": {
@@ -48,5 +67,11 @@
       }
     }
   },
-  "order": ["hero", "audit", "conception", "travaux", "equipes"]
+  "order": [
+    "hero",
+    "audit",
+    "conception",
+    "travaux",
+    "equipes"
+  ]
 }
