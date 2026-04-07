@@ -7,12 +7,31 @@
     <div class="service-block__images">
       {%- for i in (1..3) -%}
         {%- assign img_key = 'image_' | append: i -%}
+        {%- assign name_key = 'project_name_' | append: i -%}
+        {%- assign link_key = 'link_' | append: i -%}
         <div class="service-block__img service-block__img--{{ i }}">
           {%- if section.settings[img_key] != blank -%}
+            {%- if section.settings[link_key] != blank -%}
+              <a href="{{ section.settings[link_key] }}" class="service-block__img-link">
+            {%- endif -%}
+
             <img
               src="{{ section.settings[img_key] | image_url: width: 900 }}"
               alt="{{ section.settings[img_key].alt | default: '' }}"
               loading="lazy">
+
+            {%- if section.settings[name_key] != blank -%}
+              <div class="service-block__overlay">
+                <div class="service-block__label">
+                  <span class="service-block__script">projet</span>
+                  <span class="service-block__name">{{ section.settings[name_key] | upcase }}</span>
+                </div>
+              </div>
+            {%- endif -%}
+
+            {%- if section.settings[link_key] != blank -%}
+              </a>
+            {%- endif -%}
           {%- else -%}
             <div class="service-block__placeholder"></div>
           {%- endif -%}
@@ -51,10 +70,18 @@
       "label": "Inverser (texte à gauche, images à droite)",
       "default": false
     },
-    { "type": "header", "content": "Images" },
-    { "type": "image_picker", "id": "image_1", "label": "Image 1 (grande, à gauche)" },
-    { "type": "image_picker", "id": "image_2", "label": "Image 2 (haut droite)" },
-    { "type": "image_picker", "id": "image_3", "label": "Image 3 (bas droite)" },
+    { "type": "header", "content": "Image 1 (grande, à gauche)" },
+    { "type": "image_picker", "id": "image_1", "label": "Image" },
+    { "type": "text", "id": "project_name_1", "label": "Nom du projet (visible au hover)" },
+    { "type": "url", "id": "link_1", "label": "Lien" },
+    { "type": "header", "content": "Image 2 (haut droite)" },
+    { "type": "image_picker", "id": "image_2", "label": "Image" },
+    { "type": "text", "id": "project_name_2", "label": "Nom du projet (visible au hover)" },
+    { "type": "url", "id": "link_2", "label": "Lien" },
+    { "type": "header", "content": "Image 3 (bas droite)" },
+    { "type": "image_picker", "id": "image_3", "label": "Image" },
+    { "type": "text", "id": "project_name_3", "label": "Nom du projet (visible au hover)" },
+    { "type": "url", "id": "link_3", "label": "Lien" },
     { "type": "header", "content": "Texte" },
     {
       "type": "textarea",
