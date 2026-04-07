@@ -1341,7 +1341,16 @@ ul, ol { list-style: none; }
   }
   .service-block__images { order: 1; }
   .service-block__text   { order: 2; }
-  .service-block__images { aspect-ratio: 3/2; }
+  .service-block__images {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    aspect-ratio: auto;
+  }
+  .service-block__img {
+    grid-column: 1 !important;
+    grid-row: auto !important;
+    aspect-ratio: 4/3 !important;
+  }
   .service-block__title,
   .section-equipes__title {
     font-size: clamp(3rem, 14vw, 5rem);
