@@ -148,8 +148,27 @@ const Header = {
       nav?.classList.toggle('is-open');
     });
 
+    // Mobile dropdown toggle
+    nav?.querySelectorAll('.header__nav-item--has-children > .header__nav-link').forEach(link => {
+      link.addEventListener('click', (e) => {
+        if (window.innerWidth <= 900) {
+          e.preventDefault();
+          link.parentElement.classList.toggle('is-open');
+        }
+      });
+    });
+
     // Close mobile menu on link click
     nav?.querySelectorAll('.header__nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        if (!link.parentElement.classList.contains('header__nav-item--has-children') || window.innerWidth > 900) {
+          burger?.classList.remove('is-active');
+          nav.classList.remove('is-open');
+        }
+      });
+    });
+
+    nav?.querySelectorAll('.header__dropdown-link').forEach(link => {
       link.addEventListener('click', () => {
         burger?.classList.remove('is-active');
         nav.classList.remove('is-open');

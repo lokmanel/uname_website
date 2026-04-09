@@ -19,11 +19,26 @@
   <nav id="header-nav" class="header__nav" aria-label="Navigation principale">
     <ul class="header__nav-list">
       {%- for link in linklists[section.settings.menu].links -%}
-        <li>
-          <a class="header__nav-link" href="{{ link.url }}">
-            {{ link.title }}
-          </a>
-        </li>
+        {%- if link.links.size > 0 -%}
+          <li class="header__nav-item header__nav-item--has-children">
+            <a class="header__nav-link" href="{{ link.url }}">
+              {{ link.title }}
+            </a>
+            <ul class="header__dropdown">
+              {%- for child in link.links -%}
+                <li>
+                  <a class="header__dropdown-link" href="{{ child.url }}">{{ child.title }}</a>
+                </li>
+              {%- endfor -%}
+            </ul>
+          </li>
+        {%- else -%}
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="{{ link.url }}">
+              {{ link.title }}
+            </a>
+          </li>
+        {%- endif -%}
       {%- endfor -%}
     </ul>
   </nav>

@@ -1,0 +1,92 @@
+<section class="section-studio">
+  <div class="section-studio__image-wrap">
+    {%- if section.settings.image != blank -%}
+      <img
+        src="{{ section.settings.image | image_url: width: 2000 }}"
+        alt="{{ section.settings.image.alt | default: section.settings.title }}"
+        loading="lazy"
+        width="{{ section.settings.image.width }}"
+        height="{{ section.settings.image.height }}">
+    {%- else -%}
+      <div class="section-studio__placeholder"></div>
+    {%- endif -%}
+
+    {%- for block in section.blocks -%}
+      <a
+        href="{{ block.settings.link | default: '#' }}"
+        class="hotspot"
+        style="top:{{ block.settings.pos_y }}%;left:{{ block.settings.pos_x }}%;"
+        {{ block.shopify_attributes }}
+      >
+        <span class="hotspot__dot"></span>
+        <span class="hotspot__label">{{ block.settings.label }}</span>
+      </a>
+    {%- endfor -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Studio image",
+  "tag": "section",
+  "blocks": [
+    {
+      "type": "hotspot",
+      "name": "Point d'intérêt",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Étiquette",
+          "default": "Projets"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Lien"
+        },
+        {
+          "type": "range",
+          "id": "pos_x",
+          "label": "Position horizontale (%)",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 50
+        },
+        {
+          "type": "range",
+          "id": "pos_y",
+          "label": "Position verticale (%)",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 50
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image de fond"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Studio image",
+      "blocks": [
+        {
+          "type": "hotspot",
+          "settings": { "label": "Projets", "pos_x": 30, "pos_y": 50 }
+        },
+        {
+          "type": "hotspot",
+          "settings": { "label": "Travaux", "pos_x": 70, "pos_y": 50 }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

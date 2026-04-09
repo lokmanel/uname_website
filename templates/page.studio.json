@@ -1,0 +1,32 @@
+{
+  "sections": {
+    "studio-image": {
+      "type": "studio-image",
+      "blocks": {
+        "hs1": {
+          "type": "hotspot",
+          "settings": {
+            "label": "Projets",
+            "link": "",
+            "pos_x": 30,
+            "pos_y": 50
+          }
+        },
+        "hs2": {
+          "type": "hotspot",
+          "settings": {
+            "label": "Travaux",
+            "link": "",
+            "pos_x": 70,
+            "pos_y": 50
+          }
+        }
+      },
+      "block_order": ["hs1", "hs2"],
+      "settings": {}
+    }
+  },
+  "order": [
+    "studio-image"
+  ]
+}
