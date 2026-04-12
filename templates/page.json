@@ -1,95 +1,11 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
-    "hero": {
-      "type": "hero-triple",
-      "settings": {
-        "panel1_script": "L'",
-        "panel1_title": "AUDIT",
-        "panel1_link": "",
-        "panel1_cta": "Je découvre",
-        "panel2_script": "la",
-        "panel2_title": "CONCEPTION",
-        "panel2_link": "",
-        "panel2_cta": "Je découvre",
-        "panel3_script": "les",
-        "panel3_title": "TRAVAUX",
-        "panel3_link": "",
-        "panel3_cta": "Je découvre"
-      }
-    },
-    "audit": {
-      "type": "service-block",
-      "settings": {
-        "title": "Audit",
-        "reverse": false,
-        "project_name_1": "",
-        "link_1": "",
-        "project_name_2": "",
-        "link_2": "",
-        "project_name_3": "",
-        "link_3": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "btn_text": "En savoir plus",
-        "btn_url": ""
-      }
-    },
-    "conception": {
-      "type": "service-block",
-      "settings": {
-        "title": "Conception",
-        "reverse": true,
-        "image_1": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.18.png",
-        "project_name_1": "nino",
-        "link_1": "",
-        "image_2": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.08.png",
-        "project_name_2": "paco",
-        "link_2": "",
-        "project_name_3": "",
-        "link_3": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "btn_text": "En savoir plus",
-        "btn_url": ""
-      }
-    },
-    "travaux": {
-      "type": "service-block",
-      "settings": {
-        "title": "Travaux",
-        "reverse": false,
-        "image_1": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.08.png",
-        "project_name_1": "",
-        "link_1": "",
-        "image_2": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.18.png",
-        "project_name_2": "",
-        "link_2": "",
-        "project_name_3": "",
-        "link_3": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "btn_text": "En savoir plus",
-        "btn_url": ""
-      }
-    },
-    "equipes": {
-      "type": "equipes",
-      "settings": {
-        "title": "Les équipes"
-      }
+    "main": {
+      "type": "main-page",
+      "settings": {}
     }
   },
   "order": [
-    "hero",
-    "audit",
-    "conception",
-    "travaux",
-    "equipes"
+    "main"
   ]
 }
