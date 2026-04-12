@@ -134,6 +134,12 @@ ul, ol { list-style: none; }
   border: 0;
 }
 
+/* ── MAIN ──────────────────────────────────────────────────── */
+
+#main-content {
+  padding-top: var(--header-h);
+}
+
 /* ── HEADER ─────────────────────────────────────────────────── */
 
 .site-header {
@@ -312,7 +318,6 @@ ul, ol { list-style: none; }
   grid-template-columns: 1fr 1fr 1fr;
   height: calc(100vh - var(--header-h));
   min-height: 500px;
-  margin-top: var(--header-h);
 }
 
 .hero-triple__panel {
@@ -603,7 +608,6 @@ ul, ol { list-style: none; }
   grid-template-columns: 1fr 1fr;
   height: calc(100vh - var(--header-h));
   min-height: 500px;
-  margin-top: var(--header-h);
 }
 
 .hero-split__panel {
@@ -759,9 +763,6 @@ ul, ol { list-style: none; }
   padding: var(--sp-lg) var(--gutter);
 }
 
-main > .section-gallery:first-child {
-  margin-top: var(--header-h);
-}
 
 .section-gallery__header {
   display: flex;
@@ -980,7 +981,7 @@ main > .section-gallery:first-child {
 /* ── STUDIO ─────────────────────────────────────────────────── */
 
 .section-studio {
-  margin-top: var(--header-h);
+  /* no extra styles needed — padding handled by #main-content */
 }
 
 .section-studio__image-wrap {
@@ -1417,7 +1418,6 @@ main > .section-gallery:first-child {
   .hero-split {
     grid-template-columns: 1fr;
     height: auto;
-    margin-top: var(--header-h);
   }
   .hero-split__panel { height: 50vh; min-height: 320px; }
   .hero-split__script { font-size: 56px; margin-bottom: -17px; }
