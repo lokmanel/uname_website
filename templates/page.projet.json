@@ -1,0 +1,45 @@
+{
+  "sections": {
+    "header": {
+      "type": "project-header",
+      "settings": {
+        "title": "Mermoz",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      }
+    },
+    "duo": {
+      "type": "project-duo",
+      "settings": {}
+    },
+    "moodboard": {
+      "type": "equipes",
+      "settings": {
+        "title": ""
+      }
+    },
+    "gallery": {
+      "type": "gallery",
+      "blocks": {
+        "img1": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
+        "img2": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
+        "img3": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
+        "img4": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
+        "img5": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
+        "img6": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
+        "img7": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
+        "img8": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } }
+      },
+      "block_order": ["img1", "img2", "img3", "img4", "img5", "img6", "img7", "img8"],
+      "settings": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "order": [
+    "header",
+    "duo",
+    "moodboard",
+    "gallery"
+  ]
+}

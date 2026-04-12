@@ -1,0 +1,32 @@
+<section class="section-project-header">
+  <div class="section-project-header__inner">
+    <h1 class="section-project-header__title">{{ section.settings.title }}</h1>
+    {%- if section.settings.description != blank -%}
+      <p class="section-project-header__desc">{{ section.settings.description }}</p>
+    {%- endif -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "En-tête projet",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Nom du projet",
+      "default": "Mermoz"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    }
+  ],
+  "presets": [
+    { "name": "En-tête projet" }
+  ]
+}
+{% endschema %}

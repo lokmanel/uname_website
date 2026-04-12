@@ -1,0 +1,46 @@
+<section class="section-project-duo">
+  <div class="section-project-duo__grid">
+    <div class="section-project-duo__img">
+      {%- if section.settings.image_1 != blank -%}
+        <img
+          src="{{ section.settings.image_1 | image_url: width: 1200 }}"
+          alt="{{ section.settings.image_1.alt | default: '' }}"
+          loading="lazy">
+      {%- else -%}
+        <div class="section-project-duo__placeholder"></div>
+      {%- endif -%}
+    </div>
+    <div class="section-project-duo__img">
+      {%- if section.settings.image_2 != blank -%}
+        <img
+          src="{{ section.settings.image_2 | image_url: width: 1200 }}"
+          alt="{{ section.settings.image_2.alt | default: '' }}"
+          loading="lazy">
+      {%- else -%}
+        <div class="section-project-duo__placeholder"></div>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Duo images",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Image gauche"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image droite"
+    }
+  ],
+  "presets": [
+    { "name": "Duo images" }
+  ]
+}
+{% endschema %}
