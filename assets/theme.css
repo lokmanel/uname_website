@@ -1013,14 +1013,9 @@ ul, ol { list-style: none; }
 
 /* ── PROJECT DUO ────────────────────────────────────────────── */
 
-.section-project-duo {
-  padding: 0 var(--gutter);
-}
-
 .section-project-duo__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--gutter);
 }
 
 .section-project-duo__img {
