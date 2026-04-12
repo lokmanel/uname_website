@@ -765,7 +765,7 @@ main > .section-gallery:first-child {
 
 .section-gallery__header {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   margin-bottom: var(--sp-md);
 }
 
@@ -787,7 +787,7 @@ main > .section-gallery:first-child {
   line-height: 30px;
   letter-spacing: 0;
   max-width: 480px;
-  padding-bottom: var(--sp-sm);
+  padding-top: 8px;
   color: var(--c-black);
 }
 
