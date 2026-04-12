@@ -759,6 +759,10 @@ ul, ol { list-style: none; }
   padding: var(--sp-lg) var(--gutter);
 }
 
+main > .section-gallery:first-child {
+  margin-top: var(--header-h);
+}
+
 .section-gallery__header {
   display: flex;
   align-items: flex-end;
