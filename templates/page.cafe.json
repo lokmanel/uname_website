@@ -1,0 +1,56 @@
+{
+  "sections": {
+    "hero": {
+      "type": "studio-image",
+      "blocks": {
+        "hs1": {
+          "type": "hotspot",
+          "settings": { "label": "La carte", "link": "", "pos_x": 30, "pos_y": 40 }
+        },
+        "hs2": {
+          "type": "hotspot",
+          "settings": { "label": "Le Lieu", "link": "", "pos_x": 65, "pos_y": 65 }
+        }
+      },
+      "block_order": ["hs1", "hs2"],
+      "settings": {}
+    },
+    "header1": {
+      "type": "project-header",
+      "settings": {
+        "title": "La carte",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      }
+    },
+    "moodboard": {
+      "type": "equipes",
+      "settings": {
+        "title": ""
+      }
+    },
+    "gallery": {
+      "type": "gallery",
+      "blocks": {
+        "img1": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
+        "img2": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
+        "img3": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
+        "img4": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
+        "img5": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
+        "img6": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
+        "img7": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
+        "img8": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } }
+      },
+      "block_order": ["img1", "img2", "img3", "img4", "img5", "img6", "img7", "img8"],
+      "settings": {
+        "title": "Le lieu",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "header1",
+    "moodboard",
+    "gallery"
+  ]
+}
