@@ -240,12 +240,14 @@ ul, ol { list-style: none; }
   display: none;
   position: absolute;
   top: 100%;
-  left: 0;
-  padding: 16px 0 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px 24px 16px;
   background: var(--c-white);
   border-radius: 0 0 12px 12px;
   min-width: 140px;
   z-index: 210;
+  text-align: center;
 }
 
 .header__nav-item--has-children:hover .header__dropdown {
@@ -253,7 +255,7 @@ ul, ol { list-style: none; }
 }
 
 .header__dropdown-link {
-  display: block;
+  display: inline-block;
   padding: 6px 0;
   font-family: var(--f-body);
   font-size: 16px;
