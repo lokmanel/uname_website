@@ -12,14 +12,17 @@
     "hero": {
       "type": "hero-triple",
       "settings": {
-        "panel1_script": "L'",
+        "panel1_image": "shopify://shop_images/9R1A3286.jpg",
+        "panel1_script": "l'",
         "panel1_title": "AUDIT",
         "panel1_link": "",
         "panel1_cta": "Je découvre",
+        "panel2_image": "shopify://shop_images/9R1A3268.jpg",
         "panel2_script": "la",
         "panel2_title": "CONCEPTION",
         "panel2_link": "",
         "panel2_cta": "Je découvre",
+        "panel3_image": "shopify://shop_images/9R1A3157.jpg",
         "panel3_script": "les",
         "panel3_title": "TRAVAUX",
         "panel3_link": "",
@@ -31,6 +34,7 @@
       "settings": {
         "title": "Audit",
         "reverse": false,
+        "image_1": "shopify://shop_images/9R1A3255.jpg",
         "project_name_1": "",
         "link_1": "",
         "project_name_2": "",
