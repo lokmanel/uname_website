@@ -35,6 +35,7 @@
         "img1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Salon2.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -43,6 +44,7 @@
         "img2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Exte9.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -51,6 +53,7 @@
         "img3": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Cuisine1.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -59,6 +62,7 @@
         "img4": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Bureau2.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -67,6 +71,7 @@
         "img5": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Exte3.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -75,6 +80,7 @@
         "img6": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Cuisine3.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -83,6 +89,7 @@
         "img7": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Cuisine7.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -91,6 +98,7 @@
         "img8": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Exte4.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -111,12 +119,104 @@
         "title": "",
         "description": ""
       }
+    },
+    "gallery_rr9VBh": {
+      "type": "gallery",
+      "blocks": {
+        "image_HBmdD8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Salon1.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_N3VQLt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Cuisine5.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_qahTzw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Exte5.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_EFAwqH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_SDB3.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_mLTHxb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Salon4.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_VUAt87": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Exte4.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_eHqPnq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_SDB1.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_AJUw7a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Salon3.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_HBmdD8",
+        "image_N3VQLt",
+        "image_qahTzw",
+        "image_EFAwqH",
+        "image_mLTHxb",
+        "image_VUAt87",
+        "image_eHqPnq",
+        "image_AJUw7a"
+      ],
+      "settings": {
+        "title": "",
+        "description": ""
+      }
     }
   },
   "order": [
     "header",
     "duo",
     "moodboard",
-    "gallery"
+    "gallery",
+    "gallery_rr9VBh"
   ]
 }
