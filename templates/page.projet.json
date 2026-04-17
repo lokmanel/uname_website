@@ -1,15 +1,27 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "header": {
       "type": "project-header",
       "settings": {
-        "title": "Mermoz",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "title": "Dejean",
+        "description": "Projet Dejean\nRénovation complète & aménagement – Marseille 06\nUn appartement de 80 m² repensé autour du dialogue des matières : pierre d’Égypte, bois chaleureux et une crédence conçue comme un tableau en collaboration avec La Dame Céramique, qui capte la lumière au fil de la journée.\nCourbes et transparences structurent les espaces, jusqu’à la cour intérieure où une banquette intégrée au bassin prolonge l’esprit du lieu.\nUn équilibre subtil entre modernité et inspiration méditerranéenne."
       }
     },
     "duo": {
       "type": "project-duo",
-      "settings": {}
+      "settings": {
+        "image_1": "shopify://shop_images/Uname_Dejean_Exte6.jpg",
+        "image_2": "shopify://shop_images/Uname_Dejean_Salon3.jpg"
+      }
     },
     "moodboard": {
       "type": "equipes",
@@ -20,16 +32,81 @@
     "gallery": {
       "type": "gallery",
       "blocks": {
-        "img1": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
-        "img2": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
-        "img3": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
-        "img4": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
-        "img5": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
-        "img6": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
-        "img7": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } },
-        "img8": { "type": "image", "settings": { "alt": "", "link": "", "project_name": "" } }
+        "img1": {
+          "type": "image",
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "img2": {
+          "type": "image",
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "img3": {
+          "type": "image",
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "img4": {
+          "type": "image",
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "img5": {
+          "type": "image",
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "img6": {
+          "type": "image",
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "img7": {
+          "type": "image",
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "img8": {
+          "type": "image",
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        }
       },
-      "block_order": ["img1", "img2", "img3", "img4", "img5", "img6", "img7", "img8"],
+      "block_order": [
+        "img1",
+        "img2",
+        "img3",
+        "img4",
+        "img5",
+        "img6",
+        "img7",
+        "img8"
+      ],
       "settings": {
         "title": "",
         "description": ""
