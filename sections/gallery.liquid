@@ -2,7 +2,7 @@
   <div class="section-gallery__header">
     <h2 class="section-gallery__title">{{ section.settings.title }}</h2>
     {%- if section.settings.description != blank -%}
-      <p class="section-gallery__desc">{{ section.settings.description }}</p>
+      <div class="section-gallery__desc">{{ section.settings.description }}</div>
     {%- endif -%}
   </div>
 
@@ -82,10 +82,14 @@
       "default": "Galerie"
     },
     {
-      "type": "textarea",
+      "type": "richtext",
       "id": "description",
       "label": "Description",
-      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+    },
+    {
+      "type": "paragraph",
+      "content": "💡 Astuce : pour un rendu optimal, utilisez un multiple de 4 images (4, 8, 12, 16, 20...)."
     }
   ],
   "presets": [
@@ -103,6 +107,6 @@
       ]
     }
   ],
-  "max_blocks": 8
+  "max_blocks": 50
 }
 {% endschema %}

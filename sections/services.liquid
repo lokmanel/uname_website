@@ -2,7 +2,7 @@
   <div class="section-services__header">
     <h2 class="section-services__title">{{ section.settings.title }}</h2>
     {%- if section.settings.description != blank -%}
-      <p class="section-services__desc">{{ section.settings.description }}</p>
+      <div class="section-services__desc">{{ section.settings.description }}</div>
     {%- endif -%}
   </div>
 
@@ -81,10 +81,10 @@
       "default": "Services"
     },
     {
-      "type": "textarea",
+      "type": "richtext",
       "id": "description",
       "label": "Description",
-      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
     },
     {
       "type": "image_picker",

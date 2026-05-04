@@ -41,7 +41,7 @@
 
     <div class="service-block__text">
       {%- if section.settings.description != blank -%}
-        <p class="service-block__desc">{{ section.settings.description }}</p>
+        <div class="service-block__desc">{{ section.settings.description }}</div>
       {%- endif -%}
       {%- if section.settings.btn_text != blank -%}
         <a class="service-block__btn" href="{{ section.settings.btn_url | default: '#' }}">
@@ -84,10 +84,10 @@
     { "type": "url", "id": "link_3", "label": "Lien" },
     { "type": "header", "content": "Texte" },
     {
-      "type": "textarea",
+      "type": "richtext",
       "id": "description",
       "label": "Description",
-      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
     },
     {
       "type": "text",
