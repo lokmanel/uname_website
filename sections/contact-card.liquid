@@ -1,0 +1,120 @@
+<section class="section-contact">
+  {%- if section.settings.background != blank -%}
+    <img
+      class="section-contact__bg"
+      src="{{ section.settings.background | image_url: width: 2400 }}"
+      alt=""
+      loading="eager">
+  {%- else -%}
+    <div class="section-contact__bg section-contact__bg--placeholder"></div>
+  {%- endif -%}
+
+  <div class="section-contact__inner">
+
+    {%- for i in (1..2) -%}
+      {%- assign logo_key = 'logo_' | append: i -%}
+      {%- assign script_key = 'script_' | append: i -%}
+      {%- assign email_key = 'email_' | append: i -%}
+      {%- assign address_key = 'address_' | append: i -%}
+
+      <div class="contact-card">
+        <div class="contact-card__brand">
+          {%- if section.settings[logo_key] != blank -%}
+            <img
+              class="contact-card__logo"
+              src="{{ section.settings[logo_key] | image_url: height: 200 }}"
+              alt="">
+          {%- else -%}
+            <img
+              class="contact-card__logo"
+              src="{{ 'logo-uname.png' | asset_url }}"
+              alt="">
+          {%- endif -%}
+          {%- if section.settings[script_key] != blank -%}
+            <span class="contact-card__script">{{ section.settings[script_key] }}</span>
+          {%- endif -%}
+        </div>
+
+        {%- if section.settings[email_key] != blank -%}
+          <a class="contact-card__email" href="mailto:{{ section.settings[email_key] }}">
+            {{ section.settings[email_key] }}
+          </a>
+        {%- endif -%}
+
+        {%- if section.settings[address_key] != blank -%}
+          <p class="contact-card__address">{{ section.settings[address_key] }}</p>
+        {%- endif -%}
+      </div>
+
+      {%- if forloop.first -%}
+        <div class="section-contact__separator" aria-hidden="true"></div>
+      {%- endif -%}
+    {%- endfor -%}
+
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Carte contact",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background",
+      "label": "Image de fond"
+    },
+    { "type": "header", "content": "Bloc 1" },
+    {
+      "type": "image_picker",
+      "id": "logo_1",
+      "label": "Logo"
+    },
+    {
+      "type": "text",
+      "id": "script_1",
+      "label": "Texte script (italique)",
+      "default": "Studio"
+    },
+    {
+      "type": "text",
+      "id": "email_1",
+      "label": "Email",
+      "default": "Contact@unamestudio.fr"
+    },
+    {
+      "type": "text",
+      "id": "address_1",
+      "label": "Adresse",
+      "default": "22 rue Saint-Jacques, 13006 Marseille"
+    },
+    { "type": "header", "content": "Bloc 2" },
+    {
+      "type": "image_picker",
+      "id": "logo_2",
+      "label": "Logo"
+    },
+    {
+      "type": "text",
+      "id": "script_2",
+      "label": "Texte script (italique)",
+      "default": "Travaux"
+    },
+    {
+      "type": "text",
+      "id": "email_2",
+      "label": "Email",
+      "default": "Contact@unametravaux.fr"
+    },
+    {
+      "type": "text",
+      "id": "address_2",
+      "label": "Adresse",
+      "default": "22 rue Saint-Jacques, 13006 Marseille"
+    }
+  ],
+  "presets": [
+    { "name": "Carte contact" }
+  ]
+}
+{% endschema %}

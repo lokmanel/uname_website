@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "contact": {
+      "type": "contact-card",
+      "settings": {
+        "script_1": "Studio",
+        "email_1": "Contact@unamestudio.fr",
+        "address_1": "22 rue Saint-Jacques, 13006 Marseille",
+        "script_2": "Travaux",
+        "email_2": "Contact@unametravaux.fr",
+        "address_2": "22 rue Saint-Jacques, 13006 Marseille"
+      }
+    }
+  },
+  "order": [
+    "contact"
+  ]
+}
