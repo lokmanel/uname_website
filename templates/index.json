@@ -12,12 +12,12 @@
     "hero-split": {
       "type": "hero-split",
       "settings": {
-        "panel1_image": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.08.png",
+        "panel1_image": "shopify://shop_images/9R1A3268_141f27f8-90a1-44aa-8ef4-606a1703908b.jpg",
         "panel1_script": "le",
         "panel1_title": "STUDIO",
         "panel1_link": "",
         "panel1_cta": "Je découvre",
-        "panel2_image": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.18.png",
+        "panel2_image": "shopify://shop_images/9R1A3396.jpg",
         "panel2_script": "le",
         "panel2_title": "CAFÉ",
         "panel2_link": "",
@@ -115,7 +115,7 @@
       ],
       "settings": {
         "title": "Galerie",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
       }
     },
     "services": {
@@ -166,7 +166,7 @@
       ],
       "settings": {
         "title": "Services",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
         "image": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_05.09.02.png"
       }
     }
