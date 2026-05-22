@@ -29,7 +29,7 @@
       "settings": {
         "script_text": "notre",
         "title": "APPROCHE",
-        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+        "content": "<p>Uname imagine des lieux singuliers, pensés pour révéler une histoire, une façon de vivre, une identité. Notre approche mêle exigence esthétique, sens du détail et accompagnement sur mesure, de la première intention jusqu’à la réalisation.<br/>À travers chaque projet, nous cherchons l’équilibre juste entre beauté, usage et émotion : créer des espaces sensibles, durables, profondément incarnés.</p>"
       }
     },
     "gallery": {
@@ -38,7 +38,7 @@
         "img1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.18.png",
+            "image": "shopify://shop_images/Uname_AUGUSTE_2.jpg",
             "alt": "",
             "link": "",
             "project_name": "poteaux"
@@ -47,7 +47,7 @@
         "img2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_05.09.02.png",
+            "image": "shopify://shop_images/Uname_Dejean_Exte9.jpg",
             "alt": "",
             "link": "",
             "project_name": "pasbo"
@@ -56,7 +56,7 @@
         "img3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.08.png",
+            "image": "shopify://shop_images/fong_gvt_295.jpg",
             "alt": "",
             "link": "",
             "project_name": "carreaux"
@@ -115,7 +115,7 @@
       ],
       "settings": {
         "title": "Galerie",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+        "description": "<p>Chaque projet porte l’âme d’Uname : une attention aux matières, à la lumière, aux usages et aux émotions. Mais chacun raconte sa propre histoire, avec sa singularité, son rythme et son identité.</p>"
       }
     },
     "services": {
@@ -166,7 +166,7 @@
       ],
       "settings": {
         "title": "Services",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+        "description": "<p>Uname accompagne chaque projet dans sa globalité : de la conception des espaces, des matières et des intentions, jusqu’au suivi des travaux et à la concrétisation du lieu.</p>",
         "image": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_05.09.02.png"
       }
     }
