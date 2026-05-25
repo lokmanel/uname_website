@@ -1171,23 +1171,23 @@ ul, ol { list-style: none; }
 }
 
 .section-contact-form__script {
-  font-family: var(--f-display);
-  font-style: italic;
-  font-weight: 400;
-  font-size: 56px;
-  line-height: 1;
-  color: var(--c-black);
-  margin-bottom: -8px;
-  z-index: 1;
-}
-
-.section-contact-form__title {
   font-family: var(--f-body);
   font-style: normal;
   font-weight: 300;
   font-size: clamp(3rem, 7vw, 6rem);
   line-height: 0.9;
   letter-spacing: -0.01em;
+  color: var(--c-black);
+  margin-bottom: -8px;
+  z-index: 1;
+}
+
+.section-contact-form__title {
+  font-family: var(--f-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1;
   color: var(--c-black);
   margin: 0;
 }
@@ -1811,6 +1811,6 @@ ul, ol { list-style: none; }
 
   /* Contact form */
   .contact-form__row { grid-template-columns: 1fr; }
-  .section-contact-form__script { font-size: 38px; margin-bottom: -6px; }
+  .section-contact-form__title { font-size: 38px; }
   .contact-form__btn { align-self: stretch; }
 }
