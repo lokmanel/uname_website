@@ -1177,6 +1177,7 @@ ul, ol { list-style: none; }
   font-size: clamp(3rem, 7vw, 6rem);
   line-height: 0.9;
   letter-spacing: -0.01em;
+  text-transform: uppercase;
   color: var(--c-black);
   margin-bottom: -8px;
   z-index: 1;

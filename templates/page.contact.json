@@ -16,7 +16,7 @@
       "type": "contact-form",
       "settings": {
         "script": "écrivez-",
-        "title": "NOUS",
+        "title": "Nous",
         "submit_label": "Envoyer"
       }
     }
