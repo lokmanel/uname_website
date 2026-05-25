@@ -2,7 +2,7 @@
   <div class="section-gallery__header">
     <h2 class="section-gallery__title">{{ section.settings.title }}</h2>
     {%- if section.settings.description != blank -%}
-      <div class="section-gallery__desc">{{ section.settings.description }}</div>
+      <div class="section-gallery__desc" style="font-size: {{ section.settings.desc_size | default: 20 }}px;">{{ section.settings.description }}</div>
     {%- endif -%}
   </div>
 
@@ -86,6 +86,16 @@
       "id": "description",
       "label": "Description",
       "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+    },
+    {
+      "type": "range",
+      "id": "desc_size",
+      "label": "Taille du texte de description (px)",
+      "min": 12,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "default": 20
     },
     {
       "type": "paragraph",

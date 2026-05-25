@@ -41,7 +41,7 @@
 
     <div class="service-block__text">
       {%- if section.settings.description != blank -%}
-        <div class="service-block__desc">{{ section.settings.description }}</div>
+        <div class="service-block__desc" style="font-size: {{ section.settings.desc_size | default: 16 }}px;">{{ section.settings.description }}</div>
       {%- endif -%}
       {%- if section.settings.btn_text != blank -%}
         <a class="service-block__btn" href="{{ section.settings.btn_url | default: '#' }}">
@@ -88,6 +88,16 @@
       "id": "description",
       "label": "Description",
       "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+    },
+    {
+      "type": "range",
+      "id": "desc_size",
+      "label": "Taille du texte de description (px)",
+      "min": 12,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "default": 16
     },
     {
       "type": "text",

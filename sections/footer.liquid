@@ -21,7 +21,7 @@
         <h3 class="footer__contact-title">{{ section.settings.contact_title }}</h3>
       {%- endif -%}
       {%- if section.settings.contact_desc != blank -%}
-        <div class="footer__contact-desc">{{ section.settings.contact_desc }}</div>
+        <div class="footer__contact-desc" style="font-size: {{ section.settings.contact_desc_size | default: 16 }}px;">{{ section.settings.contact_desc }}</div>
       {%- endif -%}
 
       {%- form 'customer', id: 'footer-newsletter-form' -%}
@@ -118,6 +118,16 @@
       "id": "contact_desc",
       "label": "Description contact",
       "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>"
+    },
+    {
+      "type": "range",
+      "id": "contact_desc_size",
+      "label": "Taille du texte (px)",
+      "min": 12,
+      "max": 32,
+      "step": 1,
+      "unit": "px",
+      "default": 16
     },
     {
       "type": "url",
