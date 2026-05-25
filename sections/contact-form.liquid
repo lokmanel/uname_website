@@ -1,0 +1,87 @@
+<section class="section-contact-form">
+  <div class="section-contact-form__inner">
+
+    <header class="section-contact-form__header">
+      {%- if section.settings.script != blank -%}
+        <span class="section-contact-form__script">{{ section.settings.script }}</span>
+      {%- endif -%}
+      <h2 class="section-contact-form__title">{{ section.settings.title }}</h2>
+    </header>
+
+    {%- form 'contact', class: 'contact-form' -%}
+      {%- if form.posted_successfully? -%}
+        <p class="contact-form__success">Merci, votre message a bien été envoyé.</p>
+      {%- endif -%}
+
+      {%- if form.errors -%}
+        <p class="contact-form__error">
+          Une erreur est survenue : {{ form.errors | default_errors }}
+        </p>
+      {%- endif -%}
+
+      <div class="contact-form__row">
+        <label class="contact-form__field">
+          <span class="contact-form__label">Nom</span>
+          <input
+            type="text"
+            name="contact[name]"
+            class="contact-form__input"
+            required>
+        </label>
+
+        <label class="contact-form__field">
+          <span class="contact-form__label">Email</span>
+          <input
+            type="email"
+            name="contact[email]"
+            class="contact-form__input"
+            required>
+        </label>
+      </div>
+
+      <label class="contact-form__field">
+        <span class="contact-form__label">Message</span>
+        <textarea
+          name="contact[body]"
+          class="contact-form__input contact-form__input--textarea"
+          rows="6"
+          required></textarea>
+      </label>
+
+      <button type="submit" class="contact-form__btn">
+        {{ section.settings.submit_label | default: 'Envoyer' }}
+      </button>
+    {%- endform -%}
+
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Formulaire de contact",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "script",
+      "label": "Texte script (italique)",
+      "default": "écrivez-"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre",
+      "default": "NOUS"
+    },
+    {
+      "type": "text",
+      "id": "submit_label",
+      "label": "Texte du bouton",
+      "default": "Envoyer"
+    }
+  ],
+  "presets": [
+    { "name": "Formulaire de contact" }
+  ]
+}
+{% endschema %}
