@@ -13,7 +13,8 @@
       "type": "project-header",
       "settings": {
         "title": "Dejean",
-        "description": "Projet Dejean\nRénovation complète & aménagement – Marseille 06\nUn appartement de 80 m² repensé autour du dialogue des matières : pierre d’Égypte, bois chaleureux et une crédence conçue comme un tableau en collaboration avec La Dame Céramique, qui capte la lumière au fil de la journée.\nCourbes et transparences structurent les espaces, jusqu’à la cour intérieure où une banquette intégrée au bassin prolonge l’esprit du lieu.\nUn équilibre subtil entre modernité et inspiration méditerranéenne."
+        "description": "<p>Projet Dejean<br/>Rénovation complète & aménagement – Marseille 06<br/>Un appartement de 80 m² repensé autour du dialogue des matières : pierre d’Égypte, bois chaleureux et une crédence conçue comme un tableau en collaboration avec La Dame Céramique, qui capte la lumière au fil de la journée.<br/>Courbes et transparences structurent les espaces, jusqu’à la cour intérieure où une banquette intégrée au bassin prolonge l’esprit du lieu.<br/>Un équilibre subtil entre modernité et inspiration méditerranéenne.</p>",
+        "desc_size": 20
       }
     },
     "duo": {
@@ -50,10 +51,19 @@
             "project_name": ""
           }
         },
+        "image_nzCGaK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Exte2.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
         "img3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_Dejean_Cuisine1.jpg",
+            "image": "shopify://shop_images/Uname_Dejean_Exte11.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -94,30 +104,36 @@
             "link": "",
             "project_name": ""
           }
-        },
-        "img8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_Dejean_Exte4.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
         }
       },
       "block_order": [
         "img1",
         "img2",
+        "image_nzCGaK",
         "img3",
         "img4",
         "img5",
         "img6",
-        "img7",
-        "img8"
+        "img7"
       ],
       "settings": {
         "title": "",
-        "description": ""
+        "description": "",
+        "desc_size": 20
+      }
+    },
+    "hero_split_AJAmx6": {
+      "type": "hero-split",
+      "name": "Hero divisé",
+      "settings": {
+        "panel1_script": "le",
+        "panel1_title": "STUDIO",
+        "panel1_link": "",
+        "panel1_cta": "",
+        "panel2_script": "le",
+        "panel2_title": "CAFÉ",
+        "panel2_link": "",
+        "panel2_cta": "Je découvre"
       }
     },
     "gallery_rr9VBh": {
@@ -208,7 +224,8 @@
       ],
       "settings": {
         "title": "",
-        "description": ""
+        "description": "",
+        "desc_size": 20
       }
     }
   },
@@ -217,6 +234,7 @@
     "duo",
     "moodboard",
     "gallery",
+    "hero_split_AJAmx6",
     "gallery_rr9VBh"
   ]
 }
