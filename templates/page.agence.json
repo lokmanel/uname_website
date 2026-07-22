@@ -29,6 +29,25 @@
         "panel3_cta": "Je découvre"
       }
     },
+    "audit": {
+      "type": "service-block",
+      "settings": {
+        "title": "Audit",
+        "reverse": false,
+        "image_1": "shopify://shop_images/9R1A3255.jpg",
+        "project_name_1": "",
+        "link_1": "",
+        "image_2": "shopify://shop_images/9R1A3268.jpg",
+        "project_name_2": "",
+        "link_2": "",
+        "project_name_3": "",
+        "link_3": "",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+        "desc_size": 16,
+        "btn_text": "En savoir plus",
+        "btn_url": ""
+      }
+    },
     "conception": {
       "type": "service-block",
       "settings": {
@@ -76,6 +95,7 @@
   },
   "order": [
     "hero",
+    "audit",
     "conception",
     "travaux",
     "equipes"
