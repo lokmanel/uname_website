@@ -1,6 +1,8 @@
 <section class="section-project-header">
   <div class="section-project-header__inner">
-    <h1 class="section-project-header__title">{{ section.settings.title }}</h1>
+    {%- if section.settings.title != blank -%}
+      <h1 class="section-project-header__title">{{ section.settings.title }}</h1>
+    {%- endif -%}
     {%- if section.settings.description != blank -%}
       <div class="section-project-header__desc" style="font-size: {{ section.settings.desc_size | default: 20 }}px; max-width: {{ section.settings.desc_width | default: 480 }}px; text-align: {{ section.settings.desc_align | default: 'left' }};">{{ section.settings.description }}</div>
     {%- endif -%}

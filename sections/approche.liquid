@@ -1,14 +1,20 @@
 <section class="section-approche">
   <div class="section-approche__inner" style="max-width: {{ section.settings.content_width | default: 600 }}px;">
-    <div class="section-approche__heading">
-      {%- if section.settings.script_text != blank -%}
-        <span class="section-approche__script">{{ section.settings.script_text }}</span>
-      {%- endif -%}
-      <h2 class="section-approche__title">{{ section.settings.title }}</h2>
-    </div>
-    <div class="section-approche__text" style="font-size: {{ section.settings.text_size | default: 20 }}px; text-align: {{ section.settings.text_align | default: 'center' }};">
-      {{ section.settings.content }}
-    </div>
+    {%- if section.settings.script_text != blank or section.settings.title != blank -%}
+      <div class="section-approche__heading">
+        {%- if section.settings.script_text != blank -%}
+          <span class="section-approche__script">{{ section.settings.script_text }}</span>
+        {%- endif -%}
+        {%- if section.settings.title != blank -%}
+          <h2 class="section-approche__title">{{ section.settings.title }}</h2>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+    {%- if section.settings.content != blank -%}
+      <div class="section-approche__text" style="font-size: {{ section.settings.text_size | default: 20 }}px; text-align: {{ section.settings.text_align | default: 'center' }};">
+        {{ section.settings.content }}
+      </div>
+    {%- endif -%}
   </div>
 </section>
 

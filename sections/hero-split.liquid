@@ -1,8 +1,8 @@
 <section class="hero-split">
 
-  {%- comment -%} Panel gauche {%- endcomment -%}
+  {%- comment -%} Panel gauche — bouton affiché si son texte est renseigné, sinon panneau cliquable {%- endcomment -%}
   {%- assign panel1_clickable = false -%}
-  {%- if section.settings.show_buttons != true and section.settings.panel1_link != blank -%}
+  {%- if section.settings.panel1_cta == blank and section.settings.panel1_link != blank -%}
     {%- assign panel1_clickable = true -%}
   {%- endif -%}
   {%- if panel1_clickable -%}
@@ -27,22 +27,24 @@
         {%- if section.settings.panel1_script != blank -%}
           <span class="hero-split__script">{{ section.settings.panel1_script }}</span>
         {%- endif -%}
-        <h2 class="hero-split__title">{{ section.settings.panel1_title }}</h2>
+        {%- if section.settings.panel1_title != blank -%}
+          <h2 class="hero-split__title">{{ section.settings.panel1_title }}</h2>
+        {%- endif -%}
       </div>
       {%- if section.settings.panel1_text != blank -%}
         <p class="hero-split__text" style="font-size: {{ section.settings.text_size | default: 16 }}px;">{{ section.settings.panel1_text | newline_to_br }}</p>
       {%- endif -%}
-      {%- if section.settings.show_buttons -%}
+      {%- if section.settings.panel1_cta != blank -%}
         <a href="{{ section.settings.panel1_link }}" class="hero-split__btn">
-          {{ section.settings.panel1_cta | default: 'Je découvre' }}
+          {{ section.settings.panel1_cta }}
         </a>
       {%- endif -%}
     </div>
   {%- if panel1_clickable -%}</a>{%- else -%}</div>{%- endif -%}
 
-  {%- comment -%} Panel droit {%- endcomment -%}
+  {%- comment -%} Panel droit — bouton affiché si son texte est renseigné, sinon panneau cliquable {%- endcomment -%}
   {%- assign panel2_clickable = false -%}
-  {%- if section.settings.show_buttons != true and section.settings.panel2_link != blank -%}
+  {%- if section.settings.panel2_cta == blank and section.settings.panel2_link != blank -%}
     {%- assign panel2_clickable = true -%}
   {%- endif -%}
   {%- if panel2_clickable -%}
@@ -66,14 +68,16 @@
         {%- if section.settings.panel2_script != blank -%}
           <span class="hero-split__script">{{ section.settings.panel2_script }}</span>
         {%- endif -%}
-        <h2 class="hero-split__title">{{ section.settings.panel2_title }}</h2>
+        {%- if section.settings.panel2_title != blank -%}
+          <h2 class="hero-split__title">{{ section.settings.panel2_title }}</h2>
+        {%- endif -%}
       </div>
       {%- if section.settings.panel2_text != blank -%}
         <p class="hero-split__text" style="font-size: {{ section.settings.text_size | default: 16 }}px;">{{ section.settings.panel2_text | newline_to_br }}</p>
       {%- endif -%}
-      {%- if section.settings.show_buttons -%}
+      {%- if section.settings.panel2_cta != blank -%}
         <a href="{{ section.settings.panel2_link }}" class="hero-split__btn">
-          {{ section.settings.panel2_cta | default: 'Je découvre' }}
+          {{ section.settings.panel2_cta }}
         </a>
       {%- endif -%}
     </div>
@@ -89,13 +93,6 @@
     {
       "type": "header",
       "content": "Options"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_buttons",
-      "label": "Afficher les boutons",
-      "info": "Si masqué, tout le panneau devient cliquable via son lien.",
-      "default": false
     },
     {
       "type": "range",
@@ -136,13 +133,13 @@
     {
       "type": "url",
       "id": "panel1_link",
-      "label": "Lien"
+      "label": "Lien",
+      "info": "Sans bouton, tout le panneau devient cliquable via ce lien."
     },
     {
       "type": "text",
       "id": "panel1_cta",
-      "label": "Texte du bouton",
-      "default": "Je découvre"
+      "label": "Texte du bouton (laisser vide pour le masquer)"
     },
     {
       "type": "header",
@@ -173,13 +170,13 @@
     {
       "type": "url",
       "id": "panel2_link",
-      "label": "Lien"
+      "label": "Lien",
+      "info": "Sans bouton, tout le panneau devient cliquable via ce lien."
     },
     {
       "type": "text",
       "id": "panel2_cta",
-      "label": "Texte du bouton",
-      "default": "Je découvre"
+      "label": "Texte du bouton (laisser vide pour le masquer)"
     }
   ],
   "presets": [

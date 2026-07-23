@@ -1,6 +1,8 @@
 <section class="section-equipes">
 
-  <h2 class="section-equipes__title">{{ section.settings.title }}</h2>
+  {%- if section.settings.title != blank -%}
+    <h2 class="section-equipes__title">{{ section.settings.title }}</h2>
+  {%- endif -%}
 
   <div class="section-equipes__image-wrap">
     {%- if section.settings.image != blank -%}

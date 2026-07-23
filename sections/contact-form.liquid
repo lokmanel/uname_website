@@ -1,12 +1,16 @@
 <section class="section-contact-form">
   <div class="section-contact-form__inner">
 
-    <header class="section-contact-form__header">
-      {%- if section.settings.script != blank -%}
-        <span class="section-contact-form__script">{{ section.settings.script }}</span>
-      {%- endif -%}
-      <h2 class="section-contact-form__title">{{ section.settings.title }}</h2>
-    </header>
+    {%- if section.settings.script != blank or section.settings.title != blank -%}
+      <header class="section-contact-form__header">
+        {%- if section.settings.script != blank -%}
+          <span class="section-contact-form__script">{{ section.settings.script }}</span>
+        {%- endif -%}
+        {%- if section.settings.title != blank -%}
+          <h2 class="section-contact-form__title">{{ section.settings.title }}</h2>
+        {%- endif -%}
+      </header>
+    {%- endif -%}
 
     {%- form 'contact', class: 'contact-form' -%}
       {%- if form.posted_successfully? -%}

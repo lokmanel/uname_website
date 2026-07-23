@@ -1,10 +1,14 @@
 <section class="section-gallery" style="padding-top: {{ section.settings.padding_top | default: 64 }}px; padding-bottom: {{ section.settings.padding_bottom | default: 96 }}px;">
-  <div class="section-gallery__header">
-    <h2 class="section-gallery__title">{{ section.settings.title }}</h2>
-    {%- if section.settings.description != blank -%}
-      <div class="section-gallery__desc" style="font-size: {{ section.settings.desc_size | default: 20 }}px; max-width: {{ section.settings.desc_width | default: 480 }}px; text-align: {{ section.settings.desc_align | default: 'left' }};">{{ section.settings.description }}</div>
-    {%- endif -%}
-  </div>
+  {%- if section.settings.title != blank or section.settings.description != blank -%}
+    <div class="section-gallery__header">
+      {%- if section.settings.title != blank -%}
+        <h2 class="section-gallery__title">{{ section.settings.title }}</h2>
+      {%- endif -%}
+      {%- if section.settings.description != blank -%}
+        <div class="section-gallery__desc" style="font-size: {{ section.settings.desc_size | default: 20 }}px; max-width: {{ section.settings.desc_width | default: 480 }}px; text-align: {{ section.settings.desc_align | default: 'left' }};">{{ section.settings.description }}</div>
+      {%- endif -%}
+    </div>
+  {%- endif -%}
 
   {%- if section.blocks.size > 0 -%}
     <div class="gallery-grid">

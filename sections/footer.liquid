@@ -24,19 +24,21 @@
         <div class="footer__contact-desc" style="font-size: {{ section.settings.contact_desc_size | default: 16 }}px; text-align: {{ section.settings.contact_desc_align | default: 'left' }};">{{ section.settings.contact_desc }}</div>
       {%- endif -%}
 
-      {%- form 'customer', id: 'footer-newsletter-form' -%}
-        {%- if form.posted_successfully? -%}
-          <p style="font-size:.85rem;margin-bottom:1rem;">Merci pour votre inscription !</p>
-        {%- else -%}
-          <input
-            class="footer__email-input"
-            type="email"
-            name="contact[email]"
-            aria-label="Adresse email"
-            autocomplete="email"
-            required>
-        {%- endif -%}
-      {%- endform -%}
+      {%- if section.settings.show_newsletter != false -%}
+        {%- form 'customer', id: 'footer-newsletter-form' -%}
+          {%- if form.posted_successfully? -%}
+            <p style="font-size:.85rem;margin-bottom:1rem;">Merci pour votre inscription !</p>
+          {%- else -%}
+            <input
+              class="footer__email-input"
+              type="email"
+              name="contact[email]"
+              aria-label="Adresse email"
+              autocomplete="email"
+              required>
+          {%- endif -%}
+        {%- endform -%}
+      {%- endif -%}
 
       <ul class="footer__social-list">
         {%- if section.settings.facebook_url != blank -%}
@@ -139,6 +141,12 @@
         { "value": "right", "label": "Droite" }
       ],
       "default": "left"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_newsletter",
+      "label": "Afficher le champ email (newsletter)",
+      "default": true
     },
     {
       "type": "url",

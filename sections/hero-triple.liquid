@@ -8,8 +8,9 @@
     {%- assign link_key  = 'panel' | append: i | append: '_link' -%}
     {%- assign cta_key   = 'panel' | append: i | append: '_cta' -%}
 
+    {%- comment -%} Bouton affiché si son texte est renseigné, sinon panneau cliquable {%- endcomment -%}
     {%- assign panel_clickable = false -%}
-    {%- if section.settings.show_buttons != true and section.settings[link_key] != blank -%}
+    {%- if section.settings[cta_key] == blank and section.settings[link_key] != blank -%}
       {%- assign panel_clickable = true -%}
     {%- endif -%}
 
@@ -36,14 +37,16 @@
           {%- if section.settings[script_key] != blank -%}
             <span class="hero-triple__script">{{ section.settings[script_key] }}</span>
           {%- endif -%}
-          <h2 class="hero-triple__title">{{ section.settings[title_key] }}</h2>
+          {%- if section.settings[title_key] != blank -%}
+            <h2 class="hero-triple__title">{{ section.settings[title_key] }}</h2>
+          {%- endif -%}
         </div>
         {%- if section.settings[text_key] != blank -%}
           <p class="hero-triple__text" style="font-size: {{ section.settings.text_size | default: 15 }}px;">{{ section.settings[text_key] | newline_to_br }}</p>
         {%- endif -%}
-        {%- if section.settings.show_buttons -%}
+        {%- if section.settings[cta_key] != blank -%}
           <a href="{{ section.settings[link_key] | default: '#' }}" class="hero-triple__btn">
-            {{ section.settings[cta_key] | default: 'Je découvre' }}
+            {{ section.settings[cta_key] }}
           </a>
         {%- endif -%}
       </div>
@@ -60,13 +63,6 @@
   "settings": [
     { "type": "header", "content": "Options" },
     {
-      "type": "checkbox",
-      "id": "show_buttons",
-      "label": "Afficher les boutons",
-      "info": "Si masqué, tout le panneau devient cliquable via son lien.",
-      "default": false
-    },
-    {
       "type": "range",
       "id": "text_size",
       "label": "Taille du texte (px)",
@@ -82,24 +78,24 @@
     { "type": "text", "id": "panel1_script", "label": "Texte script", "default": "l'" },
     { "type": "text", "id": "panel1_title", "label": "Titre", "default": "AUDIT" },
     { "type": "textarea", "id": "panel1_text", "label": "Texte (optionnel)" },
-    { "type": "url",  "id": "panel1_link",  "label": "Lien" },
-    { "type": "text", "id": "panel1_cta",   "label": "Bouton", "default": "Je découvre" },
+    { "type": "url",  "id": "panel1_link",  "label": "Lien", "info": "Sans bouton, tout le panneau devient cliquable via ce lien." },
+    { "type": "text", "id": "panel1_cta",   "label": "Texte du bouton (laisser vide pour le masquer)" },
 
     { "type": "header", "content": "Panneau 2" },
     { "type": "image_picker", "id": "panel2_image", "label": "Image" },
     { "type": "text", "id": "panel2_script", "label": "Texte script", "default": "la" },
     { "type": "text", "id": "panel2_title",  "label": "Titre", "default": "CONCEPTION" },
     { "type": "textarea", "id": "panel2_text", "label": "Texte (optionnel)" },
-    { "type": "url",  "id": "panel2_link",   "label": "Lien" },
-    { "type": "text", "id": "panel2_cta",    "label": "Bouton", "default": "Je découvre" },
+    { "type": "url",  "id": "panel2_link",   "label": "Lien", "info": "Sans bouton, tout le panneau devient cliquable via ce lien." },
+    { "type": "text", "id": "panel2_cta",    "label": "Texte du bouton (laisser vide pour le masquer)" },
 
     { "type": "header", "content": "Panneau 3" },
     { "type": "image_picker", "id": "panel3_image", "label": "Image" },
     { "type": "text", "id": "panel3_script", "label": "Texte script", "default": "les" },
     { "type": "text", "id": "panel3_title",  "label": "Titre", "default": "TRAVAUX" },
     { "type": "textarea", "id": "panel3_text", "label": "Texte (optionnel)" },
-    { "type": "url",  "id": "panel3_link",   "label": "Lien" },
-    { "type": "text", "id": "panel3_cta",    "label": "Bouton", "default": "Je découvre" }
+    { "type": "url",  "id": "panel3_link",   "label": "Lien", "info": "Sans bouton, tout le panneau devient cliquable via ce lien." },
+    { "type": "text", "id": "panel3_cta",    "label": "Texte du bouton (laisser vide pour le masquer)" }
   ],
   "presets": [
     { "name": "Hero triple" }
