@@ -1,8 +1,8 @@
-<section class="section-gallery">
+<section class="section-gallery" style="padding-top: {{ section.settings.padding_top | default: 64 }}px; padding-bottom: {{ section.settings.padding_bottom | default: 96 }}px;">
   <div class="section-gallery__header">
     <h2 class="section-gallery__title">{{ section.settings.title }}</h2>
     {%- if section.settings.description != blank -%}
-      <div class="section-gallery__desc" style="font-size: {{ section.settings.desc_size | default: 20 }}px;">{{ section.settings.description }}</div>
+      <div class="section-gallery__desc" style="font-size: {{ section.settings.desc_size | default: 20 }}px; max-width: {{ section.settings.desc_width | default: 480 }}px; text-align: {{ section.settings.desc_align | default: 'left' }};">{{ section.settings.description }}</div>
     {%- endif -%}
   </div>
 
@@ -96,6 +96,48 @@
       "step": 1,
       "unit": "px",
       "default": 20
+    },
+    {
+      "type": "range",
+      "id": "desc_width",
+      "label": "Largeur du texte de description (px)",
+      "min": 300,
+      "max": 900,
+      "step": 10,
+      "unit": "px",
+      "default": 480
+    },
+    {
+      "type": "select",
+      "id": "desc_align",
+      "label": "Alignement du texte",
+      "options": [
+        { "value": "left", "label": "Gauche" },
+        { "value": "center", "label": "Centré" },
+        { "value": "right", "label": "Droite" }
+      ],
+      "default": "left"
+    },
+    { "type": "header", "content": "Espacement" },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Marge au-dessus (px)",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Marge en dessous (px)",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "default": 96
     },
     {
       "type": "paragraph",

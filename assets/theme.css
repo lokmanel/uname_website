@@ -405,6 +405,16 @@ ul, ol { list-style: none; }
   z-index: 1;
 }
 
+.hero-triple__text,
+.hero-split__text {
+  font-family: var(--f-body);
+  font-weight: 400;
+  max-width: 480px;
+  padding: 0 24px;
+  line-height: 1.6;
+  color: #fff;
+}
+
 .hero-triple__btn {
   display: inline-flex;
   align-items: center;
@@ -458,13 +468,23 @@ ul, ol { list-style: none; }
 .service-block--reverse .service-block__images { order: 2; }
 .service-block--reverse .service-block__text   { order: 1; }
 
-/* Grille de 3 images : 1 grande à gauche + 2 empilées à droite */
+/* Grille de 3 images : 1 grande en haut + 2 en bas.
+   S'adapte à 1 ou 2 images via les modificateurs --count-N. */
 .service-block__images {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 12px;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: var(--sb-ratio, 3 / 2);
+}
+
+.service-block__images--count-1 {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.service-block__images--count-2 {
+  grid-template-rows: 1fr;
 }
 
 .service-block__img { overflow: hidden; background: #ece8e3; position: relative; }
@@ -549,6 +569,18 @@ ul, ol { list-style: none; }
   display: flex;
   flex-direction: column;
   gap: var(--sp-md);
+}
+
+/* Alignement horizontal du texte */
+.service-block__text--align-center { text-align: center; }
+.service-block__text--align-center .service-block__btn { align-self: center; }
+.service-block__text--align-right { text-align: right; }
+.service-block__text--align-right .service-block__btn { align-self: flex-end; }
+
+/* Position verticale du texte (desktop uniquement — en mobile le texte passe sous les images) */
+@media (min-width: 769px) {
+  .service-block__text--pos-top    { align-self: start; }
+  .service-block__text--pos-bottom { align-self: end; }
 }
 
 .service-block__desc {
@@ -1110,7 +1142,7 @@ ul, ol { list-style: none; }
 
 .contact-card__logo {
   display: block;
-  height: 56px;
+  height: var(--cc-logo-h, 56px);
   width: auto;
 }
 
@@ -1122,7 +1154,7 @@ ul, ol { list-style: none; }
   font-family: var(--f-display);
   font-style: italic;
   font-weight: 400;
-  font-size: 38px;
+  font-size: var(--cc-script-size, 38px);
   line-height: 1;
   color: var(--c-black);
   white-space: nowrap;
@@ -1132,7 +1164,7 @@ ul, ol { list-style: none; }
 .contact-card__email {
   font-family: var(--f-body);
   font-weight: 700;
-  font-size: 18px;
+  font-size: var(--cc-email-size, 18px);
   line-height: 1.4;
   color: var(--c-black);
   text-decoration: none;
@@ -1144,7 +1176,7 @@ ul, ol { list-style: none; }
 .contact-card__address {
   font-family: var(--f-body);
   font-weight: 400;
-  font-size: 14px;
+  font-size: var(--cc-address-size, 14px);
   line-height: 1.4;
   color: var(--c-black);
   margin: 4px 0 0;
@@ -1802,13 +1834,13 @@ ul, ol { list-style: none; }
   .footer__col--nav { border-right: none; border-bottom: 2px solid var(--c-black); }
   .footer__brand-logo { height: clamp(80px, 18vw, 160px); }
 
-  /* Contact card */
+  /* Contact card — tailles réduites proportionnellement aux réglages */
   .section-contact { min-height: 500px; }
   .section-contact__inner { gap: 32px; }
-  .contact-card__logo { height: 44px; }
-  .contact-card__script { font-size: 28px; bottom: -10px; }
-  .contact-card__email { font-size: 16px; }
-  .contact-card__address { font-size: 13px; }
+  .contact-card__logo { height: calc(var(--cc-logo-h, 56px) * 0.8); }
+  .contact-card__script { font-size: calc(var(--cc-script-size, 38px) * 0.75); bottom: -10px; }
+  .contact-card__email { font-size: calc(var(--cc-email-size, 18px) * 0.9); }
+  .contact-card__address { font-size: calc(var(--cc-address-size, 14px) * 0.93); }
 
   /* Contact form */
   .contact-form__row { grid-template-columns: 1fr; }

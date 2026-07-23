@@ -2,7 +2,7 @@
   <div class="section-project-header__inner">
     <h1 class="section-project-header__title">{{ section.settings.title }}</h1>
     {%- if section.settings.description != blank -%}
-      <div class="section-project-header__desc" style="font-size: {{ section.settings.desc_size | default: 20 }}px;">{{ section.settings.description }}</div>
+      <div class="section-project-header__desc" style="font-size: {{ section.settings.desc_size | default: 20 }}px; max-width: {{ section.settings.desc_width | default: 480 }}px; text-align: {{ section.settings.desc_align | default: 'left' }};">{{ section.settings.description }}</div>
     {%- endif -%}
   </div>
 </section>
@@ -33,6 +33,27 @@
       "step": 1,
       "unit": "px",
       "default": 20
+    },
+    {
+      "type": "range",
+      "id": "desc_width",
+      "label": "Largeur du texte de description (px)",
+      "min": 300,
+      "max": 900,
+      "step": 10,
+      "unit": "px",
+      "default": 480
+    },
+    {
+      "type": "select",
+      "id": "desc_align",
+      "label": "Alignement du texte",
+      "options": [
+        { "value": "left", "label": "Gauche" },
+        { "value": "center", "label": "Centré" },
+        { "value": "right", "label": "Droite" }
+      ],
+      "default": "left"
     }
   ],
   "presets": [

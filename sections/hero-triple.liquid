@@ -4,10 +4,20 @@
     {%- assign img_key   = 'panel' | append: i | append: '_image' -%}
     {%- assign script_key = 'panel' | append: i | append: '_script' -%}
     {%- assign title_key = 'panel' | append: i | append: '_title' -%}
+    {%- assign text_key  = 'panel' | append: i | append: '_text' -%}
     {%- assign link_key  = 'panel' | append: i | append: '_link' -%}
     {%- assign cta_key   = 'panel' | append: i | append: '_cta' -%}
 
-    <div class="hero-triple__panel">
+    {%- assign panel_clickable = false -%}
+    {%- if section.settings.show_buttons != true and section.settings[link_key] != blank -%}
+      {%- assign panel_clickable = true -%}
+    {%- endif -%}
+
+    {%- if panel_clickable -%}
+      <a class="hero-triple__panel" href="{{ section.settings[link_key] }}">
+    {%- else -%}
+      <div class="hero-triple__panel">
+    {%- endif -%}
       {%- if section.settings[img_key] != blank -%}
         <img
           class="hero-triple__bg"
@@ -28,11 +38,16 @@
           {%- endif -%}
           <h2 class="hero-triple__title">{{ section.settings[title_key] }}</h2>
         </div>
-        <a href="{{ section.settings[link_key] | default: '#' }}" class="hero-triple__btn">
-          {{ section.settings[cta_key] | default: 'Je découvre' }}
-        </a>
+        {%- if section.settings[text_key] != blank -%}
+          <p class="hero-triple__text" style="font-size: {{ section.settings.text_size | default: 15 }}px;">{{ section.settings[text_key] | newline_to_br }}</p>
+        {%- endif -%}
+        {%- if section.settings.show_buttons -%}
+          <a href="{{ section.settings[link_key] | default: '#' }}" class="hero-triple__btn">
+            {{ section.settings[cta_key] | default: 'Je découvre' }}
+          </a>
+        {%- endif -%}
       </div>
-    </div>
+    {%- if panel_clickable -%}</a>{%- else -%}</div>{%- endif -%}
 
   {%- endfor -%}
 
@@ -43,10 +58,30 @@
   "name": "Hero triple",
   "tag": "section",
   "settings": [
+    { "type": "header", "content": "Options" },
+    {
+      "type": "checkbox",
+      "id": "show_buttons",
+      "label": "Afficher les boutons",
+      "info": "Si masqué, tout le panneau devient cliquable via son lien.",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Taille du texte (px)",
+      "min": 12,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+
     { "type": "header", "content": "Panneau 1" },
     { "type": "image_picker", "id": "panel1_image", "label": "Image" },
     { "type": "text", "id": "panel1_script", "label": "Texte script", "default": "l'" },
     { "type": "text", "id": "panel1_title", "label": "Titre", "default": "AUDIT" },
+    { "type": "textarea", "id": "panel1_text", "label": "Texte (optionnel)" },
     { "type": "url",  "id": "panel1_link",  "label": "Lien" },
     { "type": "text", "id": "panel1_cta",   "label": "Bouton", "default": "Je découvre" },
 
@@ -54,6 +89,7 @@
     { "type": "image_picker", "id": "panel2_image", "label": "Image" },
     { "type": "text", "id": "panel2_script", "label": "Texte script", "default": "la" },
     { "type": "text", "id": "panel2_title",  "label": "Titre", "default": "CONCEPTION" },
+    { "type": "textarea", "id": "panel2_text", "label": "Texte (optionnel)" },
     { "type": "url",  "id": "panel2_link",   "label": "Lien" },
     { "type": "text", "id": "panel2_cta",    "label": "Bouton", "default": "Je découvre" },
 
@@ -61,6 +97,7 @@
     { "type": "image_picker", "id": "panel3_image", "label": "Image" },
     { "type": "text", "id": "panel3_script", "label": "Texte script", "default": "les" },
     { "type": "text", "id": "panel3_title",  "label": "Titre", "default": "TRAVAUX" },
+    { "type": "textarea", "id": "panel3_text", "label": "Texte (optionnel)" },
     { "type": "url",  "id": "panel3_link",   "label": "Lien" },
     { "type": "text", "id": "panel3_cta",    "label": "Bouton", "default": "Je découvre" }
   ],

@@ -4,13 +4,25 @@
 
   <div class="service-block__content">
 
-    <div class="service-block__images">
-      {%- for i in (1..3) -%}
-        {%- assign img_key = 'image_' | append: i -%}
-        {%- assign name_key = 'project_name_' | append: i -%}
-        {%- assign link_key = 'link_' | append: i -%}
-        <div class="service-block__img service-block__img--{{ i }}">
-          {%- if section.settings[img_key] != blank -%}
+    {%- assign img_count = 0 -%}
+    {%- if section.settings.image_1 != blank -%}{%- assign img_count = img_count | plus: 1 -%}{%- endif -%}
+    {%- if section.settings.image_2 != blank -%}{%- assign img_count = img_count | plus: 1 -%}{%- endif -%}
+    {%- if section.settings.image_3 != blank -%}{%- assign img_count = img_count | plus: 1 -%}{%- endif -%}
+
+    <div class="service-block__images service-block__images--count-{{ img_count }}" style="--sb-ratio: {{ section.settings.images_ratio | default: '3 / 2' }};">
+      {%- if img_count == 0 -%}
+        {%- for i in (1..3) -%}
+          <div class="service-block__img service-block__img--{{ i }}">
+            <div class="service-block__placeholder"></div>
+          </div>
+        {%- endfor -%}
+      {%- else -%}
+        {%- for i in (1..3) -%}
+          {%- assign img_key = 'image_' | append: i -%}
+          {%- assign name_key = 'project_name_' | append: i -%}
+          {%- assign link_key = 'link_' | append: i -%}
+          {%- if section.settings[img_key] == blank -%}{%- continue -%}{%- endif -%}
+          <div class="service-block__img{% if img_count == 3 %} service-block__img--{{ i }}{% endif %}">
             {%- if section.settings[link_key] != blank -%}
               <a href="{{ section.settings[link_key] }}" class="service-block__img-link">
             {%- endif -%}
@@ -32,14 +44,12 @@
             {%- if section.settings[link_key] != blank -%}
               </a>
             {%- endif -%}
-          {%- else -%}
-            <div class="service-block__placeholder"></div>
-          {%- endif -%}
-        </div>
-      {%- endfor -%}
+          </div>
+        {%- endfor -%}
+      {%- endif -%}
     </div>
 
-    <div class="service-block__text">
+    <div class="service-block__text service-block__text--align-{{ section.settings.text_align | default: 'left' }} service-block__text--pos-{{ section.settings.text_position | default: 'middle' }}">
       {%- if section.settings.description != blank -%}
         <div class="service-block__desc" style="font-size: {{ section.settings.desc_size | default: 16 }}px;">{{ section.settings.description }}</div>
       {%- endif -%}
@@ -70,11 +80,28 @@
       "label": "Inverser (texte à gauche, images à droite)",
       "default": false
     },
-    { "type": "header", "content": "Image 1 (grande, à gauche)" },
+    { "type": "header", "content": "Images" },
+    {
+      "type": "paragraph",
+      "content": "💡 Laissez une image vide pour l'enlever : la mise en page s'adapte automatiquement (3, 2 ou 1 image)."
+    },
+    {
+      "type": "select",
+      "id": "images_ratio",
+      "label": "Proportions du bloc images",
+      "options": [
+        { "value": "3 / 2", "label": "Paysage 3:2 (défaut)" },
+        { "value": "4 / 3", "label": "Paysage 4:3" },
+        { "value": "16 / 9", "label": "Panoramique 16:9" },
+        { "value": "1 / 1", "label": "Carré 1:1" }
+      ],
+      "default": "3 / 2"
+    },
+    { "type": "header", "content": "Image 1 (grande, en haut)" },
     { "type": "image_picker", "id": "image_1", "label": "Image" },
     { "type": "text", "id": "project_name_1", "label": "Nom du projet (visible au hover)" },
     { "type": "url", "id": "link_1", "label": "Lien" },
-    { "type": "header", "content": "Image 2 (haut droite)" },
+    { "type": "header", "content": "Image 2 (bas gauche)" },
     { "type": "image_picker", "id": "image_2", "label": "Image" },
     { "type": "text", "id": "project_name_2", "label": "Nom du projet (visible au hover)" },
     { "type": "url", "id": "link_2", "label": "Lien" },
@@ -98,6 +125,28 @@
       "step": 1,
       "unit": "px",
       "default": 16
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Alignement du texte",
+      "options": [
+        { "value": "left", "label": "Gauche" },
+        { "value": "center", "label": "Centré" },
+        { "value": "right", "label": "Droite" }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "text_position",
+      "label": "Position verticale du texte",
+      "options": [
+        { "value": "top", "label": "En haut" },
+        { "value": "middle", "label": "Centré" },
+        { "value": "bottom", "label": "En bas" }
+      ],
+      "default": "middle"
     },
     {
       "type": "text",

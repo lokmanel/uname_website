@@ -1,12 +1,12 @@
 <section class="section-approche">
-  <div class="section-approche__inner">
+  <div class="section-approche__inner" style="max-width: {{ section.settings.content_width | default: 600 }}px;">
     <div class="section-approche__heading">
       {%- if section.settings.script_text != blank -%}
         <span class="section-approche__script">{{ section.settings.script_text }}</span>
       {%- endif -%}
       <h2 class="section-approche__title">{{ section.settings.title }}</h2>
     </div>
-    <div class="section-approche__text">
+    <div class="section-approche__text" style="font-size: {{ section.settings.text_size | default: 20 }}px; text-align: {{ section.settings.text_align | default: 'center' }};">
       {{ section.settings.content }}
     </div>
   </div>
@@ -34,6 +34,37 @@
       "id": "content",
       "label": "Texte",
       "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Taille du texte (px)",
+      "min": 12,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "content_width",
+      "label": "Largeur du bloc texte (px)",
+      "min": 400,
+      "max": 1000,
+      "step": 10,
+      "unit": "px",
+      "default": 600
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Alignement du texte",
+      "options": [
+        { "value": "left", "label": "Gauche" },
+        { "value": "center", "label": "Centré" },
+        { "value": "right", "label": "Droite" }
+      ],
+      "default": "center"
     }
   ],
   "presets": [

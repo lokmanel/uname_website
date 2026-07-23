@@ -21,7 +21,7 @@
         <h3 class="footer__contact-title">{{ section.settings.contact_title }}</h3>
       {%- endif -%}
       {%- if section.settings.contact_desc != blank -%}
-        <div class="footer__contact-desc" style="font-size: {{ section.settings.contact_desc_size | default: 16 }}px;">{{ section.settings.contact_desc }}</div>
+        <div class="footer__contact-desc" style="font-size: {{ section.settings.contact_desc_size | default: 16 }}px; text-align: {{ section.settings.contact_desc_align | default: 'left' }};">{{ section.settings.contact_desc }}</div>
       {%- endif -%}
 
       {%- form 'customer', id: 'footer-newsletter-form' -%}
@@ -128,6 +128,17 @@
       "step": 1,
       "unit": "px",
       "default": 16
+    },
+    {
+      "type": "select",
+      "id": "contact_desc_align",
+      "label": "Alignement du texte",
+      "options": [
+        { "value": "left", "label": "Gauche" },
+        { "value": "center", "label": "Centré" },
+        { "value": "right", "label": "Droite" }
+      ],
+      "default": "left"
     },
     {
       "type": "url",

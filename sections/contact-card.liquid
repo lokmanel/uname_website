@@ -1,4 +1,4 @@
-<section class="section-contact">
+<section class="section-contact" style="--cc-logo-h: {{ section.settings.logo_height | default: 56 }}px; --cc-script-size: {{ section.settings.script_size | default: 38 }}px; --cc-email-size: {{ section.settings.email_size | default: 18 }}px; --cc-address-size: {{ section.settings.address_size | default: 14 }}px;">
   {%- if section.settings.background != blank -%}
     <img
       class="section-contact__bg"
@@ -63,6 +63,47 @@
       "type": "image_picker",
       "id": "background",
       "label": "Image de fond"
+    },
+    { "type": "header", "content": "Tailles" },
+    {
+      "type": "range",
+      "id": "logo_height",
+      "label": "Taille du logo (px)",
+      "min": 30,
+      "max": 140,
+      "step": 2,
+      "unit": "px",
+      "default": 56
+    },
+    {
+      "type": "range",
+      "id": "script_size",
+      "label": "Taille du texte script (px)",
+      "min": 20,
+      "max": 70,
+      "step": 1,
+      "unit": "px",
+      "default": 38
+    },
+    {
+      "type": "range",
+      "id": "email_size",
+      "label": "Taille de l'email (px)",
+      "min": 12,
+      "max": 36,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "address_size",
+      "label": "Taille de l'adresse (px)",
+      "min": 10,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "default": 14
     },
     { "type": "header", "content": "Bloc 1" },
     {

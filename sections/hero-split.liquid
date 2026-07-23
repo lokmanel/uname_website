@@ -1,7 +1,15 @@
 <section class="hero-split">
 
   {%- comment -%} Panel gauche {%- endcomment -%}
-  <div class="hero-split__panel">
+  {%- assign panel1_clickable = false -%}
+  {%- if section.settings.show_buttons != true and section.settings.panel1_link != blank -%}
+    {%- assign panel1_clickable = true -%}
+  {%- endif -%}
+  {%- if panel1_clickable -%}
+    <a class="hero-split__panel" href="{{ section.settings.panel1_link }}">
+  {%- else -%}
+    <div class="hero-split__panel">
+  {%- endif -%}
     {%- if section.settings.panel1_image != blank -%}
       <img
         class="hero-split__bg"
@@ -21,14 +29,27 @@
         {%- endif -%}
         <h2 class="hero-split__title">{{ section.settings.panel1_title }}</h2>
       </div>
-      <a href="{{ section.settings.panel1_link }}" class="hero-split__btn">
-        {{ section.settings.panel1_cta | default: 'Je découvre' }}
-      </a>
+      {%- if section.settings.panel1_text != blank -%}
+        <p class="hero-split__text" style="font-size: {{ section.settings.text_size | default: 16 }}px;">{{ section.settings.panel1_text | newline_to_br }}</p>
+      {%- endif -%}
+      {%- if section.settings.show_buttons -%}
+        <a href="{{ section.settings.panel1_link }}" class="hero-split__btn">
+          {{ section.settings.panel1_cta | default: 'Je découvre' }}
+        </a>
+      {%- endif -%}
     </div>
-  </div>
+  {%- if panel1_clickable -%}</a>{%- else -%}</div>{%- endif -%}
 
   {%- comment -%} Panel droit {%- endcomment -%}
-  <div class="hero-split__panel">
+  {%- assign panel2_clickable = false -%}
+  {%- if section.settings.show_buttons != true and section.settings.panel2_link != blank -%}
+    {%- assign panel2_clickable = true -%}
+  {%- endif -%}
+  {%- if panel2_clickable -%}
+    <a class="hero-split__panel" href="{{ section.settings.panel2_link }}">
+  {%- else -%}
+    <div class="hero-split__panel">
+  {%- endif -%}
     {%- if section.settings.panel2_image != blank -%}
       <img
         class="hero-split__bg"
@@ -47,11 +68,16 @@
         {%- endif -%}
         <h2 class="hero-split__title">{{ section.settings.panel2_title }}</h2>
       </div>
-      <a href="{{ section.settings.panel2_link }}" class="hero-split__btn">
-        {{ section.settings.panel2_cta | default: 'Je découvre' }}
-      </a>
+      {%- if section.settings.panel2_text != blank -%}
+        <p class="hero-split__text" style="font-size: {{ section.settings.text_size | default: 16 }}px;">{{ section.settings.panel2_text | newline_to_br }}</p>
+      {%- endif -%}
+      {%- if section.settings.show_buttons -%}
+        <a href="{{ section.settings.panel2_link }}" class="hero-split__btn">
+          {{ section.settings.panel2_cta | default: 'Je découvre' }}
+        </a>
+      {%- endif -%}
     </div>
-  </div>
+  {%- if panel2_clickable -%}</a>{%- else -%}</div>{%- endif -%}
 
 </section>
 
@@ -60,6 +86,27 @@
   "name": "Hero divisé",
   "tag": "section",
   "settings": [
+    {
+      "type": "header",
+      "content": "Options"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_buttons",
+      "label": "Afficher les boutons",
+      "info": "Si masqué, tout le panneau devient cliquable via son lien.",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Taille du texte (px)",
+      "min": 12,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
     {
       "type": "header",
       "content": "Panneau gauche"
@@ -80,6 +127,11 @@
       "id": "panel1_title",
       "label": "Titre",
       "default": "STUDIO"
+    },
+    {
+      "type": "textarea",
+      "id": "panel1_text",
+      "label": "Texte (optionnel)"
     },
     {
       "type": "url",
@@ -112,6 +164,11 @@
       "id": "panel2_title",
       "label": "Titre",
       "default": "CAFÉ"
+    },
+    {
+      "type": "textarea",
+      "id": "panel2_text",
+      "label": "Texte (optionnel)"
     },
     {
       "type": "url",
