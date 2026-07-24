@@ -1,0 +1,139 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "header": {
+      "type": "project-header",
+      "settings": {
+        "title": "Fongate",
+        "description": "<p>Projet Fongate – description à compléter.</p>"
+      }
+    },
+    "duo": {
+      "type": "project-duo",
+      "settings": {}
+    },
+    "moodboard": {
+      "type": "equipes",
+      "settings": {
+        "title": ""
+      }
+    },
+    "gallery": {
+      "type": "gallery",
+      "blocks": {
+        "img1": {
+          "type": "image",
+          "settings": {}
+        },
+        "img2": {
+          "type": "image",
+          "settings": {}
+        },
+        "img3": {
+          "type": "image",
+          "settings": {}
+        },
+        "img4": {
+          "type": "image",
+          "settings": {}
+        },
+        "img5": {
+          "type": "image",
+          "settings": {}
+        },
+        "img6": {
+          "type": "image",
+          "settings": {}
+        },
+        "img7": {
+          "type": "image",
+          "settings": {}
+        },
+        "img8": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "img1",
+        "img2",
+        "img3",
+        "img4",
+        "img5",
+        "img6",
+        "img7",
+        "img8"
+      ],
+      "settings": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "gallery_2": {
+      "type": "gallery",
+      "blocks": {
+        "img1": {
+          "type": "image",
+          "settings": {}
+        },
+        "img2": {
+          "type": "image",
+          "settings": {}
+        },
+        "img3": {
+          "type": "image",
+          "settings": {}
+        },
+        "img4": {
+          "type": "image",
+          "settings": {}
+        },
+        "img5": {
+          "type": "image",
+          "settings": {}
+        },
+        "img6": {
+          "type": "image",
+          "settings": {}
+        },
+        "img7": {
+          "type": "image",
+          "settings": {}
+        },
+        "img8": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "img1",
+        "img2",
+        "img3",
+        "img4",
+        "img5",
+        "img6",
+        "img7",
+        "img8"
+      ],
+      "settings": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "order": [
+    "header",
+    "duo",
+    "moodboard",
+    "gallery",
+    "gallery_2"
+  ]
+}
