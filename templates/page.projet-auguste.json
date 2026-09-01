@@ -13,15 +13,22 @@
       "type": "project-header",
       "settings": {
         "title": "Auguste",
-        "description": "<p>Projet Auguste – description à compléter.</p>"
+        "description": "<p>Projet Auguste – description à compléter.</p>",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left"
       }
     },
     "duo": {
       "type": "project-duo",
-      "settings": {}
+      "settings": {
+        "image_1": "shopify://shop_images/Uname_AUGUSTE_6_3607067b-9776-4b61-9050-2a6180c45957.jpg",
+        "image_2": "shopify://shop_images/Uname_AUGUSTE_8_27470e6d-1a8a-45af-a935-637dafd71fd7.jpg"
+      }
     },
     "moodboard": {
       "type": "equipes",
+      "disabled": true,
       "settings": {
         "title": ""
       }
@@ -31,35 +38,75 @@
       "blocks": {
         "img1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_AUGUSTE_12_0fec5816-6290-4683-8275-84d4cee0a319.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_AUGUSTE_9_ba5e14a5-fa59-42b0-81b7-e8cb4cfd2db1.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_AUGUSTE_3_0d63b3b2-3122-427a-a9a6-0083450bfe24.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_AUGUSTE_13_5acd5983-4054-4ef1-b21a-2c126ca08548.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img5": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_AUGUSTE_7_69a93f6d-f894-4af0-b1f1-cd1d91f46a4e.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img6": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_AUGUSTE_1_c8863dba-dfc9-4395-8c22-c6015e9ed716.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img7": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_AUGUSTE_12_1709ffc4-1336-481a-b178-f7dca267f773.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_AUGUSTE_2_0f788235-8b86-4aad-b8ad-13c3905b3b0c.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -74,7 +121,12 @@
       ],
       "settings": {
         "title": "",
-        "description": ""
+        "description": "",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     },
     "gallery_2": {
@@ -82,35 +134,68 @@
       "blocks": {
         "img1": {
           "type": "image",
-          "settings": {}
+          "disabled": true,
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img5": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img6": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img7": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -123,9 +208,15 @@
         "img7",
         "img8"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
-        "description": ""
+        "description": "",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     }
   },
