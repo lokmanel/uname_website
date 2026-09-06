@@ -9,40 +9,90 @@
  */
 {
   "sections": {
+    "project_header_3c89hg": {
+      "type": "project-header",
+      "name": "En-tête projet",
+      "settings": {
+        "title": "Ensues",
+        "description": "<p>Conception de la rénovation d’un bas de villa de 100 m² et de sa terrasse, à Ensuès-la-Redonne. Un projet pensé pour révéler la lumière du lieu, ouvrir les espaces et renforcer leur lien avec le jardin.</p>",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left"
+      }
+    },
+    "equipes_UjiNT6": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": ""
+      }
+    },
     "gallery": {
       "type": "gallery",
       "blocks": {
         "img1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img5": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img6": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img7": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -56,12 +106,19 @@
         "img8"
       ],
       "settings": {
-        "title": "St Barnabé",
-        "description": "<p>Travaux St Barnabé – description à compléter.</p>"
+        "title": "Ensues",
+        "description": "<p>Conception de la rénovation d’un bas de villa de 100 m² et de sa terrasse, à Ensuès-la-Redonne. Un projet pensé pour révéler la lumière du lieu, ouvrir les espaces et renforcer leur lien avec le jardin.</p>",
+        "desc_size": 20,
+        "desc_width": 510,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     }
   },
   "order": [
+    "project_header_3c89hg",
+    "equipes_UjiNT6",
     "gallery"
   ]
 }
