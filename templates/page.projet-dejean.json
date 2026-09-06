@@ -13,7 +13,10 @@
       "type": "project-header",
       "settings": {
         "title": "Dejean",
-        "description": "<p>Projet Dejean</p><p>Rénovation complète & aménagement – Marseille 06</p><p>Un appartement de 80 m² repensé autour du dialogue des matières : pierre d’Égypte, bois chaleureux et une crédence conçue comme un tableau en collaboration avec La Dame Céramique, qui capte la lumière au fil de la journée.</p><p>Courbes et transparences structurent les espaces, jusqu’à la cour intérieure où une banquette intégrée au bassin prolonge l’esprit du lieu.</p><p>Un équilibre subtil entre modernité et inspiration méditerranéenne.</p>"
+        "description": "<p>Rénovation complète et aménagement d’un appartement de 80 m² dans le 6ᵉ arrondissement de Marseille, prolongé par un extérieur entièrement repensé. Un projet aux inspirations méditerranéennes, conçu pour créer une continuité naturelle entre les espaces de vie et la terrasse arborée.</p>",
+        "desc_size": 20,
+        "desc_width": 510,
+        "desc_align": "left"
       }
     },
     "duo": {
@@ -26,7 +29,8 @@
     "moodboard": {
       "type": "equipes",
       "settings": {
-        "title": ""
+        "title": "",
+        "image": "shopify://shop_images/Uname_Dejean_Cuisine6.webp"
       }
     },
     "gallery": {
@@ -117,98 +121,28 @@
       ],
       "settings": {
         "title": "",
-        "description": ""
+        "description": "",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     },
-    "gallery_rr9VBh": {
-      "type": "gallery",
-      "blocks": {
-        "image_HBmdD8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_Dejean_Salon1.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "image_N3VQLt": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_Dejean_Cuisine5.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "image_qahTzw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_Dejean_Exte5.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "image_EFAwqH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_Dejean_SDB3.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "image_mLTHxb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_Dejean_Salon4.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "image_VUAt87": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_Dejean_Exte4.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "image_eHqPnq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_Dejean_SDB1.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "image_AJUw7a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_Dejean_Salon3.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_HBmdD8",
-        "image_N3VQLt",
-        "image_qahTzw",
-        "image_EFAwqH",
-        "image_mLTHxb",
-        "image_VUAt87",
-        "image_eHqPnq",
-        "image_AJUw7a"
-      ],
+    "project_duo_hnJy8M": {
+      "type": "project-duo",
+      "name": "Duo images",
+      "settings": {
+        "image_1": "shopify://shop_images/Uname_Dejean_Cuisine6.webp",
+        "image_2": "shopify://shop_images/Uname_Dejean_Cuisine1.webp"
+      }
+    },
+    "equipes_cVWWg4": {
+      "type": "equipes",
+      "name": "Les équipes",
       "settings": {
         "title": "",
-        "description": ""
+        "image": "shopify://shop_images/Uname_Dejean_Exte5_c4b235b4-836a-4a7e-9d4f-56bbc87cca9d.jpg"
       }
     }
   },
@@ -217,6 +151,7 @@
     "duo",
     "moodboard",
     "gallery",
-    "gallery_rr9VBh"
+    "project_duo_hnJy8M",
+    "equipes_cVWWg4"
   ]
 }
