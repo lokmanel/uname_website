@@ -29,7 +29,8 @@
     "moodboard": {
       "type": "equipes",
       "settings": {
-        "title": ""
+        "title": "",
+        "image": "shopify://shop_images/UNAME_Rostand_Escalier2_883d3ed1-bec6-41f9-a4e5-c959fe163685.jpg"
       }
     },
     "gallery": {
@@ -74,7 +75,7 @@
         "img5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/sdbbb.jpg",
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour4_345c707d-f4b1-4b08-87d9-29ff1906bfe0.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -92,7 +93,7 @@
         "img7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/UNAME_Rostand_Chambre_Sdb4_db80a74e-f886-42ef-8f2f-4fe050dd5017.jpg",
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour6_9475d340-085e-4895-a9a0-a215973b1d2f.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -101,7 +102,7 @@
         "img8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/UNAME_Rostand_Chambre_Sdb6_ddcf3170-6db4-44da-a743-1a51a3cff86a.jpg",
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour11_95b1ee79-6913-4159-b044-fc2d75328155.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -216,6 +217,14 @@
         "padding_top": 64,
         "padding_bottom": 96
       }
+    },
+    "project_duo_JK8nxm": {
+      "type": "project-duo",
+      "name": "Duo images",
+      "settings": {
+        "image_1": "shopify://shop_images/UNAME_Rostand_Chambre_Sdb2_eb9afd98-14bf-4ad2-a244-b1391cf5c17a.jpg",
+        "image_2": "shopify://shop_images/UNAME_Rostand_Chambre_Sdb5_25224ed0-1b66-4030-9c23-b1f0fcd2e9ed.jpg"
+      }
     }
   },
   "order": [
@@ -223,6 +232,7 @@
     "duo",
     "moodboard",
     "gallery",
-    "gallery_2"
+    "gallery_2",
+    "project_duo_JK8nxm"
   ]
 }
