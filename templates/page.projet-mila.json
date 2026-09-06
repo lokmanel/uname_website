@@ -12,18 +12,25 @@
     "header": {
       "type": "project-header",
       "settings": {
-        "title": "Mila",
-        "description": "<p>Projet Mila – description à compléter.</p>"
+        "title": "Tilsit",
+        "description": "<p>Rénovation complète et aménagement d’un duplex de 85 m² avec terrasse attenante. </p><p>Le projet joue sur un contraste assumé entre la bibliothèque blanche aux lignes épurées et la chaleur du plafond laqué, qui enveloppe et dynamise l’espace.</p>",
+        "desc_size": 20,
+        "desc_width": 730,
+        "desc_align": "left"
       }
     },
     "duo": {
       "type": "project-duo",
-      "settings": {}
+      "settings": {
+        "image_1": "shopify://shop_images/Uname_TILSIT_7.jpg",
+        "image_2": "shopify://shop_images/Uname_TILSIT_19.jpg"
+      }
     },
     "moodboard": {
       "type": "equipes",
       "settings": {
-        "title": ""
+        "title": "",
+        "image": "shopify://shop_images/Uname_TILSIT_13.jpg"
       }
     },
     "gallery": {
@@ -31,35 +38,75 @@
       "blocks": {
         "img1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_TILSIT_14.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_TILSIT_22.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_TILSIT_17.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_TILSIT_16.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img5": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_TILSIT_9.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img6": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_TILSIT_20.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img7": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_TILSIT_21.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Uname_TILSIT_15.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -74,58 +121,20 @@
       ],
       "settings": {
         "title": "",
-        "description": ""
+        "description": "",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     },
-    "gallery_2": {
-      "type": "gallery",
-      "blocks": {
-        "img1": {
-          "type": "image",
-          "settings": {}
-        },
-        "img2": {
-          "type": "image",
-          "settings": {}
-        },
-        "img3": {
-          "type": "image",
-          "settings": {}
-        },
-        "img4": {
-          "type": "image",
-          "settings": {}
-        },
-        "img5": {
-          "type": "image",
-          "settings": {}
-        },
-        "img6": {
-          "type": "image",
-          "settings": {}
-        },
-        "img7": {
-          "type": "image",
-          "settings": {}
-        },
-        "img8": {
-          "type": "image",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "img1",
-        "img2",
-        "img3",
-        "img4",
-        "img5",
-        "img6",
-        "img7",
-        "img8"
-      ],
+    "equipes_QJcmjf": {
+      "type": "equipes",
+      "name": "Les équipes",
       "settings": {
         "title": "",
-        "description": ""
+        "image": "shopify://shop_images/Uname_TILSIT_8.jpg"
       }
     }
   },
@@ -134,6 +143,6 @@
     "duo",
     "moodboard",
     "gallery",
-    "gallery_2"
+    "equipes_QJcmjf"
   ]
 }
