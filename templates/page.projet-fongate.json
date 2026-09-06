@@ -13,23 +13,24 @@
       "type": "project-header",
       "settings": {
         "title": "Fongate",
-        "description": "<p>Projet Fongate – description à compléter.</p>",
+        "description": "<p>Rénovation complète d’un appartement situé en plein cœur de Marseille. </p><p>Un projet guidé par la lumière et une écriture épurée, où les lignes contemporaines dialoguent avec la douceur des courbes.</p>",
         "desc_size": 20,
-        "desc_width": 480,
+        "desc_width": 670,
         "desc_align": "left"
       }
     },
     "duo": {
       "type": "project-duo",
       "settings": {
-        "image_1": "shopify://shop_images/fong_gvt_48_4de710fc-5072-4d58-a928-9fd8ce41236e.jpg",
-        "image_2": "shopify://shop_images/fong_gvt_101_4f774739-bc84-4263-adbc-12d8a281b130.jpg"
+        "image_1": "shopify://shop_images/fong_gvt_42_bd2fa1aa-28c1-451b-9e56-fee97affc0eb.jpg",
+        "image_2": "shopify://shop_images/fong_gvt_91_c05dcb18-fa65-4dc1-9485-edf49f4b9858.jpg"
       }
     },
     "moodboard": {
       "type": "equipes",
       "settings": {
-        "title": ""
+        "title": "",
+        "image": "shopify://shop_images/fong_gvt_173_b635a8b5-4dfe-4efb-9b0b-072232884065.jpg"
       }
     },
     "gallery": {
@@ -56,7 +57,7 @@
         "img3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/fong_gvt_83_5fa0f133-1a8c-4362-81ef-bd3bd55aa3e7.jpg",
+            "image": "shopify://shop_images/fong_gvt_143_64960e8c-8c7f-46e2-81d5-7003c7520682.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -65,7 +66,7 @@
         "img4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/fong_gvt_258_745cb130-ddad-43bf-988e-ed575384ca05.jpg",
+            "image": "shopify://shop_images/fong_gvt_69_a6fe53e0-b9a5-47b1-8392-0948d6803bd3.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -74,7 +75,7 @@
         "img5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/placard.jpg",
+            "image": "shopify://shop_images/fong_gvt_173_b635a8b5-4dfe-4efb-9b0b-072232884065.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -206,6 +207,7 @@
         "img7",
         "img8"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "description": "",
