@@ -26,13 +26,6 @@
         "image_2": "shopify://shop_images/Uname_AUGUSTE_8_27470e6d-1a8a-45af-a935-637dafd71fd7.jpg"
       }
     },
-    "moodboard": {
-      "type": "equipes",
-      "disabled": true,
-      "settings": {
-        "title": ""
-      }
-    },
     "gallery": {
       "type": "gallery",
       "blocks": {
@@ -126,105 +119,21 @@
         "desc_width": 480,
         "desc_align": "left",
         "padding_top": 64,
-        "padding_bottom": 96
+        "padding_bottom": 0
       }
     },
-    "gallery_2": {
-      "type": "gallery",
-      "blocks": {
-        "img1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img2": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img3": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img4": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img5": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img6": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img7": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img8": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        }
-      },
-      "block_order": [
-        "img1",
-        "img2",
-        "img3",
-        "img4",
-        "img5",
-        "img6",
-        "img7",
-        "img8"
-      ],
-      "disabled": true,
+    "moodboard": {
+      "type": "equipes",
       "settings": {
         "title": "",
-        "description": "",
-        "desc_size": 20,
-        "desc_width": 480,
-        "desc_align": "left",
-        "padding_top": 64,
-        "padding_bottom": 96
+        "image": "shopify://shop_images/Uname_AUGUSTE_5_15d97f41-4508-4615-a07a-08224360ecf1.jpg"
       }
     }
   },
   "order": [
     "header",
     "duo",
-    "moodboard",
     "gallery",
-    "gallery_2"
+    "moodboard"
   ]
 }
