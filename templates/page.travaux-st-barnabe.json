@@ -123,11 +123,20 @@
         "padding_top": 64,
         "padding_bottom": 96
       }
+    },
+    "equipes_fBQjX9": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "Le moodboard",
+        "image": "shopify://shop_images/Design_sans_titre_3.webp"
+      }
     }
   },
   "order": [
     "project_header_3c89hg",
     "equipes_UjiNT6",
-    "gallery"
+    "gallery",
+    "equipes_fBQjX9"
   ]
 }
