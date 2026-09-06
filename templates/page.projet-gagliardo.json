@@ -137,12 +137,12 @@
         "image_2": "shopify://shop_images/IMG_9619.jpg"
       }
     },
-    "equipes_fm3gah": {
+    "equipes_AppjjB": {
       "type": "equipes",
       "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/IMG_9572.jpg"
+        "image": "shopify://shop_images/mc-unamestudio-g-13.jpg"
       }
     },
     "project_duo_cP6K8d": {
@@ -153,12 +153,12 @@
         "image_2": "shopify://shop_images/IMG_9568.jpg"
       }
     },
-    "equipes_AppjjB": {
+    "equipes_fm3gah": {
       "type": "equipes",
       "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/mc-unamestudio-g-13.jpg"
+        "image": "shopify://shop_images/IMG_9606.jpg"
       }
     }
   },
@@ -168,8 +168,8 @@
     "moodboard",
     "gallery",
     "project_duo_F4UwMd",
-    "equipes_fm3gah",
+    "equipes_AppjjB",
     "project_duo_cP6K8d",
-    "equipes_AppjjB"
+    "equipes_fm3gah"
   ]
 }
