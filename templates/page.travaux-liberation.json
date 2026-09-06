@@ -36,95 +36,6 @@
         "image_2": "shopify://shop_images/LIBERATION_RDV_5-3.webp"
       }
     },
-    "gallery_ymJReG": {
-      "type": "gallery",
-      "blocks": {
-        "image_GQRNFh": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "image_n9k3eN": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "image_NEXGYt": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "image_JNkaP8": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "image_kUCXbC": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "image_QdiNUg": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "image_9fM46w": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "image_wKainB": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_GQRNFh",
-        "image_n9k3eN",
-        "image_NEXGYt",
-        "image_JNkaP8",
-        "image_kUCXbC",
-        "image_QdiNUg",
-        "image_9fM46w",
-        "image_wKainB"
-      ],
-      "name": "Galerie",
-      "settings": {
-        "title": "Approche",
-        "description": "<p>L’aménagement a été repensé pour révéler les volumes généreux et la lumière naturelle de l’appartement, tout en fluidifiant les circulations entre les espaces. Teintes chaleureuses, matériaux nobles et lignes épurées composent une atmosphère à la fois élégante et accueillante.</p>",
-        "desc_size": 15,
-        "desc_width": 570,
-        "desc_align": "left",
-        "padding_top": 64,
-        "padding_bottom": 96
-      }
-    },
     "equipes_zDG68x": {
       "type": "equipes",
       "name": "Les équipes",
@@ -138,7 +49,6 @@
     "project_header_8rCJpi",
     "equipes_WY7Cg8",
     "project_duo_P43URa",
-    "gallery_ymJReG",
     "equipes_zDG68x"
   ]
 }
