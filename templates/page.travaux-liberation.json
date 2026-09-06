@@ -9,59 +9,136 @@
  */
 {
   "sections": {
-    "gallery": {
+    "project_header_8rCJpi": {
+      "type": "project-header",
+      "name": "En-tête projet",
+      "settings": {
+        "title": "Libération",
+        "description": "<p>Rénovation intégrale d’un appartement marseillais de 85 m². Un projet pensé pour magnifier son charme existant, entre inspirations vintage, confort contemporain et ouverture sur l’extérieur.</p>",
+        "desc_size": 20,
+        "desc_width": 510,
+        "desc_align": "left"
+      }
+    },
+    "equipes_WY7Cg8": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/LIBERATION_RDV_5.webp"
+      }
+    },
+    "project_duo_P43URa": {
+      "type": "project-duo",
+      "name": "Duo images",
+      "settings": {
+        "image_1": "shopify://shop_images/LIBERATION_RDV_5-4.webp",
+        "image_2": "shopify://shop_images/LIBERATION_RDV_5-3.webp"
+      }
+    },
+    "gallery_ymJReG": {
       "type": "gallery",
       "blocks": {
-        "img1": {
+        "image_GQRNFh": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img2": {
+        "image_n9k3eN": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img3": {
+        "image_NEXGYt": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img4": {
+        "image_JNkaP8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img5": {
+        "image_kUCXbC": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img6": {
+        "image_QdiNUg": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img7": {
+        "image_9fM46w": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img8": {
+        "image_wKainB": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
-        "img1",
-        "img2",
-        "img3",
-        "img4",
-        "img5",
-        "img6",
-        "img7",
-        "img8"
+        "image_GQRNFh",
+        "image_n9k3eN",
+        "image_NEXGYt",
+        "image_JNkaP8",
+        "image_kUCXbC",
+        "image_QdiNUg",
+        "image_9fM46w",
+        "image_wKainB"
       ],
+      "name": "Galerie",
       "settings": {
-        "title": "Liberation",
-        "description": "<p>Travaux Liberation – description à compléter.</p>"
+        "title": "Approche",
+        "description": "<p>L’aménagement a été repensé pour révéler les volumes généreux et la lumière naturelle de l’appartement, tout en fluidifiant les circulations entre les espaces. Teintes chaleureuses, matériaux nobles et lignes épurées composent une atmosphère à la fois élégante et accueillante.</p>",
+        "desc_size": 15,
+        "desc_width": 570,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
+      }
+    },
+    "equipes_zDG68x": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "Mooboard",
+        "image": "shopify://shop_images/LIBERATION_RDV1.webp"
       }
     }
   },
   "order": [
-    "gallery"
+    "project_header_8rCJpi",
+    "equipes_WY7Cg8",
+    "project_duo_P43URa",
+    "gallery_ymJReG",
+    "equipes_zDG68x"
   ]
 }
