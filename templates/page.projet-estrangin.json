@@ -206,6 +206,7 @@
         "img7",
         "img8"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "description": "",
