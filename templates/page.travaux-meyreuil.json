@@ -9,59 +9,135 @@
  */
 {
   "sections": {
-    "gallery": {
+    "project_header_6zYbzA": {
+      "type": "project-header",
+      "name": "En-tête projet",
+      "settings": {
+        "title": "Meyreuil",
+        "description": "<p>Rénovation intégrale d’une maison provençale de 220 m², nichée dans un écrin de verdure à Meyreuil. </p><p>Un projet pensé pour révéler son potentiel architectural, moderniser ses usages et renforcer son ouverture sur l’extérieur.</p>",
+        "desc_size": 20,
+        "desc_width": 510,
+        "desc_align": "left"
+      }
+    },
+    "equipes_KBYVaX": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION.webp"
+      }
+    },
+    "gallery_NqkTeV": {
       "type": "gallery",
       "blocks": {
-        "img1": {
+        "image_PcTbcx": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION_-2.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img2": {
+        "image_rDQTQn": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION_-3.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img3": {
+        "image_KPBjrC": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION_-4.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img4": {
+        "image_BqhKrJ": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION_-5.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img5": {
+        "image_tEzBhb": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img6": {
+        "image_i7wY8m": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION_-2_77c213e2-006e-41f6-b0de-baa38e77ecbc.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img7": {
+        "image_gki9Um": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/MEYREUIL_-_RDV_5_-_APD-2.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img8": {
+        "image_JdrPHd": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/MEYREUIL_-_RDV_5_-_APD.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
-        "img1",
-        "img2",
-        "img3",
-        "img4",
-        "img5",
-        "img6",
-        "img7",
-        "img8"
+        "image_PcTbcx",
+        "image_rDQTQn",
+        "image_KPBjrC",
+        "image_BqhKrJ",
+        "image_tEzBhb",
+        "image_i7wY8m",
+        "image_gki9Um",
+        "image_JdrPHd"
       ],
+      "name": "Galerie",
       "settings": {
-        "title": "Meyreuil",
-        "description": "<p>Travaux Meyreuil – description à compléter.</p>"
+        "title": "Approche",
+        "description": "<p>Le projet puise dans l’architecture méditerranéenne et les années 70 pour créer un intérieur chaleureux, brut et intemporel. Pierre naturelle, cannage, lin et teintes terreuses composent une palette organique. Une rénovation qui conserve l’âme conviviale de la maison tout en affirmant son caractère.</p>",
+        "desc_size": 15,
+        "desc_width": 570,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
+      }
+    },
+    "equipes_MekEh7": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "Moodboard",
+        "image": "shopify://shop_images/Design_sans_titre_2.webp"
       }
     }
   },
   "order": [
-    "gallery"
+    "project_header_6zYbzA",
+    "equipes_KBYVaX",
+    "gallery_NqkTeV",
+    "equipes_MekEh7"
   ]
 }
