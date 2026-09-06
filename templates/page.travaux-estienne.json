@@ -16,7 +16,7 @@
         "title": "Estienne",
         "description": "<p>Rénovation intégrale d’un appartement marseillais de 92 m². Un projet pensé pour révéler le charme de l’ancien tout en lui apportant une identité contemporaine, graphique et affirmée.</p>",
         "desc_size": 20,
-        "desc_width": 480,
+        "desc_width": 510,
         "desc_align": "left"
       }
     },
@@ -80,6 +80,7 @@
         "image_VXiccB": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ESTIENNE_RDV5-11.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -88,6 +89,7 @@
         "image_Wc3cPR": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ESTIENNE_RDV5-9.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -96,6 +98,7 @@
         "image_3hVpEF": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ESTIENNE_RDV5-12.webp",
             "alt": "",
             "link": "",
             "project_name": ""
