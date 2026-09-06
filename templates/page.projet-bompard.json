@@ -26,11 +26,12 @@
         "image_2": "shopify://shop_images/P1146340.jpg"
       }
     },
-    "moodboard": {
+    "equipes_hXNJkf": {
       "type": "equipes",
+      "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/P1146492-Edit_copie.jpg"
+        "image": "shopify://shop_images/Design_sans_titre_5.webp"
       }
     },
     "gallery": {
@@ -129,6 +130,13 @@
         "padding_bottom": 96
       }
     },
+    "moodboard": {
+      "type": "equipes",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/P1146492-Edit_copie.jpg"
+      }
+    },
     "gallery_2": {
       "type": "gallery",
       "blocks": {
@@ -222,8 +230,9 @@
   "order": [
     "header",
     "duo",
-    "moodboard",
+    "equipes_hXNJkf",
     "gallery",
+    "moodboard",
     "gallery_2"
   ]
 }
