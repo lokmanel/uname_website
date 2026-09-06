@@ -22,7 +22,7 @@
     "duo": {
       "type": "project-duo",
       "settings": {
-        "image_1": "shopify://shop_images/UNAME_Rostand_Sejour6_f164de87-433c-49a9-93fd-5ce2fcde745e.jpg",
+        "image_1": "shopify://shop_images/UNAME_Rostand_Sejour9_0981821e-9528-4061-b98b-8e6d2c8949ad.jpg",
         "image_2": "shopify://shop_images/UNAME_Rostand_Sejour13_8f00293d-25c2-475f-9a46-4cec9ca75247.jpg"
       }
     },
@@ -38,6 +38,7 @@
         "img1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour9_fda2cc1a-a462-48f7-b763-e71c21383701.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -46,6 +47,7 @@
         "img2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/plafond.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -54,6 +56,7 @@
         "img3": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour7_e95855e3-71e3-4d52-9a4c-6920a39492d9.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -62,6 +65,7 @@
         "img4": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour3_736908fe-bcda-4715-a427-ed8f68702221.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -70,6 +74,7 @@
         "img5": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/sdbbb.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -78,6 +83,7 @@
         "img6": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour10_372787f8-55e5-4e68-854b-fd048a6769ce.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -86,6 +92,7 @@
         "img7": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/UNAME_Rostand_Chambre_Sdb4_db80a74e-f886-42ef-8f2f-4fe050dd5017.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -94,6 +101,7 @@
         "img8": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/UNAME_Rostand_Chambre_Sdb6_ddcf3170-6db4-44da-a743-1a51a3cff86a.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
