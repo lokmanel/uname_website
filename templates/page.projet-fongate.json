@@ -93,7 +93,7 @@
         "img7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/fong_gvt_268_3515fb6e-9e30-46f9-a368-4c68252ae387.jpg",
+            "image": "shopify://shop_images/fong_gvt_79_a4278fc8-f5f6-4432-ad6c-3bb41e070451.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -102,7 +102,7 @@
         "img8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/fong_gvt_276_addb7f07-1a1b-40e6-8c5d-cd955c1e7be4.jpg",
+            "image": "shopify://shop_images/fong_gvt_155_38836372-89aa-4ed5-aab4-2cf3dda14b91.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -217,6 +217,22 @@
         "padding_top": 64,
         "padding_bottom": 96
       }
+    },
+    "project_duo_7BMNHh": {
+      "type": "project-duo",
+      "name": "Duo images",
+      "settings": {
+        "image_1": "shopify://shop_images/fong_gvt_281_056c792f-b39f-43fd-9870-d6e974d4ee8e.jpg",
+        "image_2": "shopify://shop_images/fong_gvt_295_f8ca230e-14ac-459e-b9ab-bd13fd87d1a2.jpg"
+      }
+    },
+    "equipes_h68w4x": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/fong_gvt_236_debd838f-2170-4e92-b043-3139189ed97f.jpg"
+      }
     }
   },
   "order": [
@@ -224,6 +240,8 @@
     "duo",
     "moodboard",
     "gallery",
-    "gallery_2"
+    "gallery_2",
+    "project_duo_7BMNHh",
+    "equipes_h68w4x"
   ]
 }
