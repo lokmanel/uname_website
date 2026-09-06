@@ -12,10 +12,10 @@
     "header": {
       "type": "project-header",
       "settings": {
-        "title": "Valier",
-        "description": "<p>Projet Valier – description à compléter.</p>",
+        "title": "Vallier",
+        "description": "<p>Rénovation d’un appartement des années 50 à Marseille. </p><p>Un projet pensé pour préserver son identité d’origine tout en affirmant une esthétique mid-century modern, riche en matières, en couleurs et en caractère.</p>",
         "desc_size": 20,
-        "desc_width": 480,
+        "desc_width": 510,
         "desc_align": "left"
       }
     },
