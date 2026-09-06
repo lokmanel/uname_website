@@ -22,11 +22,10 @@
     },
     "equipes_FgDeTq": {
       "type": "equipes",
-      "custom_css": [],
       "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/ESTIENNE_RDV5-2.webp"
+        "image": "shopify://shop_images/ESTIENNE_RDV5-4.webp"
       }
     },
     "gallery_m7rCaK": {
@@ -125,11 +124,20 @@
         "padding_top": 64,
         "padding_bottom": 96
       }
+    },
+    "equipes_AexjM3": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "Les plans",
+        "image": "shopify://shop_images/ESTIENNE_RDV5-2.webp"
+      }
     }
   },
   "order": [
     "project_header_MaVCPG",
     "equipes_FgDeTq",
-    "gallery_m7rCaK"
+    "gallery_m7rCaK",
+    "equipes_AexjM3"
   ]
 }
