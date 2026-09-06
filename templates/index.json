@@ -12,15 +12,18 @@
     "hero-split": {
       "type": "hero-split",
       "settings": {
+        "text_size": 16,
         "panel1_image": "shopify://shop_images/9R1A3268_141f27f8-90a1-44aa-8ef4-606a1703908b.jpg",
         "panel1_script": "le",
         "panel1_title": "STUDIO",
+        "panel1_text": "",
         "panel1_link": "",
         "panel1_cta": "",
         "panel2_image": "shopify://shop_images/9R1A3396.jpg",
-        "panel2_script": "le",
-        "panel2_title": "CAFÉ",
-        "panel2_link": "",
+        "panel2_script": "les",
+        "panel2_title": "TRAVAUX",
+        "panel2_text": "",
+        "panel2_link": "shopify://pages/studio",
         "panel2_cta": ""
       }
     },
@@ -29,7 +32,10 @@
       "settings": {
         "script_text": "notre",
         "title": "APPROCHE",
-        "content": "<p>Uname imagine des lieux singuliers, pensés pour révéler une histoire, une façon de vivre, une identité. Notre approche mêle exigence esthétique, sens du détail et accompagnement sur mesure, de la première intention jusqu’à la réalisation.<br/>À travers chaque projet, nous cherchons l’équilibre juste entre beauté, usage et émotion : créer des espaces sensibles, durables, profondément incarnés.</p>"
+        "content": "<p>Uname imagine des lieux singuliers, pensés pour révéler une histoire, une façon de vivre, une identité. Notre approche mêle exigence esthétique, sens du détail et accompagnement sur mesure, de la première intention jusqu’à la réalisation.<br/>À travers chaque projet, nous cherchons l’équilibre juste entre beauté, usage et émotion : créer des espaces sensibles, durables, profondément incarnés.</p>",
+        "text_size": 20,
+        "content_width": 600,
+        "text_align": "center"
       }
     },
     "gallery": {
@@ -115,7 +121,12 @@
       ],
       "settings": {
         "title": "Galerie",
-        "description": "<p>Chaque projet porte l’âme d’Uname : une attention aux matières, à la lumière, aux usages et aux émotions. Mais chacun raconte sa propre histoire, avec sa singularité, son rythme et son identité.</p>"
+        "description": "<p>Chaque projet porte l’âme d’Uname : une attention aux matières, à la lumière, aux usages et aux émotions. Mais chacun raconte sa propre histoire, avec sa singularité, son rythme et son identité.</p>",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     },
     "services": {
@@ -167,6 +178,9 @@
       "settings": {
         "title": "Services",
         "description": "<p>Uname accompagne chaque projet dans sa globalité : de la conception des espaces, des matières et des intentions, jusqu’au suivi des travaux et à la concrétisation du lieu.</p>",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
         "image": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_05.09.02.png"
       }
     }
