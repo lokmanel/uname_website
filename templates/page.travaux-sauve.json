@@ -25,7 +25,7 @@
       "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6bis.webp"
+        "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6-3.webp"
       }
     },
     "gallery": {
@@ -34,6 +34,7 @@
         "img1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -42,7 +43,7 @@
         "img2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6bis.webp",
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6-4.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -51,6 +52,7 @@
         "img3": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6bis-2.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -59,6 +61,7 @@
         "img4": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6bis-3.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -67,6 +70,7 @@
         "img5": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6-3.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -75,6 +79,7 @@
         "img6": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6bis-4.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -83,6 +88,7 @@
         "img7": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6bis-6.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -91,6 +97,7 @@
         "img8": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6-2.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -116,11 +123,20 @@
         "padding_top": 64,
         "padding_bottom": 96
       }
+    },
+    "equipes_Wapthx": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "Moodboard",
+        "image": "shopify://shop_images/Design_sans_titre_4_b90d54f8-6806-4aa2-ac24-cbe48e91b0b4.webp"
+      }
     }
   },
   "order": [
     "project_header_BTaLUV",
     "equipes_XrjAEp",
-    "gallery"
+    "gallery",
+    "equipes_Wapthx"
   ]
 }
