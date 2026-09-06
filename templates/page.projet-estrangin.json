@@ -225,6 +225,14 @@
         "image_1": "shopify://shop_images/UNAME_Rostand_Chambre_Sdb2_eb9afd98-14bf-4ad2-a244-b1391cf5c17a.jpg",
         "image_2": "shopify://shop_images/UNAME_Rostand_Chambre_Sdb5_25224ed0-1b66-4030-9c23-b1f0fcd2e9ed.jpg"
       }
+    },
+    "equipes_DbNAcz": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/UNAME_Rostand_Sejour12_c32cb81d-fa0c-4e15-b949-5b26827a7cd3.jpg"
+      }
     }
   },
   "order": [
@@ -233,6 +241,7 @@
     "moodboard",
     "gallery",
     "gallery_2",
-    "project_duo_JK8nxm"
+    "project_duo_JK8nxm",
+    "equipes_DbNAcz"
   ]
 }
