@@ -17,14 +17,14 @@
         "panel1_script": "le",
         "panel1_title": "STUDIO",
         "panel1_text": "",
-        "panel1_link": "",
-        "panel1_cta": "",
+        "panel1_link": "shopify://pages/studio",
+        "panel1_cta": "découvrir",
         "panel2_image": "shopify://shop_images/9R1A3396.jpg",
         "panel2_script": "les",
         "panel2_title": "TRAVAUX",
         "panel2_text": "",
-        "panel2_link": "shopify://pages/studio",
-        "panel2_cta": ""
+        "panel2_link": "shopify://collections",
+        "panel2_cta": "découvrir"
       }
     },
     "approche": {
@@ -44,28 +44,28 @@
         "img1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_AUGUSTE_2.jpg",
+            "image": "shopify://shop_images/Uname_Dejean_Exte9.webp",
             "alt": "",
             "link": "",
-            "project_name": "poteaux"
+            "project_name": "Dejean"
           }
         },
         "img2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_Dejean_Exte9.jpg",
+            "image": "shopify://shop_images/ESTIENNE_RDV5-4.webp",
             "alt": "",
             "link": "",
-            "project_name": "pasbo"
+            "project_name": "Estienne"
           }
         },
         "img3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/fong_gvt_295.jpg",
+            "image": "shopify://shop_images/Uname_Senac_Cuisine1.jpg",
             "alt": "",
             "link": "",
-            "project_name": "carreaux"
+            "project_name": "Senac"
           }
         },
         "img4": {
@@ -121,9 +121,9 @@
       ],
       "settings": {
         "title": "Galerie",
-        "description": "<p>Chaque projet porte l’âme d’Uname : une attention aux matières, à la lumière, aux usages et aux émotions. Mais chacun raconte sa propre histoire, avec sa singularité, son rythme et son identité.</p>",
+        "description": "<p>Chaque projet porte l’âme d’Uname : une attention aux matières, à la lumière, aux usages et aux émotions. </p><p>Mais chacun raconte sa propre histoire, avec sa singularité, son rythme et son identité.</p>",
         "desc_size": 20,
-        "desc_width": 480,
+        "desc_width": 510,
         "desc_align": "left",
         "padding_top": 64,
         "padding_bottom": 96
