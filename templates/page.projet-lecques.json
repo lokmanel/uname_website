@@ -13,7 +13,10 @@
       "type": "project-header",
       "settings": {
         "title": "Lecques",
-        "description": "<p>Projet Lecques – description à compléter.</p>"
+        "description": "<p>Rénovation complète d’une maison de 140 m² avec extérieur, située aux Lecques. Le projet a été entièrement repensé pour faire entrer davantage de lumière et renforcer le lien avec le jardin. </p>",
+        "desc_size": 20,
+        "desc_width": 540,
+        "desc_align": "left"
       }
     },
     "duo": {
@@ -31,35 +34,67 @@
       "blocks": {
         "img1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img5": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img6": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img7": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -74,7 +109,12 @@
       ],
       "settings": {
         "title": "",
-        "description": ""
+        "description": "",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     },
     "gallery_2": {
@@ -82,35 +122,67 @@
       "blocks": {
         "img1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img5": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img6": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img7": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -125,7 +197,12 @@
       ],
       "settings": {
         "title": "",
-        "description": ""
+        "description": "",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     }
   },
