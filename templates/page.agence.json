@@ -61,20 +61,20 @@
         "title": "Conception",
         "reverse": true,
         "images_ratio": "3 / 2",
-        "image_1": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.18.png",
-        "project_name_1": "nino",
+        "image_1": "shopify://shop_images/Uname_Dejean_Exte9.webp",
+        "project_name_1": "",
         "link_1": "",
-        "image_2": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.08.png",
-        "project_name_2": "paco",
+        "image_2": "shopify://shop_images/Uname_Dejean_Cuisine3.webp",
+        "project_name_2": "",
         "link_2": "",
         "project_name_3": "",
         "link_3": "",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+        "description": "<p>Nous imaginons avec vous un projet entièrement sur mesure, adapté au lieu, à vos usages et à votre manière de vivre. </p><p>Premières intentions, moodboards, plans, choix des matériaux, visualisations 3D et shopping list : chaque étape vous permet d’affiner le projet et de vous projeter concrètement dans votre futur intérieur ou extérieur.</p>",
         "desc_size": 16,
         "text_align": "left",
         "text_position": "middle",
         "btn_text": "En savoir plus",
-        "btn_url": ""
+        "btn_url": "shopify://pages/contact"
       }
     },
     "travaux": {
@@ -83,26 +83,27 @@
         "title": "Travaux",
         "reverse": false,
         "images_ratio": "3 / 2",
-        "image_1": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.08.png",
         "project_name_1": "",
         "link_1": "",
-        "image_2": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.18.png",
+        "image_2": "shopify://shop_images/ESTIENNE_RDV5-4.webp",
         "project_name_2": "",
         "link_2": "",
+        "image_3": "shopify://shop_images/ESTIENNE_RDV5-6.webp",
         "project_name_3": "",
         "link_3": "",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+        "description": "<p>Avec ou sans accompagnement en conception, nous prenons en charge la réalisation de votre projet, qu’il concerne un appartement, une maison, un espace intérieur ou extérieur. </p><p>Du gros œuvre aux finitions, nous coordonnons des experts spécialisés dans chaque corps de métier afin de garantir une exécution soignée, un suivi attentif et le meilleur niveau de finition possible.</p>",
         "desc_size": 16,
         "text_align": "left",
         "text_position": "middle",
         "btn_text": "En savoir plus",
-        "btn_url": ""
+        "btn_url": "shopify://pages/contact"
       }
     },
     "equipes": {
       "type": "equipes",
       "settings": {
-        "title": "Les équipes"
+        "title": "Les équipes",
+        "image": "shopify://shop_images/9R1A3378.webp"
       }
     }
   },
