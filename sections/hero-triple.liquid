@@ -23,6 +23,7 @@
         <img
           class="hero-triple__bg"
           src="{{ section.settings[img_key] | image_url: width: 900 }}"
+          style="object-position: {{ section.settings[img_key].presentation.focal_point | default: 'center' }};"
           alt="{{ section.settings[title_key] }}"
           loading="{{ forloop.first | replace: 'true', 'eager' | replace: 'false', 'lazy' }}"
           fetchpriority="{{ forloop.first | replace: 'true', 'high' | replace: 'false', 'auto' }}">

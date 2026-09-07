@@ -14,6 +14,7 @@
       <img
         class="hero-split__bg"
         src="{{ section.settings.panel1_image | image_url: width: 1400 }}"
+        style="object-position: {{ section.settings.panel1_image.presentation.focal_point | default: 'center' }};"
         alt="{{ section.settings.panel1_title }}"
         loading="eager"
         fetchpriority="high"
@@ -56,6 +57,7 @@
       <img
         class="hero-split__bg"
         src="{{ section.settings.panel2_image | image_url: width: 1400 }}"
+        style="object-position: {{ section.settings.panel2_image.presentation.focal_point | default: 'center' }};"
         alt="{{ section.settings.panel2_title }}"
         loading="eager"
         width="960" height="1080">

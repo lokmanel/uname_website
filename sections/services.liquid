@@ -14,6 +14,7 @@
     {%- if section.settings.image != blank -%}
       <img
         src="{{ section.settings.image | image_url: width: 2000 }}"
+        style="object-position: {{ section.settings.image.presentation.focal_point | default: 'center' }};"
         alt="{{ section.settings.title }}"
         loading="lazy"
         width="{{ section.settings.image.width }}"

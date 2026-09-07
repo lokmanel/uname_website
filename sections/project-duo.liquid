@@ -4,6 +4,7 @@
       {%- if section.settings.image_1 != blank -%}
         <img
           src="{{ section.settings.image_1 | image_url: width: 1200 }}"
+          style="object-position: {{ section.settings.image_1.presentation.focal_point | default: 'center' }};"
           alt="{{ section.settings.image_1.alt | default: '' }}"
           loading="lazy">
       {%- else -%}
@@ -14,6 +15,7 @@
       {%- if section.settings.image_2 != blank -%}
         <img
           src="{{ section.settings.image_2 | image_url: width: 1200 }}"
+          style="object-position: {{ section.settings.image_2.presentation.focal_point | default: 'center' }};"
           alt="{{ section.settings.image_2.alt | default: '' }}"
           loading="lazy">
       {%- else -%}

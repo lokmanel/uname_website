@@ -8,6 +8,7 @@
     {%- if section.settings.image != blank -%}
       <img
         src="{{ section.settings.image | image_url: width: 1600 }}"
+        style="object-position: {{ section.settings.image.presentation.focal_point | default: 'center' }};"
         alt="{{ section.settings.image.alt | default: section.settings.title }}"
         loading="lazy">
     {%- else -%}

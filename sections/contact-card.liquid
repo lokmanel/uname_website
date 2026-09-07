@@ -3,6 +3,7 @@
     <img
       class="section-contact__bg"
       src="{{ section.settings.background | image_url: width: 2400 }}"
+      style="object-position: {{ section.settings.background.presentation.focal_point | default: 'center' }};"
       alt=""
       loading="eager">
   {%- else -%}

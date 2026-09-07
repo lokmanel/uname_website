@@ -22,6 +22,7 @@
             {%- if block.settings.image != blank -%}
               <img
                 src="{{ block.settings.image | image_url: width: 1200 }}"
+                style="object-position: {{ block.settings.image.presentation.focal_point | default: 'center' }};"
                 alt="{{ block.settings.alt | default: block.settings.image.alt | default: '' }}"
                 loading="lazy"
                 width="{{ block.settings.image.width }}"

@@ -31,6 +31,7 @@
 
             <img
               src="{{ section.settings[img_key] | image_url: width: 900 }}"
+              style="object-position: {{ section.settings[img_key].presentation.focal_point | default: 'center' }};"
               alt="{{ section.settings[img_key].alt | default: '' }}"
               loading="lazy">
 
