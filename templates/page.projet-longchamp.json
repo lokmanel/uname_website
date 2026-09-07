@@ -22,13 +22,31 @@
     "duo": {
       "type": "project-duo",
       "settings": {
-        "image_1": "shopify://shop_images/9R1A0376.jpg"
+        "image_1": "shopify://shop_images/9R1A0383.jpg",
+        "image_2": "shopify://shop_images/9R1A0275.jpg"
       }
     },
     "moodboard": {
       "type": "equipes",
       "settings": {
-        "title": ""
+        "title": "",
+        "image": "shopify://shop_images/P1146837.jpg"
+      }
+    },
+    "project_duo_R7QHxD": {
+      "type": "project-duo",
+      "name": "Duo images",
+      "settings": {
+        "image_1": "shopify://shop_images/9R1A0203.jpg",
+        "image_2": "shopify://shop_images/9R1A0220.jpg"
+      }
+    },
+    "equipes_a7Gntx": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/9R1A0537.jpg"
       }
     },
     "gallery": {
@@ -37,6 +55,7 @@
         "img1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/9R1A0344.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -45,6 +64,7 @@
         "img2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/9R1A0118.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -53,6 +73,7 @@
         "img3": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/9R1A0285.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -61,6 +82,7 @@
         "img4": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/9R1A0370.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -69,6 +91,7 @@
         "img5": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/9R1A0168.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -77,6 +100,7 @@
         "img6": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/9R1A0390.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -85,6 +109,7 @@
         "img7": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/9R1A0521.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -93,6 +118,7 @@
         "img8": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/9R1A0294.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -212,6 +238,8 @@
     "header",
     "duo",
     "moodboard",
+    "project_duo_R7QHxD",
+    "equipes_a7Gntx",
     "gallery",
     "gallery_2"
   ]
