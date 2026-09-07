@@ -13,9 +13,9 @@
       "type": "project-header",
       "settings": {
         "title": "Longchamp",
-        "description": "<p>Projet Longchamp – description à compléter.</p>",
+        "description": "<p>Rénovation complète d’une maison mitoyenne de 200 m² avec extérieur, au cœur du quartier Longchamp à Marseille. Le projet a été pensé autour de la verrière existante, véritable trait d’union entre les espaces de vie et le jardin.</p>",
         "desc_size": 20,
-        "desc_width": 480,
+        "desc_width": 520,
         "desc_align": "left"
       }
     },
