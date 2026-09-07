@@ -13,17 +13,40 @@
       "type": "project-header",
       "settings": {
         "title": "Longchamp",
-        "description": "<p>Projet Longchamp – description à compléter.</p>"
+        "description": "<p>Rénovation complète d’une maison mitoyenne de 200 m² avec extérieur, au cœur du quartier Longchamp à Marseille. Le projet a été pensé autour de la verrière existante, véritable trait d’union entre les espaces de vie et le jardin.</p>",
+        "desc_size": 20,
+        "desc_width": 520,
+        "desc_align": "left"
       }
     },
     "duo": {
       "type": "project-duo",
-      "settings": {}
+      "settings": {
+        "image_1": "shopify://shop_images/9R1A0383.jpg",
+        "image_2": "shopify://shop_images/9R1A0275.jpg"
+      }
     },
     "moodboard": {
       "type": "equipes",
       "settings": {
-        "title": ""
+        "title": "",
+        "image": "shopify://shop_images/P1146837.jpg"
+      }
+    },
+    "project_duo_R7QHxD": {
+      "type": "project-duo",
+      "name": "Duo images",
+      "settings": {
+        "image_1": "shopify://shop_images/9R1A0203.jpg",
+        "image_2": "shopify://shop_images/9R1A0220.jpg"
+      }
+    },
+    "equipes_a7Gntx": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/9R1A0537.jpg"
       }
     },
     "gallery": {
@@ -31,35 +54,75 @@
       "blocks": {
         "img1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/9R1A0344.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/9R1A0118.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/9R1A0285.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/9R1A0370.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img5": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/9R1A0168.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img6": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/9R1A0390.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img7": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/9R1A0521.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/9R1A0294.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -74,7 +137,12 @@
       ],
       "settings": {
         "title": "",
-        "description": ""
+        "description": "",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     },
     "gallery_2": {
@@ -82,35 +150,67 @@
       "blocks": {
         "img1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img5": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img6": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img7": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -125,7 +225,12 @@
       ],
       "settings": {
         "title": "",
-        "description": ""
+        "description": "",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     }
   },
@@ -133,6 +238,8 @@
     "header",
     "duo",
     "moodboard",
+    "project_duo_R7QHxD",
+    "equipes_a7Gntx",
     "gallery",
     "gallery_2"
   ]

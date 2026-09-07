@@ -9,59 +9,135 @@
  */
 {
   "sections": {
-    "gallery": {
+    "project_header_MaVCPG": {
+      "type": "project-header",
+      "name": "En-tête projet",
+      "settings": {
+        "title": "Estienne",
+        "description": "<p>Rénovation intégrale d’un appartement marseillais de 92 m². Un projet pensé pour révéler le charme de l’ancien tout en lui apportant une identité contemporaine, graphique et affirmée.</p>",
+        "desc_size": 20,
+        "desc_width": 510,
+        "desc_align": "left"
+      }
+    },
+    "equipes_FgDeTq": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/ESTIENNE_RDV5-4.webp"
+      }
+    },
+    "gallery_m7rCaK": {
       "type": "gallery",
       "blocks": {
-        "img1": {
+        "image_wHpipe": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/ESTIENNE_RDV5-4.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img2": {
+        "image_CchWkW": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/ESTIENNE_RDV5-7.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img3": {
+        "image_LbpTCV": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/ESTIENNE_RDV5-6.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img4": {
+        "image_wJGYN3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/ESTIENNE_RDV5-5.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img5": {
+        "image_7FpBPg": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/ESTIENNE_RDV5-10.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img6": {
+        "image_VXiccB": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/ESTIENNE_RDV5-11.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img7": {
+        "image_Wc3cPR": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/ESTIENNE_RDV5-9.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
-        "img8": {
+        "image_3hVpEF": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/ESTIENNE_RDV5-12.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
-        "img1",
-        "img2",
-        "img3",
-        "img4",
-        "img5",
-        "img6",
-        "img7",
-        "img8"
+        "image_wHpipe",
+        "image_CchWkW",
+        "image_LbpTCV",
+        "image_wJGYN3",
+        "image_7FpBPg",
+        "image_VXiccB",
+        "image_Wc3cPR",
+        "image_3hVpEF"
       ],
+      "name": "Galerie",
       "settings": {
-        "title": "Estienne",
-        "description": "<p>Travaux Estienne – description à compléter.</p>"
+        "title": "Approche",
+        "description": "<p>L’aménagement a été entièrement repensé pour fluidifier les circulations, valoriser les volumes et renforcer le lien avec la cour extérieure. Inspiré des univers mid-century et des années 70, le projet mêle teintes profondes, lignes graphiques et pièces fortes à des détails plus minimalistes et techniques. Un équilibre entre audace et sobriété, au service d’un lieu chaleureux, singulier et adapté au mode de vie de sa propriétaire.</p>",
+        "desc_size": 15,
+        "desc_width": 570,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
+      }
+    },
+    "equipes_AexjM3": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "Les plans",
+        "image": "shopify://shop_images/ESTIENNE_RDV5-2.webp"
       }
     }
   },
   "order": [
-    "gallery"
+    "project_header_MaVCPG",
+    "equipes_FgDeTq",
+    "gallery_m7rCaK",
+    "equipes_AexjM3"
   ]
 }

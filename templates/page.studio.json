@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "studio-image": {
@@ -8,8 +17,8 @@
           "settings": {
             "label": "Projets",
             "link": "",
-            "pos_x": 30,
-            "pos_y": 50
+            "pos_x": 49,
+            "pos_y": 67
           }
         },
         "hs2": {
@@ -17,13 +26,18 @@
           "settings": {
             "label": "Travaux",
             "link": "",
-            "pos_x": 70,
-            "pos_y": 50
+            "pos_x": 8,
+            "pos_y": 64
           }
         }
       },
-      "block_order": ["hs1", "hs2"],
-      "settings": {}
+      "block_order": [
+        "hs1",
+        "hs2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/18feee2b-0ddc-4fd7-99f2-e8c9f9031a6e.webp"
+      }
     }
   },
   "order": [

@@ -9,40 +9,99 @@
  */
 {
   "sections": {
+    "project_header_BTaLUV": {
+      "type": "project-header",
+      "name": "En-tête projet",
+      "settings": {
+        "title": "Amorosa",
+        "description": "<p>Rénovation partielle d’un appartement marseillais avec son extérieur, pensé à partir du charme et des éléments de l’existant. Un projet qui révèle les volumes et la lumière du lieu à travers une écriture plus forte et affirmée.</p>",
+        "desc_size": 20,
+        "desc_width": 510,
+        "desc_align": "left"
+      }
+    },
+    "equipes_XrjAEp": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6-3.webp"
+      }
+    },
     "gallery": {
       "type": "gallery",
       "blocks": {
         "img1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6-4.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6bis-2.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6bis-3.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img5": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6-3.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img6": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6bis-4.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img7": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6bis-6.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6-2.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -56,12 +115,28 @@
         "img8"
       ],
       "settings": {
-        "title": "Sauve",
-        "description": "<p>Travaux Sauve – description à compléter.</p>"
+        "title": "Approche",
+        "description": "<p>L’aménagement a été subtilement repensé pour fluidifier les espaces et les adapter au mode de vie de la cliente. Jeux de contrastes, lignes épurées et partis pris expressifs rythment l’intérieur avec équilibre. L’ensemble compose un lieu singulier et sensible, où le caractère dialogue avec la simplicité.</p>",
+        "desc_size": 15,
+        "desc_width": 570,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
+      }
+    },
+    "equipes_Wapthx": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "Moodboard",
+        "image": "shopify://shop_images/Design_sans_titre_4_b90d54f8-6806-4aa2-ac24-cbe48e91b0b4.webp"
       }
     }
   },
   "order": [
-    "gallery"
+    "project_header_BTaLUV",
+    "equipes_XrjAEp",
+    "gallery",
+    "equipes_Wapthx"
   ]
 }

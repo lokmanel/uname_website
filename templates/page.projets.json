@@ -15,9 +15,10 @@
         "img1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_Dejean_Exte9.webp",
             "alt": "",
             "link": "",
-            "project_name": ""
+            "project_name": "Dejean"
           }
         },
         "img2": {
@@ -89,7 +90,12 @@
       ],
       "settings": {
         "title": "Projets",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+        "description": "<p>Découvrez les projets qui ont déjà pris vie. </p><p>Des lieux singuliers, imaginés sur mesure pour celles et ceux qui les habitent, mais toujours traversés par l’identité Uname : des partis pris forts, des matières choisies avec soin et une attention portée à chaque détail.</p>",
+        "desc_size": 20,
+        "desc_width": 650,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     }
   },

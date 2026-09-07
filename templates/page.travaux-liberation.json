@@ -9,59 +9,46 @@
  */
 {
   "sections": {
-    "gallery": {
-      "type": "gallery",
-      "blocks": {
-        "img1": {
-          "type": "image",
-          "settings": {}
-        },
-        "img2": {
-          "type": "image",
-          "settings": {}
-        },
-        "img3": {
-          "type": "image",
-          "settings": {}
-        },
-        "img4": {
-          "type": "image",
-          "settings": {}
-        },
-        "img5": {
-          "type": "image",
-          "settings": {}
-        },
-        "img6": {
-          "type": "image",
-          "settings": {}
-        },
-        "img7": {
-          "type": "image",
-          "settings": {}
-        },
-        "img8": {
-          "type": "image",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "img1",
-        "img2",
-        "img3",
-        "img4",
-        "img5",
-        "img6",
-        "img7",
-        "img8"
-      ],
+    "project_header_8rCJpi": {
+      "type": "project-header",
+      "name": "En-tête projet",
       "settings": {
-        "title": "Liberation",
-        "description": "<p>Travaux Liberation – description à compléter.</p>"
+        "title": "Libération",
+        "description": "<p>Rénovation intégrale d’un appartement marseillais de 85 m². Un projet pensé pour magnifier son charme existant, entre inspirations vintage, confort contemporain et ouverture sur l’extérieur.</p>",
+        "desc_size": 20,
+        "desc_width": 510,
+        "desc_align": "left"
+      }
+    },
+    "equipes_WY7Cg8": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/LIBERATION_RDV_5.webp"
+      }
+    },
+    "project_duo_P43URa": {
+      "type": "project-duo",
+      "name": "Duo images",
+      "settings": {
+        "image_1": "shopify://shop_images/LIBERATION_RDV_5-4.webp",
+        "image_2": "shopify://shop_images/LIBERATION_RDV_5-3.webp"
+      }
+    },
+    "equipes_zDG68x": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "Mooboard",
+        "image": "shopify://shop_images/LIBERATION_RDV1.webp"
       }
     }
   },
   "order": [
-    "gallery"
+    "project_header_8rCJpi",
+    "equipes_WY7Cg8",
+    "project_duo_P43URa",
+    "equipes_zDG68x"
   ]
 }

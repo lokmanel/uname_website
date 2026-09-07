@@ -13,17 +13,24 @@
       "type": "project-header",
       "settings": {
         "title": "Fongate",
-        "description": "<p>Projet Fongate – description à compléter.</p>"
+        "description": "<p>Rénovation complète d’un appartement situé en plein cœur de Marseille. </p><p>Un projet guidé par la lumière et une écriture épurée, où les lignes contemporaines dialoguent avec la douceur des courbes.</p>",
+        "desc_size": 20,
+        "desc_width": 670,
+        "desc_align": "left"
       }
     },
     "duo": {
       "type": "project-duo",
-      "settings": {}
+      "settings": {
+        "image_1": "shopify://shop_images/fong_gvt_42_bd2fa1aa-28c1-451b-9e56-fee97affc0eb.jpg",
+        "image_2": "shopify://shop_images/fong_gvt_91_c05dcb18-fa65-4dc1-9485-edf49f4b9858.jpg"
+      }
     },
     "moodboard": {
       "type": "equipes",
       "settings": {
-        "title": ""
+        "title": "",
+        "image": "shopify://shop_images/fong_gvt_173_b635a8b5-4dfe-4efb-9b0b-072232884065.jpg"
       }
     },
     "gallery": {
@@ -31,35 +38,75 @@
       "blocks": {
         "img1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/fong_gvt_12.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/canap.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/fong_gvt_143_64960e8c-8c7f-46e2-81d5-7003c7520682.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/fong_gvt_69_a6fe53e0-b9a5-47b1-8392-0948d6803bd3.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img5": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/fong_gvt_173_b635a8b5-4dfe-4efb-9b0b-072232884065.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img6": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/fong_gvt_114_5ddaf329-ff1d-4455-ab1e-bc75d2015cdf.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img7": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/fong_gvt_79_a4278fc8-f5f6-4432-ad6c-3bb41e070451.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/fong_gvt_155_38836372-89aa-4ed5-aab4-2cf3dda14b91.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -74,7 +121,12 @@
       ],
       "settings": {
         "title": "",
-        "description": ""
+        "description": "",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     },
     "gallery_2": {
@@ -82,35 +134,67 @@
       "blocks": {
         "img1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img5": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img6": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img7": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -123,9 +207,31 @@
         "img7",
         "img8"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
-        "description": ""
+        "description": "",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
+      }
+    },
+    "project_duo_7BMNHh": {
+      "type": "project-duo",
+      "name": "Duo images",
+      "settings": {
+        "image_1": "shopify://shop_images/fong_gvt_281_056c792f-b39f-43fd-9870-d6e974d4ee8e.jpg",
+        "image_2": "shopify://shop_images/fong_gvt_295_f8ca230e-14ac-459e-b9ab-bd13fd87d1a2.jpg"
+      }
+    },
+    "equipes_h68w4x": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/fong_gvt_236_debd838f-2170-4e92-b043-3139189ed97f.jpg"
       }
     }
   },
@@ -134,6 +240,8 @@
     "duo",
     "moodboard",
     "gallery",
-    "gallery_2"
+    "gallery_2",
+    "project_duo_7BMNHh",
+    "equipes_h68w4x"
   ]
 }

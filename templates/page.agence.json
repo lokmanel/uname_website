@@ -12,19 +12,23 @@
     "hero": {
       "type": "hero-triple",
       "settings": {
+        "text_size": 15,
         "panel1_image": "shopify://shop_images/9R1A3286.jpg",
         "panel1_script": "l'",
         "panel1_title": "AUDIT",
+        "panel1_text": "",
         "panel1_link": "",
         "panel1_cta": "",
         "panel2_image": "shopify://shop_images/9R1A3268.jpg",
         "panel2_script": "la",
         "panel2_title": "CONCEPTION",
+        "panel2_text": "",
         "panel2_link": "",
         "panel2_cta": "",
         "panel3_image": "shopify://shop_images/9R1A3157.jpg",
         "panel3_script": "les",
         "panel3_title": "TRAVAUX",
+        "panel3_text": "",
         "panel3_link": "",
         "panel3_cta": ""
       }
@@ -34,6 +38,7 @@
       "settings": {
         "title": "Audit",
         "reverse": false,
+        "images_ratio": "3 / 2",
         "image_1": "shopify://shop_images/9R1A3255.jpg",
         "project_name_1": "",
         "link_1": "",
@@ -42,10 +47,12 @@
         "link_2": "",
         "project_name_3": "",
         "link_3": "",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+        "description": "<p>Vous avez un projet, mais vous ne savez pas encore précisément ce qu’il est possible de réaliser ? </p><p>L’audit intervient en amont de la conception et des travaux pour évaluer sa faisabilité, identifier les éventuelles démarches à prévoir et établir un premier chiffrage. Un regard expert pour poser les bonnes bases avant de vous lancer.</p>",
         "desc_size": 16,
+        "text_align": "left",
+        "text_position": "middle",
         "btn_text": "En savoir plus",
-        "btn_url": ""
+        "btn_url": "shopify://pages/contact"
       }
     },
     "conception": {
@@ -53,18 +60,21 @@
       "settings": {
         "title": "Conception",
         "reverse": true,
-        "image_1": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.18.png",
-        "project_name_1": "nino",
+        "images_ratio": "3 / 2",
+        "image_1": "shopify://shop_images/Uname_Dejean_Exte9.webp",
+        "project_name_1": "",
         "link_1": "",
-        "image_2": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.08.png",
-        "project_name_2": "paco",
+        "image_2": "shopify://shop_images/Uname_Dejean_Cuisine3.webp",
+        "project_name_2": "",
         "link_2": "",
         "project_name_3": "",
         "link_3": "",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+        "description": "<p>Nous imaginons avec vous un projet entièrement sur mesure, adapté au lieu, à vos usages et à votre manière de vivre. </p><p>Premières intentions, moodboards, plans, choix des matériaux, visualisations 3D et shopping list : chaque étape vous permet d’affiner le projet et de vous projeter concrètement dans votre futur intérieur ou extérieur.</p>",
         "desc_size": 16,
+        "text_align": "left",
+        "text_position": "middle",
         "btn_text": "En savoir plus",
-        "btn_url": ""
+        "btn_url": "shopify://pages/contact"
       }
     },
     "travaux": {
@@ -72,24 +82,28 @@
       "settings": {
         "title": "Travaux",
         "reverse": false,
-        "image_1": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.08.png",
+        "images_ratio": "3 / 2",
         "project_name_1": "",
         "link_1": "",
-        "image_2": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_03.23.18.png",
+        "image_2": "shopify://shop_images/ESTIENNE_RDV5-4.webp",
         "project_name_2": "",
         "link_2": "",
+        "image_3": "shopify://shop_images/ESTIENNE_RDV5-6.webp",
         "project_name_3": "",
         "link_3": "",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+        "description": "<p>Avec ou sans accompagnement en conception, nous prenons en charge la réalisation de votre projet, qu’il concerne un appartement, une maison, un espace intérieur ou extérieur. </p><p>Du gros œuvre aux finitions, nous coordonnons des experts spécialisés dans chaque corps de métier afin de garantir une exécution soignée, un suivi attentif et le meilleur niveau de finition possible.</p>",
         "desc_size": 16,
+        "text_align": "left",
+        "text_position": "middle",
         "btn_text": "En savoir plus",
-        "btn_url": ""
+        "btn_url": "shopify://pages/contact"
       }
     },
     "equipes": {
       "type": "equipes",
       "settings": {
-        "title": "Les équipes"
+        "title": "Les équipes",
+        "image": "shopify://shop_images/9R1A3378.webp"
       }
     }
   },

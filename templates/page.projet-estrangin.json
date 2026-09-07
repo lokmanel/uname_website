@@ -13,17 +13,40 @@
       "type": "project-header",
       "settings": {
         "title": "Estrangin",
-        "description": "<p>Projet Estrangin – description à compléter.</p>"
+        "description": "<p>Rénovation complète d’un appartement de 86 m² avec extérieur, offrant une vue privilégiée sur Marseille. </p><p>Un projet entièrement repensé pour fluidifier les espaces et révéler leur potentiel.</p>",
+        "desc_size": 20,
+        "desc_width": 540,
+        "desc_align": "left"
       }
     },
     "duo": {
       "type": "project-duo",
-      "settings": {}
+      "settings": {
+        "image_1": "shopify://shop_images/UNAME_Rostand_Sejour9_0981821e-9528-4061-b98b-8e6d2c8949ad.jpg",
+        "image_2": "shopify://shop_images/UNAME_Rostand_Sejour13_8f00293d-25c2-475f-9a46-4cec9ca75247.jpg"
+      }
     },
     "moodboard": {
       "type": "equipes",
       "settings": {
-        "title": ""
+        "title": "",
+        "image": "shopify://shop_images/UNAME_Rostand_Escalier2_883d3ed1-bec6-41f9-a4e5-c959fe163685.jpg"
+      }
+    },
+    "project_duo_JK8nxm": {
+      "type": "project-duo",
+      "name": "Duo images",
+      "settings": {
+        "image_1": "shopify://shop_images/UNAME_Rostand_Chambre_Sdb2_eb9afd98-14bf-4ad2-a244-b1391cf5c17a.jpg",
+        "image_2": "shopify://shop_images/UNAME_Rostand_Chambre_Sdb5_25224ed0-1b66-4030-9c23-b1f0fcd2e9ed.jpg"
+      }
+    },
+    "equipes_DbNAcz": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/UNAME_Rostand_Sejour12_c32cb81d-fa0c-4e15-b949-5b26827a7cd3.jpg"
       }
     },
     "gallery": {
@@ -31,35 +54,75 @@
       "blocks": {
         "img1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour9_fda2cc1a-a462-48f7-b763-e71c21383701.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/plafond.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour7_e95855e3-71e3-4d52-9a4c-6920a39492d9.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour3_736908fe-bcda-4715-a427-ed8f68702221.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img5": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour4_345c707d-f4b1-4b08-87d9-29ff1906bfe0.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img6": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour10_372787f8-55e5-4e68-854b-fd048a6769ce.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img7": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour6_9475d340-085e-4895-a9a0-a215973b1d2f.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour11_95b1ee79-6913-4159-b044-fc2d75328155.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -74,7 +137,12 @@
       ],
       "settings": {
         "title": "",
-        "description": ""
+        "description": "",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     },
     "gallery_2": {
@@ -82,35 +150,67 @@
       "blocks": {
         "img1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img5": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img6": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img7": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -123,9 +223,15 @@
         "img7",
         "img8"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
-        "description": ""
+        "description": "",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     }
   },
@@ -133,6 +239,8 @@
     "header",
     "duo",
     "moodboard",
+    "project_duo_JK8nxm",
+    "equipes_DbNAcz",
     "gallery",
     "gallery_2"
   ]
