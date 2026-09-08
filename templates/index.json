@@ -168,7 +168,7 @@
         "title": "Galerie",
         "description": "<p>Chaque projet porte l’âme d’Uname : une attention aux matières, à la lumière, aux usages et aux émotions. </p><p>Mais chacun raconte sa propre histoire, avec sa singularité, son rythme et son identité.</p>",
         "desc_size": 20,
-        "desc_width": 510,
+        "desc_width": 470,
         "desc_align": "left",
         "padding_top": 64,
         "padding_bottom": 96
@@ -203,22 +203,12 @@
             "pos_x": 73,
             "pos_y": 47
           }
-        },
-        "hs3": {
-          "type": "hotspot",
-          "settings": {
-            "label": "Studio",
-            "link": "",
-            "pos_x": 14,
-            "pos_y": 68
-          }
         }
       },
       "block_order": [
         "hs1",
         "hotspot_hGp89E",
-        "hs2",
-        "hs3"
+        "hs2"
       ],
       "settings": {
         "title": "Services",
