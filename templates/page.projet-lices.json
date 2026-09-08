@@ -13,17 +13,24 @@
       "type": "project-header",
       "settings": {
         "title": "Lices",
-        "description": "<p>Projet Lices – description à compléter.</p>"
+        "description": "<p>Rénovation complète d’un appartement de 60 m² avec cour intérieure, au cœur du quartier Saint-Victor. Transformée en patio lumineux, la cour devient l’axe autour duquel s’articule tout le projet. </p>",
+        "desc_size": 20,
+        "desc_width": 640,
+        "desc_align": "left"
       }
     },
     "duo": {
       "type": "project-duo",
-      "settings": {}
+      "settings": {
+        "image_1": "shopify://shop_images/lices_gvoinot_44_w.jpg",
+        "image_2": "shopify://shop_images/lices_gvoinot_8_w.jpg"
+      }
     },
     "moodboard": {
       "type": "equipes",
       "settings": {
-        "title": ""
+        "title": "",
+        "image": "shopify://shop_images/lices_gvoinot_202_w.jpg"
       }
     },
     "gallery": {
@@ -31,35 +38,75 @@
       "blocks": {
         "img1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/lices_gvoinot_101_w.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/lices_gvoinot_215_w.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/lices_gvoinot_17_w.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/lices_gvoinot_37_w.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img5": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/lices_gvoinot_8_w.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img6": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/lices_gvoinot_90_w.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img7": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/lices_gvoinot_79_w.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         },
         "img8": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/lices_gvoinot_98_w.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -74,58 +121,28 @@
       ],
       "settings": {
         "title": "",
-        "description": ""
+        "description": "",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     },
-    "gallery_2": {
-      "type": "gallery",
-      "blocks": {
-        "img1": {
-          "type": "image",
-          "settings": {}
-        },
-        "img2": {
-          "type": "image",
-          "settings": {}
-        },
-        "img3": {
-          "type": "image",
-          "settings": {}
-        },
-        "img4": {
-          "type": "image",
-          "settings": {}
-        },
-        "img5": {
-          "type": "image",
-          "settings": {}
-        },
-        "img6": {
-          "type": "image",
-          "settings": {}
-        },
-        "img7": {
-          "type": "image",
-          "settings": {}
-        },
-        "img8": {
-          "type": "image",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "img1",
-        "img2",
-        "img3",
-        "img4",
-        "img5",
-        "img6",
-        "img7",
-        "img8"
-      ],
+    "project_duo_RHPgEd": {
+      "type": "project-duo",
+      "name": "Duo images",
+      "settings": {
+        "image_1": "shopify://shop_images/lices_gvoinot_192_w.jpg",
+        "image_2": "shopify://shop_images/lices_gvoinot_168_w.jpg"
+      }
+    },
+    "equipes_caDVUg": {
+      "type": "equipes",
+      "name": "Les équipes",
       "settings": {
         "title": "",
-        "description": ""
+        "image": "shopify://shop_images/lices_gvoinot_151_w.jpg"
       }
     }
   },
@@ -134,6 +151,7 @@
     "duo",
     "moodboard",
     "gallery",
-    "gallery_2"
+    "project_duo_RHPgEd",
+    "equipes_caDVUg"
   ]
 }
