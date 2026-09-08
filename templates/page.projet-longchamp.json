@@ -46,7 +46,7 @@
       "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/Ilot_central_2.jpg"
+        "image": "shopify://shop_images/Ilot_central_4.jpg"
       }
     },
     "gallery": {
@@ -149,9 +149,9 @@
   "order": [
     "header",
     "duo",
-    "moodboard",
-    "project_duo_R7QHxD",
     "equipes_a7Gntx",
+    "project_duo_R7QHxD",
+    "moodboard",
     "gallery"
   ]
 }
