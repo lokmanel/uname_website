@@ -20,14 +20,6 @@
         "desc_align": "left"
       }
     },
-    "equipes_bkxQQe": {
-      "type": "equipes",
-      "name": "Les équipes",
-      "settings": {
-        "title": "Les plans",
-        "image": "shopify://shop_images/ESTIENNE_RDV5.jpg"
-      }
-    },
     "equipes_FgDeTq": {
       "type": "equipes",
       "name": "Les équipes",
@@ -144,7 +136,6 @@
   },
   "order": [
     "project_header_MaVCPG",
-    "equipes_bkxQQe",
     "equipes_FgDeTq",
     "gallery_m7rCaK",
     "equipes_AexjM3"
