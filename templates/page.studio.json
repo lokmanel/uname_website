@@ -16,7 +16,7 @@
           "type": "hotspot",
           "settings": {
             "label": "Projets",
-            "link": "",
+            "link": "shopify://pages/studio",
             "pos_x": 49,
             "pos_y": 67
           }

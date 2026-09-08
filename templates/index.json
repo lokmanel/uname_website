@@ -34,7 +34,7 @@
         "title": "APPROCHE",
         "content": "<p>Uname imagine des lieux singuliers, pensés pour révéler une histoire, une façon de vivre, une identité. Notre approche mêle exigence esthétique, sens du détail et accompagnement sur mesure, de la première intention jusqu’à la réalisation.<br/>À travers chaque projet, nous cherchons l’équilibre juste entre beauté, usage et émotion : créer des espaces sensibles, durables, profondément incarnés.</p>",
         "text_size": 20,
-        "content_width": 600,
+        "content_width": 750,
         "text_align": "center"
       }
     },
@@ -71,14 +71,16 @@
         "img4": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_Endoume_Sejour2.jpg",
             "alt": "",
             "link": "",
-            "project_name": ""
+            "project_name": "Endoume"
           }
         },
         "img5": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_TILSIT_8.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -87,6 +89,16 @@
         "img6": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_Senac_Bureau6.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_3HRVN6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_TILSIT_8.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -95,12 +107,37 @@
         "img7": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_STCYR_sejour_cuisine_4.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": "Tilsit"
+          }
+        },
+        "img8": {
+          "type": "image",
+          "settings": {
             "alt": "",
             "link": "",
             "project_name": ""
           }
         },
-        "img8": {
+        "image_hJU36n": {
+          "type": "image",
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_FMRJUD": {
+          "type": "image",
+          "settings": {
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_KNhEDC": {
           "type": "image",
           "settings": {
             "alt": "",
@@ -116,8 +153,12 @@
         "img4",
         "img5",
         "img6",
+        "image_3HRVN6",
         "img7",
-        "img8"
+        "img8",
+        "image_hJU36n",
+        "image_FMRJUD",
+        "image_KNhEDC"
       ],
       "settings": {
         "title": "Galerie",
