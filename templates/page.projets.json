@@ -17,64 +17,107 @@
           "settings": {
             "image": "shopify://shop_images/Uname_Dejean_Exte9.webp",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/dejean",
             "project_name": "Dejean"
           }
         },
         "img2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/9R1A0118.jpg",
             "alt": "",
-            "link": "",
-            "project_name": ""
+            "link": "shopify://pages/longchamp",
+            "project_name": "Longchamp"
           }
         },
         "img3": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_Endoume_Sejour7.jpg",
             "alt": "",
-            "link": "",
-            "project_name": ""
+            "link": "shopify://pages/endoume",
+            "project_name": "Endoume"
           }
         },
         "img4": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_Senac_Cuisine1.jpg",
             "alt": "",
-            "link": "",
-            "project_name": ""
+            "link": "shopify://pages/senac",
+            "project_name": "Senac"
           }
         },
         "img5": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/lices_gvoinot_44_w.jpg",
             "alt": "",
-            "link": "",
-            "project_name": ""
+            "link": "shopify://pages/lices",
+            "project_name": "Lices"
           }
         },
         "img6": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Uname_STCYR_sejour_cuisine_4.jpg",
             "alt": "",
-            "link": "",
-            "project_name": ""
+            "link": "shopify://pages/lecques",
+            "project_name": "Lecques"
+          }
+        },
+        "image_zzXPQq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour11_95b1ee79-6913-4159-b044-fc2d75328155.jpg",
+            "alt": "",
+            "link": "shopify://pages/estrangin",
+            "project_name": "Estrangin"
           }
         },
         "img7": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/VALIER_1.webp",
             "alt": "",
-            "link": "",
-            "project_name": ""
+            "link": "shopify://pages/valier",
+            "project_name": "Vallier"
           }
         },
         "img8": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/mc-unamestudio-g-6.jpg",
             "alt": "",
-            "link": "",
-            "project_name": ""
+            "link": "shopify://pages/gagliardo",
+            "project_name": "Gagliardo"
+          }
+        },
+        "image_AF8yck": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fong_gvt_77_808c573c-2ea0-4f64-95ca-65a54123a975.jpg",
+            "alt": "",
+            "link": "shopify://pages/fongate",
+            "project_name": "Fongate"
+          }
+        },
+        "image_CnrqXa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_TILSIT_7.jpg",
+            "alt": "",
+            "link": "shopify://pages/mila",
+            "project_name": "Tilsit"
+          }
+        },
+        "image_tM8jXm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_AUGUSTE_6_3607067b-9776-4b61-9050-2a6180c45957.jpg",
+            "alt": "",
+            "link": "shopify://pages/auguste",
+            "project_name": "Auguste"
           }
         }
       },
@@ -85,8 +128,12 @@
         "img4",
         "img5",
         "img6",
+        "image_zzXPQq",
         "img7",
-        "img8"
+        "img8",
+        "image_AF8yck",
+        "image_CnrqXa",
+        "image_tM8jXm"
       ],
       "settings": {
         "title": "Projets",
