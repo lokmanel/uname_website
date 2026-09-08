@@ -26,11 +26,12 @@
         "image_2": "shopify://shop_images/9R1A0275.jpg"
       }
     },
-    "moodboard": {
+    "equipes_a7Gntx": {
       "type": "equipes",
+      "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/P1146837.jpg"
+        "image": "shopify://shop_images/Ilot_central_4.jpg"
       }
     },
     "project_duo_R7QHxD": {
@@ -41,12 +42,11 @@
         "image_2": "shopify://shop_images/9R1A0220.jpg"
       }
     },
-    "equipes_a7Gntx": {
+    "moodboard": {
       "type": "equipes",
-      "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/Ilot_central_4.jpg"
+        "image": "shopify://shop_images/P1146837.jpg"
       }
     },
     "gallery": {
@@ -118,7 +118,7 @@
         "img8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/9R1A0294.jpg",
+            "image": "shopify://shop_images/Uname_Endoume_Cuisine4.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
