@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6-3.webp",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/sauve",
             "project_name": "Amoroso"
           }
         },
@@ -26,7 +26,7 @@
           "settings": {
             "image": "shopify://shop_images/ESTIENNE_RDV5-4.webp",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/estienne",
             "project_name": "Estienne"
           }
         },
@@ -44,7 +44,7 @@
           "settings": {
             "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION_6d3c07f9-1660-4fd7-9388-5e377499a5b7.webp",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/meyreuil",
             "project_name": "Meyreui"
           }
         },
@@ -53,7 +53,7 @@
           "settings": {
             "image": "shopify://shop_images/ENSUES_RDV_4_3D.webp",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/st-barnabe",
             "project_name": "Ensues"
           }
         },
@@ -62,7 +62,7 @@
           "settings": {
             "image": "shopify://shop_images/ESTIENNE_RDV5-6.webp",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/estienne",
             "project_name": "ESTIENNE"
           }
         },
@@ -71,7 +71,7 @@
           "settings": {
             "image": "shopify://shop_images/ENSUES_RDV_4_3D-5.webp",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/st-barnabe",
             "project_name": "ENSUES"
           }
         },
@@ -80,7 +80,7 @@
           "settings": {
             "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6bis-2.webp",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/sauve",
             "project_name": "AMOROSSA"
           }
         }
@@ -105,35 +105,9 @@
         "padding_top": 64,
         "padding_bottom": 96
       }
-    },
-    "project_header_XA9jQL": {
-      "type": "project-header",
-      "name": "En-tête projet",
-      "settings": {
-        "title": "Travaux",
-        "description": "<p>Découvrez les projets qui prennent vie.</p><p>Des lieux encore en mouvement, où les intentions deviennent peu à peu des volumes, des matières et des usages. De la conception aux travaux, nos équipes avancent ensemble pour donner forme à chaque détail et faire émerger des projets uniques.</p>",
-        "desc_size": 20,
-        "desc_width": 650,
-        "desc_align": "left"
-      }
-    },
-    "project_duo_mRKgAB": {
-      "type": "project-duo",
-      "name": "Duo images",
-      "settings": {}
-    },
-    "equipes_kQHhNW": {
-      "type": "equipes",
-      "name": "Les équipes",
-      "settings": {
-        "title": "Les équipes"
-      }
     }
   },
   "order": [
-    "gallery_jx8hJC",
-    "project_header_XA9jQL",
-    "project_duo_mRKgAB",
-    "equipes_kQHhNW"
+    "gallery_jx8hJC"
   ]
 }
