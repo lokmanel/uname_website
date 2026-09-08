@@ -80,10 +80,10 @@
         "img5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_TILSIT_8.jpg",
+            "image": "shopify://shop_images/9R1A0118.jpg",
             "alt": "",
             "link": "",
-            "project_name": ""
+            "project_name": "Longchamp"
           }
         },
         "img6": {
@@ -101,7 +101,7 @@
             "image": "shopify://shop_images/Uname_TILSIT_8.jpg",
             "alt": "",
             "link": "",
-            "project_name": ""
+            "project_name": "Tilsit"
           }
         },
         "img7": {
@@ -110,39 +110,43 @@
             "image": "shopify://shop_images/Uname_STCYR_sejour_cuisine_4.jpg",
             "alt": "",
             "link": "",
-            "project_name": "Tilsit"
+            "project_name": "Lecques"
           }
         },
         "img8": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/VALIER_4.webp",
             "alt": "",
             "link": "",
-            "project_name": ""
+            "project_name": "Vallier"
           }
         },
         "image_hJU36n": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/mc-unamestudio-g-3.jpg",
             "alt": "",
             "link": "",
-            "project_name": ""
+            "project_name": "Gagliardo"
           }
         },
         "image_FMRJUD": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/LIBERATION_RDV_5.webp",
             "alt": "",
             "link": "",
-            "project_name": ""
+            "project_name": "Liberation"
           }
         },
         "image_KNhEDC": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/UNAME_Rostand_Sejour13_9a5220cb-5f0b-42ae-a869-0354e4f06361.jpg",
             "alt": "",
             "link": "",
-            "project_name": ""
+            "project_name": "Rostand"
           }
         }
       },
