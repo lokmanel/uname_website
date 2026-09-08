@@ -89,28 +89,28 @@
         "img6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_Senac_Bureau6.jpg",
+            "image": "shopify://shop_images/Uname_STCYR_sejour_cuisine_4.jpg",
             "alt": "",
             "link": "",
-            "project_name": ""
+            "project_name": "Lecques"
           }
         },
         "image_3HRVN6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_TILSIT_8.jpg",
+            "image": "shopify://shop_images/lices_gvoinot_202_w.jpg",
             "alt": "",
             "link": "",
-            "project_name": "Tilsit"
+            "project_name": "Lices"
           }
         },
         "img7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_STCYR_sejour_cuisine_4.jpg",
+            "image": "shopify://shop_images/mc-unamestudio-g-4.jpg",
             "alt": "",
             "link": "",
-            "project_name": "Lecques"
+            "project_name": "Gagliardo"
           }
         },
         "img8": {
@@ -125,10 +125,10 @@
         "image_hJU36n": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/mc-unamestudio-g-3.jpg",
+            "image": "shopify://shop_images/ENSUES_RDV_4_3D-5.webp",
             "alt": "",
             "link": "",
-            "project_name": "Gagliardo"
+            "project_name": "Ensues"
           }
         },
         "image_FMRJUD": {
@@ -146,7 +146,43 @@
             "image": "shopify://shop_images/UNAME_Rostand_Sejour13_9a5220cb-5f0b-42ae-a869-0354e4f06361.jpg",
             "alt": "",
             "link": "",
-            "project_name": "Rostand"
+            "project_name": "Estrangin"
+          }
+        },
+        "image_U3Pjfk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fong_gvt_91_c05dcb18-fa65-4dc1-9485-edf49f4b9858.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_bFbN73": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6-3.webp",
+            "alt": "",
+            "link": "",
+            "project_name": "amorossa"
+          }
+        },
+        "image_tftUhg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION_6d3c07f9-1660-4fd7-9388-5e377499a5b7.webp",
+            "alt": "",
+            "link": "",
+            "project_name": "Meyreuil"
+          }
+        },
+        "image_8N6DYA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_TILSIT_7.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": "Tilsit"
           }
         }
       },
@@ -162,7 +198,11 @@
         "img8",
         "image_hJU36n",
         "image_FMRJUD",
-        "image_KNhEDC"
+        "image_KNhEDC",
+        "image_U3Pjfk",
+        "image_bFbN73",
+        "image_tftUhg",
+        "image_8N6DYA"
       ],
       "settings": {
         "title": "Galerie",
