@@ -26,11 +26,12 @@
         "image_2": "shopify://shop_images/UNAME_Rostand_Sejour13_8f00293d-25c2-475f-9a46-4cec9ca75247.jpg"
       }
     },
-    "moodboard": {
+    "equipes_4Pemtd": {
       "type": "equipes",
+      "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/UNAME_Rostand_Escalier2_883d3ed1-bec6-41f9-a4e5-c959fe163685.jpg"
+        "image": "shopify://shop_images/Ilot_central_6.jpg"
       }
     },
     "project_duo_JK8nxm": {
@@ -41,12 +42,11 @@
         "image_2": "shopify://shop_images/UNAME_Rostand_Chambre_Sdb5_25224ed0-1b66-4030-9c23-b1f0fcd2e9ed.jpg"
       }
     },
-    "equipes_DbNAcz": {
+    "moodboard": {
       "type": "equipes",
-      "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/UNAME_Rostand_Sejour12_c32cb81d-fa0c-4e15-b949-5b26827a7cd3.jpg"
+        "image": "shopify://shop_images/UNAME_Rostand_Escalier2_883d3ed1-bec6-41f9-a4e5-c959fe163685.jpg"
       }
     },
     "gallery": {
@@ -145,103 +145,22 @@
         "padding_bottom": 96
       }
     },
-    "gallery_2": {
-      "type": "gallery",
-      "blocks": {
-        "img1": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img2": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img3": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img4": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img5": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img6": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img7": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img8": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        }
-      },
-      "block_order": [
-        "img1",
-        "img2",
-        "img3",
-        "img4",
-        "img5",
-        "img6",
-        "img7",
-        "img8"
-      ],
-      "disabled": true,
+    "equipes_DbNAcz": {
+      "type": "equipes",
+      "name": "Les équipes",
       "settings": {
         "title": "",
-        "description": "",
-        "desc_size": 20,
-        "desc_width": 480,
-        "desc_align": "left",
-        "padding_top": 64,
-        "padding_bottom": 96
+        "image": "shopify://shop_images/UNAME_Rostand_Sejour12_c32cb81d-fa0c-4e15-b949-5b26827a7cd3.jpg"
       }
     }
   },
   "order": [
     "header",
     "duo",
-    "moodboard",
+    "equipes_4Pemtd",
     "project_duo_JK8nxm",
     "equipes_DbNAcz",
     "gallery",
-    "gallery_2"
+    "moodboard"
   ]
 }
