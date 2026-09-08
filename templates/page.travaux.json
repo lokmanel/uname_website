@@ -9,91 +9,131 @@
  */
 {
   "sections": {
-    "gallery": {
+    "gallery_jx8hJC": {
       "type": "gallery",
       "blocks": {
-        "img1": {
+        "image_aVD7qj": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6-3.webp",
+            "alt": "",
+            "link": "",
+            "project_name": "Amoroso"
+          }
+        },
+        "image_fiE8EN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ESTIENNE_RDV5-4.webp",
+            "alt": "",
+            "link": "",
+            "project_name": "Estienne"
+          }
+        },
+        "image_6J4irT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LIBERATION_RDV_5.webp",
             "alt": "",
             "link": "",
             "project_name": ""
           }
         },
-        "img2": {
+        "image_jfiCHY": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION_6d3c07f9-1660-4fd7-9388-5e377499a5b7.webp",
             "alt": "",
             "link": "",
-            "project_name": ""
+            "project_name": "Meyreui"
           }
         },
-        "img3": {
+        "image_4rnHWp": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ENSUES_RDV_4_3D.webp",
             "alt": "",
             "link": "",
-            "project_name": ""
+            "project_name": "Ensues"
           }
         },
-        "img4": {
+        "image_WDW33H": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ESTIENNE_RDV5-6.webp",
             "alt": "",
             "link": "",
-            "project_name": ""
+            "project_name": "ESTIENNE"
           }
         },
-        "img5": {
+        "image_pAJw6g": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ENSUES_RDV_4_3D-5.webp",
             "alt": "",
             "link": "",
-            "project_name": ""
+            "project_name": "ENSUES"
           }
         },
-        "img6": {
+        "image_46pDUt": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6bis-2.webp",
             "alt": "",
             "link": "",
-            "project_name": ""
-          }
-        },
-        "img7": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img8": {
-          "type": "image",
-          "settings": {
-            "alt": "",
-            "link": "",
-            "project_name": ""
+            "project_name": "AMOROSSA"
           }
         }
       },
       "block_order": [
-        "img1",
-        "img2",
-        "img3",
-        "img4",
-        "img5",
-        "img6",
-        "img7",
-        "img8"
+        "image_aVD7qj",
+        "image_fiE8EN",
+        "image_6J4irT",
+        "image_jfiCHY",
+        "image_4rnHWp",
+        "image_WDW33H",
+        "image_pAJw6g",
+        "image_46pDUt"
       ],
+      "name": "Galerie",
       "settings": {
         "title": "Travaux",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+        "description": "<p>Découvrez les projets qui prennent vie.</p><p>Des lieux encore en mouvement, où les intentions deviennent peu à peu des volumes, des matières et des usages. De la conception aux travaux, nos équipes avancent ensemble pour donner forme à chaque détail et faire émerger des projets uniques.</p>",
+        "desc_size": 20,
+        "desc_width": 650,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
+      }
+    },
+    "project_header_XA9jQL": {
+      "type": "project-header",
+      "name": "En-tête projet",
+      "settings": {
+        "title": "Travaux",
+        "description": "<p>Découvrez les projets qui prennent vie.</p><p>Des lieux encore en mouvement, où les intentions deviennent peu à peu des volumes, des matières et des usages. De la conception aux travaux, nos équipes avancent ensemble pour donner forme à chaque détail et faire émerger des projets uniques.</p>",
+        "desc_size": 20,
+        "desc_width": 650,
+        "desc_align": "left"
+      }
+    },
+    "project_duo_mRKgAB": {
+      "type": "project-duo",
+      "name": "Duo images",
+      "settings": {}
+    },
+    "equipes_kQHhNW": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "Les équipes"
       }
     }
   },
   "order": [
-    "gallery"
+    "gallery_jx8hJC",
+    "project_header_XA9jQL",
+    "project_duo_mRKgAB",
+    "equipes_kQHhNW"
   ]
 }
