@@ -17,7 +17,7 @@
 
   {{ 'theme.css' | asset_url | stylesheet_tag }}
 </head>
-<body>
+<body class="{% if template.suffix == 'projet' or template.suffix contains 'projet-' or template.suffix contains 'travaux-' %}is-project{% endif %}">
   {%- section 'header' -%}
   {%- section 'cart-drawer' -%}
 
