@@ -1847,3 +1847,45 @@ ul, ol { list-style: none; }
   .section-contact-form__title { font-size: 38px; }
   .contact-form__btn { align-self: stretch; }
 }
+
+/* ── PAGES PROJET : ESPACEMENT UNIFIÉ ───────────────────────────
+   Classe .is-project posée sur <body> pour les modèles page.projet*
+   et page.travaux-* (pas les pages listes Projets / Travaux).
+   Un seul écart (--space) entre tous les blocs photo, entre les photos
+   d'un duo et entre les photos de la galerie (horizontal et vertical).
+   Tous les blocs partagent les mêmes bords (gouttière du site).
+   ───────────────────────────────────────────────────────────── */
+
+.is-project { --space: clamp(16px, 3vw, 48px); }
+
+.is-project #main-content { padding-bottom: var(--space); }
+.is-project #main-content > .shopify-section + .shopify-section { margin-top: var(--space); }
+
+.is-project .section-project-header { padding-bottom: 0; }
+
+/* Duo : aligné sur la gouttière, écart --space ; le duo juste sous l'en-tête garde ses photos collées */
+.is-project .section-project-duo { padding: 0 var(--gutter); }
+.is-project .section-project-duo__grid { gap: var(--space); }
+.is-project #main-content > .shopify-section:first-child + .shopify-section .section-project-duo__grid { gap: 0; }
+
+/* Grande photo */
+.is-project .section-equipes { padding: 0 var(--gutter); }
+.is-project .section-equipes__image-wrap { max-width: none; }
+
+/* Galerie : 3 photos portrait par ligne (2 sur mobile), marges réglées ici et non plus par les réglages de section */
+.is-project .section-gallery { padding: 0 var(--gutter) !important; }
+.is-project .gallery-grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-auto-flow: row;
+  gap: var(--space);
+}
+.is-project .gallery-grid__item {
+  grid-column: auto !important;
+  grid-row: auto !important;
+  aspect-ratio: 2 / 3 !important;
+}
+
+@media (max-width: 768px) {
+  .is-project .gallery-grid { grid-template-columns: 1fr 1fr; }
+}
