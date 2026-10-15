@@ -19,6 +19,9 @@
   <nav id="header-nav" class="header__nav" aria-label="Navigation principale">
     <ul class="header__nav-list">
       {%- for link in linklists[section.settings.menu].links -%}
+        {%- comment -%} Boutique masquée tant que la boutique n'est pas lancée {%- endcomment -%}
+        {%- assign link_title = link.title | strip | downcase -%}
+        {%- if link_title == 'boutique' -%}{%- continue -%}{%- endif -%}
         {%- if link.links.size > 0 -%}
           <li class="header__nav-item header__nav-item--has-children">
             <a class="header__nav-link" href="{{ link.url }}">
@@ -44,12 +47,6 @@
   </nav>
 
   <div class="header__actions">
-    <button class="header__action-btn" aria-label="Rechercher">
-      {%- render 'icon-search' -%}
-    </button>
-    <a class="header__action-btn" href="{{ routes.account_url }}" aria-label="Mon compte">
-      {%- render 'icon-account' -%}
-    </a>
     <button class="header__burger" id="header-burger" aria-label="Menu" aria-expanded="false">
       <span></span>
       <span></span>
