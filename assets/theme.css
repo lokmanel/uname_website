@@ -1856,7 +1856,7 @@ ul, ol { list-style: none; }
    Tous les blocs partagent les mêmes bords (gouttière du site).
    ───────────────────────────────────────────────────────────── */
 
-.is-project { --space: clamp(16px, 3vw, 48px); }
+:root { --space: clamp(16px, 3vw, 48px); }
 
 .is-project #main-content { padding-bottom: var(--space); }
 .is-project #main-content > .shopify-section + .shopify-section { margin-top: var(--space); }
@@ -1872,20 +1872,27 @@ ul, ol { list-style: none; }
 .is-project .section-equipes { padding: 0 var(--gutter); }
 .is-project .section-equipes__image-wrap { max-width: none; }
 
-/* Galerie : 3 photos portrait par ligne (2 sur mobile), marges réglées ici et non plus par les réglages de section */
+/* Galerie des pages projet : marges réglées ici et non plus par les réglages de section */
 .is-project .section-gallery { padding: 0 var(--gutter) !important; }
-.is-project .gallery-grid {
+
+/* ── GALERIE : RÈGLE COMMUNE À TOUT LE SITE ─────────────────────
+   Pages projet, Projets, Travaux, accueil : 3 photos portrait par ligne
+   (2 sur mobile), même écart --space horizontal et vertical.
+   Remplace la mosaïque en 8 positions.
+   ───────────────────────────────────────────────────────────── */
+.section-gallery__header { margin-bottom: var(--space); }
+.gallery-grid {
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
   grid-auto-flow: row;
   gap: var(--space);
 }
-.is-project .gallery-grid__item {
+.gallery-grid__item {
   grid-column: auto !important;
   grid-row: auto !important;
   aspect-ratio: 2 / 3 !important;
 }
 
 @media (max-width: 768px) {
-  .is-project .gallery-grid { grid-template-columns: 1fr 1fr; }
+  .gallery-grid { grid-template-columns: 1fr 1fr; }
 }
