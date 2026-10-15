@@ -203,6 +203,11 @@ ul, ol { list-style: none; }
   gap: 30px;
 }
 
+/* Liens posés sur la même ligne de base que les lettres du logo (mesuré : 6,5 px) */
+@media (min-width: 769px) {
+  .header__nav { position: relative; top: 6.5px; }
+}
+
 .header__nav-link {
   font-family: var(--f-body);
   font-size: 18px;
