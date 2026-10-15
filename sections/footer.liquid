@@ -7,6 +7,9 @@
       <nav aria-label="Navigation pied de page">
         <ul class="footer__nav-list">
           {%- for link in linklists[section.settings.footer_menu].links -%}
+            {%- comment -%} Boutique masquée tant que la boutique n'est pas lancée {%- endcomment -%}
+            {%- assign link_title = link.title | strip | downcase -%}
+            {%- if link_title == 'boutique' -%}{%- continue -%}{%- endif -%}
             <li>
               <a class="footer__nav-link" href="{{ link.url }}">{{ link.title }}</a>
             </li>
