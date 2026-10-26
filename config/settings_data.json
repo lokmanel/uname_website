@@ -16,6 +16,7 @@
       "header": {
         "type": "header",
         "settings": {
+          "logo_image": "shopify://shop_images/Scene_8.png",
           "logo_text": "UNAMÉ",
           "menu": "main-menu"
         }
@@ -29,8 +30,10 @@
         "settings": {
           "footer_menu": "main-menu",
           "contact_title": "Écrivez-nous",
-          "contact_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-          "email_placeholder": "Votre email",
+          "contact_desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>",
+          "contact_desc_size": 16,
+          "contact_desc_align": "left",
+          "show_newsletter": true,
           "facebook_url": "https://youtube.fr",
           "linkedin_url": "https://youtube.fr",
           "instagram_url": "https://youtube.fr",
