@@ -232,7 +232,7 @@
           "settings": {
             "label": "Travaux",
             "link": "shopify://pages/travaux",
-            "pos_x": 34,
+            "pos_x": 26,
             "pos_y": 30
           }
         },
@@ -241,8 +241,8 @@
           "settings": {
             "label": "Projets",
             "link": "shopify://pages/projets",
-            "pos_x": 47,
-            "pos_y": 67
+            "pos_x": 44,
+            "pos_y": 65
           }
         }
       },
