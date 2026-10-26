@@ -16,7 +16,7 @@
           "type": "hotspot",
           "settings": {
             "label": "Projets",
-            "link": "shopify://pages/studio",
+            "link": "shopify://pages/projets",
             "pos_x": 57,
             "pos_y": 67
           }
@@ -25,7 +25,7 @@
           "type": "hotspot",
           "settings": {
             "label": "Travaux",
-            "link": "",
+            "link": "shopify://pages/travaux",
             "pos_x": 47,
             "pos_y": 78
           }
