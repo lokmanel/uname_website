@@ -47,10 +47,10 @@
         "link_2": "",
         "project_name_3": "",
         "link_3": "",
-        "description": "<p>Vous avez un projet, mais vous ne savez pas encore précisément ce qu’il est possible de réaliser ? </p><p>L’audit intervient en amont de la conception et des travaux pour évaluer sa faisabilité, identifier les éventuelles démarches à prévoir et établir un premier chiffrage. Un regard expert pour poser les bonnes bases avant de vous lancer.</p>",
+        "description": "<p>Vous avez un projet, mais vous ne savez pas encore précisément ce qu’il est possible de réaliser ?&nbsp;</p><p>L’audit intervient en amont de la conception et des travaux pour évaluer sa faisabilité, identifier les éventuelles démarches à prévoir et établir un premier chiffrage. Un regard expert pour poser les bonnes bases avant de vous lancer.</p>",
         "desc_size": 16,
         "text_align": "left",
-        "text_position": "middle",
+        "text_position": "bottom",
         "btn_text": "En savoir plus",
         "btn_url": "shopify://pages/contact"
       }
@@ -69,10 +69,10 @@
         "link_2": "",
         "project_name_3": "",
         "link_3": "",
-        "description": "<p>Nous imaginons avec vous un projet entièrement sur mesure, adapté au lieu, à vos usages et à votre manière de vivre. </p><p>Premières intentions, moodboards, plans, choix des matériaux, visualisations 3D et shopping list : chaque étape vous permet d’affiner le projet et de vous projeter concrètement dans votre futur intérieur ou extérieur.</p>",
+        "description": "<p>Nous imaginons avec vous un projet entièrement sur mesure, adapté au lieu, à vos usages et à votre manière de vivre.&nbsp;</p><p>Premières intentions, moodboards, plans, choix des matériaux, visualisations 3D et shopping list : chaque étape vous permet d’affiner le projet et de vous projeter concrètement dans votre futur intérieur ou extérieur.</p>",
         "desc_size": 16,
-        "text_align": "left",
-        "text_position": "middle",
+        "text_align": "right",
+        "text_position": "bottom",
         "btn_text": "En savoir plus",
         "btn_url": "shopify://pages/contact"
       }
@@ -91,10 +91,10 @@
         "image_3": "shopify://shop_images/ESTIENNE_RDV5-6.webp",
         "project_name_3": "",
         "link_3": "",
-        "description": "<p>Avec ou sans accompagnement en conception, nous prenons en charge la réalisation de votre projet, qu’il concerne un appartement, une maison, un espace intérieur ou extérieur. </p><p>Du gros œuvre aux finitions, nous coordonnons des experts spécialisés dans chaque corps de métier afin de garantir une exécution soignée, un suivi attentif et le meilleur niveau de finition possible.</p>",
+        "description": "<p>Avec ou sans accompagnement en conception, nous prenons en charge la réalisation de votre projet, qu’il concerne un appartement, une maison, un espace intérieur ou extérieur.&nbsp;</p><p>Du gros œuvre aux finitions, nous coordonnons des experts spécialisés dans chaque corps de métier afin de garantir une exécution soignée, un suivi attentif et le meilleur niveau de finition possible.</p>",
         "desc_size": 16,
         "text_align": "left",
-        "text_position": "middle",
+        "text_position": "bottom",
         "btn_text": "En savoir plus",
         "btn_url": "shopify://pages/contact"
       }
