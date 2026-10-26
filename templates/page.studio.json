@@ -26,8 +26,8 @@
           "settings": {
             "label": "Travaux",
             "link": "shopify://pages/travaux",
-            "pos_x": 32,
-            "pos_y": 30
+            "pos_x": 30,
+            "pos_y": 28
           }
         }
       },
