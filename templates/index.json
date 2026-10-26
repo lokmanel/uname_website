@@ -23,7 +23,7 @@
         "panel2_script": "les",
         "panel2_title": "TRAVAUX",
         "panel2_text": "",
-        "panel2_link": "https://unamestudio.fr/pages/agence",
+        "panel2_link": "shopify://pages/travaux",
         "panel2_cta": "découvrir"
       }
     },
@@ -46,7 +46,7 @@
           "settings": {
             "image": "shopify://shop_images/Uname_Dejean_Exte9.webp",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/dejean",
             "project_name": "Dejean"
           }
         },
@@ -55,8 +55,8 @@
           "settings": {
             "image": "shopify://shop_images/9R1A0118.jpg",
             "alt": "",
-            "link": "",
-            "project_name": "Estienne"
+            "link": "shopify://pages/longchamp",
+            "project_name": "Longchamp"
           }
         },
         "img3": {
@@ -64,7 +64,7 @@
           "settings": {
             "image": "shopify://shop_images/Uname_Senac_Cuisine1.jpg",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/senac",
             "project_name": "Senac"
           }
         },
@@ -73,7 +73,7 @@
           "settings": {
             "image": "shopify://shop_images/Uname_Endoume_Sejour2.jpg",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/endoume",
             "project_name": "Endoume"
           }
         },
@@ -82,8 +82,8 @@
           "settings": {
             "image": "shopify://shop_images/ESTIENNE_RDV5-6.webp",
             "alt": "",
-            "link": "",
-            "project_name": "Longchamp"
+            "link": "shopify://pages/estienne",
+            "project_name": "Estienne"
           }
         },
         "img6": {
@@ -91,7 +91,7 @@
           "settings": {
             "image": "shopify://shop_images/Uname_STCYR_sejour_cuisine_4.jpg",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/lecques",
             "project_name": "Lecques"
           }
         },
@@ -100,7 +100,7 @@
           "settings": {
             "image": "shopify://shop_images/lices_gvoinot_202_w.jpg",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/lices",
             "project_name": "Lices"
           }
         },
@@ -109,7 +109,7 @@
           "settings": {
             "image": "shopify://shop_images/mc-unamestudio-g-4.jpg",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/gagliardo",
             "project_name": "Gagliardo"
           }
         },
@@ -118,7 +118,7 @@
           "settings": {
             "image": "shopify://shop_images/VALIER_4.webp",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/valier",
             "project_name": "Vallier"
           }
         },
@@ -136,7 +136,7 @@
           "settings": {
             "image": "shopify://shop_images/LIBERATION_RDV_5.webp",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/liberation",
             "project_name": "Liberation"
           }
         },
@@ -145,7 +145,7 @@
           "settings": {
             "image": "shopify://shop_images/UNAME_Rostand_Sejour13_9a5220cb-5f0b-42ae-a869-0354e4f06361.jpg",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/estrangin",
             "project_name": "Estrangin"
           }
         },
@@ -221,34 +221,24 @@
           "type": "hotspot",
           "settings": {
             "label": "Travaux",
-            "link": "",
-            "pos_x": 25,
-            "pos_y": 35
+            "link": "shopify://pages/travaux",
+            "pos_x": 47,
+            "pos_y": 70
           }
         },
         "hotspot_hGp89E": {
           "type": "hotspot",
           "settings": {
-            "label": "Studio",
-            "link": "",
-            "pos_x": 50,
-            "pos_y": 50
-          }
-        },
-        "hs2": {
-          "type": "hotspot",
-          "settings": {
-            "label": "Café",
-            "link": "",
-            "pos_x": 73,
-            "pos_y": 47
+            "label": "Projets",
+            "link": "shopify://pages/projets",
+            "pos_x": 60,
+            "pos_y": 59
           }
         }
       },
       "block_order": [
         "hs1",
-        "hotspot_hGp89E",
-        "hs2"
+        "hotspot_hGp89E"
       ],
       "settings": {
         "title": "Services",
@@ -256,7 +246,7 @@
         "desc_size": 20,
         "desc_width": 480,
         "desc_align": "left",
-        "image": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_05.09.02.png"
+        "image": "shopify://shop_images/2K.png"
       }
     }
   },
