@@ -35,8 +35,8 @@
           "settings": {
             "image": "shopify://shop_images/LIBERATION_RDV_5.webp",
             "alt": "",
-            "link": "",
-            "project_name": ""
+            "link": "shopify://pages/liberation",
+            "project_name": "Libération"
           }
         },
         "image_jfiCHY": {
