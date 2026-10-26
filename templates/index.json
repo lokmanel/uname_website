@@ -41,6 +41,15 @@
     "gallery": {
       "type": "gallery",
       "blocks": {
+        "image_AD3btE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9R1A3137-2.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
         "img1": {
           "type": "image",
           "settings": {
@@ -53,7 +62,7 @@
         "img2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/9R1A0118.jpg",
+            "image": "shopify://shop_images/9R1A0376.jpg",
             "alt": "",
             "link": "shopify://pages/longchamp",
             "project_name": "Longchamp"
@@ -71,7 +80,7 @@
         "img4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_Endoume_Sejour2.jpg",
+            "image": "shopify://shop_images/Uname_Endoume_Sejour7.jpg",
             "alt": "",
             "link": "shopify://pages/endoume",
             "project_name": "Endoume"
@@ -80,7 +89,7 @@
         "img5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ESTIENNE_RDV5-6.webp",
+            "image": "shopify://shop_images/ESTIENNE_RDV5-4.webp",
             "alt": "",
             "link": "shopify://pages/estienne",
             "project_name": "Estienne"
@@ -107,7 +116,7 @@
         "img7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/mc-unamestudio-g-4.jpg",
+            "image": "shopify://shop_images/IMG_9494.jpg",
             "alt": "",
             "link": "shopify://pages/gagliardo",
             "project_name": "Gagliardo"
@@ -125,7 +134,7 @@
         "image_hJU36n": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ENSUES_RDV_4_3D-5.webp",
+            "image": "shopify://shop_images/ENSUES_RDV_4_3D.webp",
             "alt": "",
             "link": "",
             "project_name": "Ensues"
@@ -187,6 +196,7 @@
         }
       },
       "block_order": [
+        "image_AD3btE",
         "img1",
         "img2",
         "img3",
