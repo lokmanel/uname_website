@@ -232,8 +232,8 @@
           "settings": {
             "label": "Travaux",
             "link": "shopify://pages/travaux",
-            "pos_x": 33,
-            "pos_y": 31
+            "pos_x": 34,
+            "pos_y": 30
           }
         },
         "hotspot_hGp89E": {
@@ -241,8 +241,8 @@
           "settings": {
             "label": "Projets",
             "link": "shopify://pages/projets",
-            "pos_x": 49,
-            "pos_y": 66
+            "pos_x": 47,
+            "pos_y": 67
           }
         }
       },
