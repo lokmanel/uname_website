@@ -4,7 +4,7 @@
     <h2 class="section-equipes__title">{{ section.settings.title }}</h2>
   {%- endif -%}
 
-  <div class="section-equipes__image-wrap">
+  <div class="section-equipes__image-wrap" style="--img-size: {{ section.settings.image_size | default: 100 }}%;">
     {%- if section.settings.image != blank -%}
       <img
         src="{{ section.settings.image | image_url: width: 1600 }}"
@@ -33,6 +33,18 @@
       "type": "image_picker",
       "id": "image",
       "label": "Image (format paysage recommandé)"
+    },
+    { "type": "header", "content": "Taille des images" },
+    {
+      "type": "range",
+      "id": "image_size",
+      "label": "Largeur des images (%)",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100,
+      "info": "Réduit les images en gardant leurs proportions, centrées. Sur mobile, elles restent en pleine largeur."
     }
   ],
   "presets": [

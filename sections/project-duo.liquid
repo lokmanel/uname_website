@@ -1,5 +1,5 @@
 <section class="section-project-duo">
-  <div class="section-project-duo__grid">
+  <div class="section-project-duo__grid" style="--img-size: {{ section.settings.image_size | default: 100 }}%;">
     <div class="section-project-duo__img">
       {%- if section.settings.image_1 != blank -%}
         <img
@@ -39,6 +39,18 @@
       "type": "image_picker",
       "id": "image_2",
       "label": "Image droite"
+    },
+    { "type": "header", "content": "Taille des images" },
+    {
+      "type": "range",
+      "id": "image_size",
+      "label": "Largeur des images (%)",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100,
+      "info": "Réduit les images en gardant leurs proportions, centrées. Sur mobile, elles restent en pleine largeur."
     }
   ],
   "presets": [

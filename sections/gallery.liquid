@@ -11,7 +11,7 @@
   {%- endif -%}
 
   {%- if section.blocks.size > 0 -%}
-    <div class="gallery-grid">
+    <div class="gallery-grid" style="--img-size: {{ section.settings.image_size | default: 100 }}%;">
       {%- for block in section.blocks -%}
         <div class="gallery-grid__item gallery-grid__item--{{ forloop.index }}" {{ block.shopify_attributes }}>
           <a
@@ -144,9 +144,21 @@
       "unit": "px",
       "default": 96
     },
+    { "type": "header", "content": "Taille des images" },
+    {
+      "type": "range",
+      "id": "image_size",
+      "label": "Largeur des images (%)",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100,
+      "info": "Réduit les images en gardant leurs proportions, centrées. Sur mobile, elles restent en pleine largeur."
+    },
     {
       "type": "paragraph",
-      "content": "💡 Astuce : pour un rendu optimal, utilisez un multiple de 4 images (4, 8, 12, 16, 20...)."
+      "content": "💡 Astuce : 3 images par ligne, utilisez un multiple de 3 images (3, 6, 9, 12...) pour des lignes complètes."
     }
   ],
   "presets": [
