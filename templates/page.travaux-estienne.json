@@ -139,7 +139,7 @@
       "type": "equipes",
       "name": "Les équipes",
       "settings": {
-        "title": "Les plans",
+        "title": "Plan",
         "image": "shopify://shop_images/12.jpg"
       }
     }
