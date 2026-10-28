@@ -81,15 +81,6 @@
             "project_name": ""
           }
         },
-        "img7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/lices_gvoinot_79_w.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
         "img8": {
           "type": "image",
           "settings": {
@@ -106,7 +97,6 @@
         "image_tL8xCw",
         "img6",
         "image_kkDwgH",
-        "img7",
         "img8"
       ],
       "settings": {

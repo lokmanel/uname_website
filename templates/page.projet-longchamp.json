@@ -26,22 +26,6 @@
         "image_2": "shopify://shop_images/9R1A0275.jpg"
       }
     },
-    "equipes_a7Gntx": {
-      "type": "equipes",
-      "name": "Les équipes",
-      "settings": {
-        "title": "",
-        "image": "shopify://shop_images/Ilot_central_4.jpg"
-      }
-    },
-    "project_duo_R7QHxD": {
-      "type": "project-duo",
-      "name": "Duo images",
-      "settings": {
-        "image_1": "shopify://shop_images/9R1A0203.jpg",
-        "image_2": "shopify://shop_images/9R1A0220.jpg"
-      }
-    },
     "moodboard": {
       "type": "equipes",
       "settings": {
@@ -88,15 +72,6 @@
             "project_name": ""
           }
         },
-        "img5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/9R1A0168.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
         "img6": {
           "type": "image",
           "settings": {
@@ -114,15 +89,6 @@
             "link": "",
             "project_name": ""
           }
-        },
-        "img8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_Endoume_Cuisine4.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
         }
       },
       "block_order": [
@@ -130,10 +96,8 @@
         "img2",
         "img3",
         "img4",
-        "img5",
         "img6",
-        "img7",
-        "img8"
+        "img7"
       ],
       "settings": {
         "title": "",
@@ -144,14 +108,21 @@
         "padding_top": 64,
         "padding_bottom": 96
       }
+    },
+    "project_duo_R7QHxD": {
+      "type": "project-duo",
+      "name": "Duo images",
+      "settings": {
+        "image_1": "shopify://shop_images/9R1A0203.jpg",
+        "image_2": "shopify://shop_images/9R1A0220.jpg"
+      }
     }
   },
   "order": [
     "header",
     "duo",
-    "equipes_a7Gntx",
-    "project_duo_R7QHxD",
     "moodboard",
-    "gallery"
+    "gallery",
+    "project_duo_R7QHxD"
   ]
 }
