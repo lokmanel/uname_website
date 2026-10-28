@@ -25,7 +25,7 @@
       "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/ESTIENNE_RDV5-4.webp"
+        "image": "shopify://shop_images/14.jpg"
       }
     },
     "gallery_m7rCaK": {
@@ -102,6 +102,15 @@
             "link": "",
             "project_name": ""
           }
+        },
+        "image_VEckzV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ESTIENNE_RDV5-12.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -112,13 +121,14 @@
         "image_7FpBPg",
         "image_VXiccB",
         "image_Wc3cPR",
-        "image_3hVpEF"
+        "image_3hVpEF",
+        "image_VEckzV"
       ],
       "name": "Galerie",
       "settings": {
-        "title": "Approche",
-        "description": "<p>L’aménagement a été entièrement repensé pour fluidifier les circulations, valoriser les volumes et renforcer le lien avec la cour extérieure. Inspiré des univers mid-century et des années 70, le projet mêle teintes profondes, lignes graphiques et pièces fortes à des détails plus minimalistes et techniques. Un équilibre entre audace et sobriété, au service d’un lieu chaleureux, singulier et adapté au mode de vie de sa propriétaire.</p>",
-        "desc_size": 15,
+        "title": "Approche 3D",
+        "description": "<p>L’aménagement a été entièrement repensé pour fluidifier les circulations, valoriser les volumes et renforcer le lien avec la cour extérieure. Inspiré des univers mid-century et des années 70, le projet mêle teintes profondes, lignes graphiques et pièces fortes à des détails plus minimalistes et techniques.&nbsp;</p>",
+        "desc_size": 21,
         "desc_width": 570,
         "desc_align": "left",
         "padding_top": 64,
@@ -130,7 +140,7 @@
       "name": "Les équipes",
       "settings": {
         "title": "Les plans",
-        "image": "shopify://shop_images/ESTIENNE_RDV5-2.webp"
+        "image": "shopify://shop_images/12.jpg"
       }
     }
   },
