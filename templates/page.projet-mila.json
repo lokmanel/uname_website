@@ -26,13 +26,6 @@
         "image_2": "shopify://shop_images/Uname_TILSIT_19.jpg"
       }
     },
-    "moodboard": {
-      "type": "equipes",
-      "settings": {
-        "title": "",
-        "image": "shopify://shop_images/Uname_TILSIT_13.jpg"
-      }
-    },
     "gallery": {
       "type": "gallery",
       "blocks": {
@@ -45,10 +38,19 @@
             "project_name": ""
           }
         },
+        "image_H34aEp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_TILSIT_23.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
         "img2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_TILSIT_22.jpg",
+            "image": "shopify://shop_images/Uname_TILSIT_12.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -72,15 +74,6 @@
             "project_name": ""
           }
         },
-        "img5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_TILSIT_9.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
         "img6": {
           "type": "image",
           "settings": {
@@ -89,35 +82,15 @@
             "link": "",
             "project_name": ""
           }
-        },
-        "img7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_TILSIT_21.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_TILSIT_15.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
         }
       },
       "block_order": [
         "img1",
+        "image_H34aEp",
         "img2",
         "img3",
         "img4",
-        "img5",
-        "img6",
-        "img7",
-        "img8"
+        "img6"
       ],
       "settings": {
         "title": "",
@@ -141,8 +114,7 @@
   "order": [
     "header",
     "duo",
-    "moodboard",
-    "gallery",
-    "equipes_QJcmjf"
+    "equipes_QJcmjf",
+    "gallery"
   ]
 }
