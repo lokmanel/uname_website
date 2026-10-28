@@ -14,9 +14,9 @@
       "name": "En-tête projet",
       "settings": {
         "title": "Meyreuil",
-        "description": "<p>Rénovation intégrale d’une maison provençale de 220 m², nichée dans un écrin de verdure à Meyreuil. </p><p>Un projet pensé pour révéler son potentiel architectural, moderniser ses usages et renforcer son ouverture sur l’extérieur.</p>",
+        "description": "<p>Rénovation intégrale d’une maison provençale de 220 m², nichée dans un écrin de verdure à Meyreuil.&nbsp;</p><p>Un projet pensé pour révéler son potentiel architectural, moderniser ses usages et renforcer son ouverture sur l’extérieur.</p>",
         "desc_size": 20,
-        "desc_width": 510,
+        "desc_width": 650,
         "desc_align": "left"
       }
     },
@@ -25,7 +25,7 @@
       "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION.webp"
+        "image": "shopify://shop_images/9.jpg"
       }
     },
     "gallery_NqkTeV": {
@@ -61,7 +61,7 @@
         "image_BqhKrJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION_-5.webp",
+            "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION_-3_6caf36f6-9e39-44c4-9ef9-b63f806a4838.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -102,6 +102,15 @@
             "link": "",
             "project_name": ""
           }
+        },
+        "image_WAptVr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION_-5.png",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
@@ -112,17 +121,18 @@
         "image_tEzBhb",
         "image_i7wY8m",
         "image_gki9Um",
-        "image_JdrPHd"
+        "image_JdrPHd",
+        "image_WAptVr"
       ],
       "name": "Galerie",
       "settings": {
-        "title": "Approche",
+        "title": "Approche 3D",
         "description": "<p>Le projet puise dans l’architecture méditerranéenne et les années 70 pour créer un intérieur chaleureux, brut et intemporel. Pierre naturelle, cannage, lin et teintes terreuses composent une palette organique. Une rénovation qui conserve l’âme conviviale de la maison tout en affirmant son caractère.</p>",
         "desc_size": 15,
         "desc_width": 570,
         "desc_align": "left",
         "padding_top": 64,
-        "padding_bottom": 96
+        "padding_bottom": 64
       }
     },
     "equipes_MekEh7": {
@@ -130,7 +140,7 @@
       "name": "Les équipes",
       "settings": {
         "title": "Moodboard extérieur",
-        "image": "shopify://shop_images/Design_sans_titre_2.webp"
+        "image": "shopify://shop_images/10.jpg"
       }
     }
   },
