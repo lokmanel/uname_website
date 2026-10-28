@@ -33,7 +33,7 @@
         "image_6J4irT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LIBERATION_RDV_5.webp",
+            "image": "shopify://shop_images/LIBERATION_RDV_5-2.jpg",
             "alt": "",
             "link": "shopify://pages/liberation",
             "project_name": "Libération"
@@ -45,34 +45,16 @@
             "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION_6d3c07f9-1660-4fd7-9388-5e377499a5b7.webp",
             "alt": "",
             "link": "shopify://pages/meyreuil",
-            "project_name": "Meyreui"
+            "project_name": "Meyreuil"
           }
         },
         "image_4rnHWp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ENSUES_RDV_4_3D.webp",
-            "alt": "",
-            "link": "shopify://pages/st-barnabe",
-            "project_name": "Ensues"
-          }
-        },
-        "image_WDW33H": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ESTIENNE_RDV5-6.webp",
-            "alt": "",
-            "link": "shopify://pages/estienne",
-            "project_name": "ESTIENNE"
-          }
-        },
-        "image_pAJw6g": {
-          "type": "image",
-          "settings": {
             "image": "shopify://shop_images/ENSUES_RDV_4_3D-5.webp",
             "alt": "",
             "link": "shopify://pages/st-barnabe",
-            "project_name": "ENSUES"
+            "project_name": "Ensues"
           }
         },
         "image_46pDUt": {
@@ -91,8 +73,6 @@
         "image_6J4irT",
         "image_jfiCHY",
         "image_4rnHWp",
-        "image_WDW33H",
-        "image_pAJw6g",
         "image_46pDUt"
       ],
       "name": "Galerie",
