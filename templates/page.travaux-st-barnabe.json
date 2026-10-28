@@ -31,15 +31,6 @@
     "gallery": {
       "type": "gallery",
       "blocks": {
-        "img3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ENSUES_RDV_4_3D.webp",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
         "img4": {
           "type": "image",
           "settings": {
@@ -52,7 +43,7 @@
         "img5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ENSUES_RDV_4_3D-7.webp",
+            "image": "shopify://shop_images/ENSUES_RDV_4_3D.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -84,20 +75,29 @@
             "link": "",
             "project_name": ""
           }
+        },
+        "image_neartL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ENSUES_RDV_4_3D-7.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
-        "img3",
         "img4",
         "img5",
         "img6",
         "img7",
-        "img8"
+        "img8",
+        "image_neartL"
       ],
       "settings": {
-        "title": "Approche",
+        "title": "Approche 3D",
         "description": "<p>L’aménagement a été repensé pour offrir des volumes fluides, généreux et adaptés au quotidien. La cuisine se prolonge vers la salle à manger autour d’un îlot maçonné convivial, tandis que le séjour s’ouvre largement sur l’extérieur.</p>",
-        "desc_size": 15,
+        "desc_size": 20,
         "desc_width": 570,
         "desc_align": "left",
         "padding_top": 64,
