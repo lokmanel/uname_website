@@ -45,55 +45,28 @@
             "project_name": ""
           }
         },
-        "img2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9498.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/mc-unamestudio-g-5.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9487.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/mc-unamestudio-g-10.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/mc-unamestudio-g-11.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
         "img7": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/IMG_9587.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_knej4g": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9619.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_NaiKHj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mc-unamestudio-g-8.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -107,17 +80,24 @@
             "link": "",
             "project_name": ""
           }
+        },
+        "image_JBtVn8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9605.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
         "img1",
-        "img2",
-        "img3",
-        "img4",
-        "img5",
-        "img6",
         "img7",
-        "img8"
+        "image_knej4g",
+        "image_NaiKHj",
+        "img8",
+        "image_JBtVn8"
       ],
       "settings": {
         "title": "",
@@ -129,36 +109,12 @@
         "padding_bottom": 96
       }
     },
-    "project_duo_F4UwMd": {
-      "type": "project-duo",
-      "name": "Duo images",
-      "settings": {
-        "image_1": "shopify://shop_images/IMG_9605.jpg",
-        "image_2": "shopify://shop_images/IMG_9619.jpg"
-      }
-    },
-    "equipes_AppjjB": {
-      "type": "equipes",
-      "name": "Les équipes",
-      "settings": {
-        "title": "",
-        "image": "shopify://shop_images/mc-unamestudio-g-13.jpg"
-      }
-    },
     "project_duo_cP6K8d": {
       "type": "project-duo",
       "name": "Duo images",
       "settings": {
         "image_1": "shopify://shop_images/IMG_9572.jpg",
         "image_2": "shopify://shop_images/IMG_9568.jpg"
-      }
-    },
-    "equipes_fm3gah": {
-      "type": "equipes",
-      "name": "Les équipes",
-      "settings": {
-        "title": "",
-        "image": "shopify://shop_images/IMG_9606.jpg"
       }
     }
   },
@@ -167,9 +123,6 @@
     "duo",
     "moodboard",
     "gallery",
-    "project_duo_F4UwMd",
-    "equipes_AppjjB",
-    "project_duo_cP6K8d",
-    "equipes_fm3gah"
+    "project_duo_cP6K8d"
   ]
 }
