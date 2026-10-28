@@ -13,7 +13,7 @@
       "type": "project-header",
       "name": "En-tête projet",
       "settings": {
-        "title": "Amorosa",
+        "title": "Amorossa",
         "description": "<p>Rénovation partielle d’un appartement marseillais avec son extérieur, pensé à partir du charme et des éléments de l’existant. Un projet qui révèle les volumes et la lumière du lieu à travers une écriture plus forte et affirmée.</p>",
         "desc_size": 20,
         "desc_width": 510,
@@ -154,8 +154,8 @@
   "order": [
     "project_header_BTaLUV",
     "equipes_XrjAEp",
-    "equipes_Wapthx",
     "gallery",
+    "equipes_Wapthx",
     "equipes_986Jd9"
   ]
 }
