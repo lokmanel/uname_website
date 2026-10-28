@@ -45,33 +45,6 @@
             "project_name": ""
           }
         },
-        "img2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/lices_gvoinot_215_w.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/lices_gvoinot_17_w.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/lices_gvoinot_37_w.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
         "img5": {
           "type": "image",
           "settings": {
@@ -81,10 +54,28 @@
             "project_name": ""
           }
         },
+        "image_tL8xCw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lices_gvoinot_37_2.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
         "img6": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/lices_gvoinot_90_w.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_kkDwgH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lices_gvoinot_215_w.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -111,11 +102,10 @@
       },
       "block_order": [
         "img1",
-        "img2",
-        "img3",
-        "img4",
         "img5",
+        "image_tL8xCw",
         "img6",
+        "image_kkDwgH",
         "img7",
         "img8"
       ],

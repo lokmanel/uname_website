@@ -36,6 +36,15 @@
     "gallery": {
       "type": "gallery",
       "blocks": {
+        "image_PgcMgk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_STCYR_sejour_cuisine_3.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
         "img1": {
           "type": "image",
           "settings": {
@@ -45,10 +54,28 @@
             "project_name": ""
           }
         },
+        "image_weFzXc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_STCYR_sejour_cuisine_4.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_K4Wwam": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_STCYR_escaliers_2.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
         "img2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_STCYR_Chambre_SDB2_5.jpg",
+            "image": "shopify://shop_images/Uname_STCYR_sejour_cuisine_6.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -57,16 +84,7 @@
         "img3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_STCYR_Chambre_SDB2_3.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_STCYR_Chambre_SDB2_4.jpg",
+            "image": "shopify://shop_images/Uname_STCYR_escaliers_1.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -76,15 +94,6 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Uname_STCYR_sejour_cuisine_1.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_STCYR_sejour_cuisine_3.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -102,7 +111,7 @@
         "img8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_STCYR_Chambre_SDB2_1.jpg",
+            "image": "shopify://shop_images/Uname_STCYR_Chambre_SDB2_5.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -110,12 +119,13 @@
         }
       },
       "block_order": [
+        "image_PgcMgk",
         "img1",
+        "image_weFzXc",
+        "image_K4Wwam",
         "img2",
         "img3",
-        "img4",
         "img5",
-        "img6",
         "img7",
         "img8"
       ],
@@ -128,30 +138,12 @@
         "padding_top": 64,
         "padding_bottom": 96
       }
-    },
-    "project_duo_erhrCD": {
-      "type": "project-duo",
-      "name": "Duo images",
-      "settings": {
-        "image_1": "shopify://shop_images/Uname_STCYR_Chambre_SDB2_8.jpg",
-        "image_2": "shopify://shop_images/Uname_STCYR_Chambre_SDB3_1.jpg"
-      }
-    },
-    "equipes_9ngBLz": {
-      "type": "equipes",
-      "name": "Les équipes",
-      "settings": {
-        "title": "",
-        "image": "shopify://shop_images/Uname_STCYR_Chambre_SDB3_3.jpg"
-      }
     }
   },
   "order": [
     "header",
     "duo",
     "moodboard",
-    "gallery",
-    "project_duo_erhrCD",
-    "equipes_9ngBLz"
+    "gallery"
   ]
 }
