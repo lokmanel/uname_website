@@ -45,24 +45,6 @@
             "project_name": ""
           }
         },
-        "img2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/canap.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/fong_gvt_143_64960e8c-8c7f-46e2-81d5-7003c7520682.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
         "img4": {
           "type": "image",
           "settings": {
@@ -111,8 +93,6 @@
       },
       "block_order": [
         "img1",
-        "img2",
-        "img3",
         "img4",
         "img5",
         "img6",
