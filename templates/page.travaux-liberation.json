@@ -25,15 +25,84 @@
       "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/LIBERATION_RDV_5.webp"
+        "image": "shopify://shop_images/16.jpg"
       }
     },
-    "project_duo_P43URa": {
-      "type": "project-duo",
-      "name": "Duo images",
+    "gallery_EpnWVR": {
+      "type": "gallery",
+      "blocks": {
+        "image_Y6Xm8k": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LIBERATION_RDV_5-2.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_KHEnFF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LIBERATION_RDV_5.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_rQw8Ki": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LIBERATION_RDV_5-4.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_knpKdA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LIBERATION_RDV_5.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_e9WYHH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LIBERATION_RDV_5-3.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_JhjzUA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LIBERATION_RDV_5-4.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Y6Xm8k",
+        "image_KHEnFF",
+        "image_rQw8Ki",
+        "image_knpKdA",
+        "image_e9WYHH",
+        "image_JhjzUA"
+      ],
+      "name": "Galerie",
       "settings": {
-        "image_1": "shopify://shop_images/LIBERATION_RDV_5-4.webp",
-        "image_2": "shopify://shop_images/LIBERATION_RDV_5-3.webp"
+        "title": "Approche 3D",
+        "description": "<p>Le charme de Marseille, modernisé pour donner un style unique à cet appartement.</p>",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     },
     "equipes_zDG68x": {
@@ -41,14 +110,14 @@
       "name": "Les équipes",
       "settings": {
         "title": "Mooboard",
-        "image": "shopify://shop_images/LIBERATION_RDV1.webp"
+        "image": "shopify://shop_images/PLANS_ET_MOODBOARDS_-_SITE-4.jpg"
       }
     }
   },
   "order": [
     "project_header_8rCJpi",
     "equipes_WY7Cg8",
-    "project_duo_P43URa",
+    "gallery_EpnWVR",
     "equipes_zDG68x"
   ]
 }
