@@ -16,7 +16,7 @@
         "title": "Ensues",
         "description": "<p>Conception de la rénovation d’un bas de villa de 100 m² et de sa terrasse, à Ensuès-la-Redonne. Un projet pensé pour révéler la lumière du lieu, ouvrir les espaces et renforcer leur lien avec le jardin.</p>",
         "desc_size": 20,
-        "desc_width": 480,
+        "desc_width": 600,
         "desc_align": "left"
       }
     },
@@ -25,30 +25,12 @@
       "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/ENSUES_RDV_4_3D-3.webp"
+        "image": "shopify://shop_images/19.jpg"
       }
     },
     "gallery": {
       "type": "gallery",
       "blocks": {
-        "img1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ENSUES_RDV_4_3D-2.webp",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ENSUES_RDV_4_3D-4.webp",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
         "img3": {
           "type": "image",
           "settings": {
@@ -105,8 +87,6 @@
         }
       },
       "block_order": [
-        "img1",
-        "img2",
         "img3",
         "img4",
         "img5",
