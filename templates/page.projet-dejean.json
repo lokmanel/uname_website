@@ -54,24 +54,6 @@
             "project_name": ""
           }
         },
-        "img3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_Dejean_Cuisine1.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_Dejean_Bureau2.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
         "img5": {
           "type": "image",
           "settings": {
@@ -84,7 +66,7 @@
         "img6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_Dejean_Cuisine3.jpg",
+            "image": "shopify://shop_images/Uname_Dejean_Cuisine5.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -112,8 +94,6 @@
       "block_order": [
         "img1",
         "img2",
-        "img3",
-        "img4",
         "img5",
         "img6",
         "img7",

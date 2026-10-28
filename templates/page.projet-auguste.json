@@ -38,24 +38,6 @@
             "project_name": ""
           }
         },
-        "img2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/TESt-cuisine-horizontale.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_AUGUSTE_3_0d63b3b2-3122-427a-a9a6-0083450bfe24.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
         "img4": {
           "type": "image",
           "settings": {
@@ -83,15 +65,6 @@
             "project_name": ""
           }
         },
-        "img7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_AUGUSTE_12_1709ffc4-1336-481a-b178-f7dca267f773.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
         "img8": {
           "type": "image",
           "settings": {
@@ -100,17 +73,24 @@
             "link": "",
             "project_name": ""
           }
+        },
+        "image_fmPAa9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Uname_AUGUSTE_3_0d63b3b2-3122-427a-a9a6-0083450bfe24.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
         }
       },
       "block_order": [
         "img1",
-        "img2",
-        "img3",
         "img4",
         "img5",
         "img6",
-        "img7",
-        "img8"
+        "img8",
+        "image_fmPAa9"
       ],
       "settings": {
         "title": "",
