@@ -1,0 +1,131 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "project_header_3c89hg": {
+      "type": "project-header",
+      "name": "En-tête projet",
+      "settings": {
+        "title": "Ensues",
+        "description": "<p>Conception de la rénovation d’un bas de villa de 100 m² et de sa terrasse, à Ensuès-la-Redonne. Un projet pensé pour révéler la lumière du lieu, ouvrir les espaces et renforcer leur lien avec le jardin.</p>",
+        "desc_size": 20,
+        "desc_width": 600,
+        "desc_align": "left"
+      }
+    },
+    "equipes_UjiNT6": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/19.jpg"
+      }
+    },
+    "gallery": {
+      "type": "gallery",
+      "blocks": {
+        "img4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ENSUES_RDV_4_3D-3.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "img5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ENSUES_RDV_4_3D.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "img6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ENSUES_RDV_4_3D-5.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "img7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ENSUES_RDV_4_3D-8.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "img8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ENSUES_RDV_4_3D-6.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_neartL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ENSUES_RDV_4_3D-7.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "img4",
+        "img5",
+        "img6",
+        "img7",
+        "img8",
+        "image_neartL"
+      ],
+      "settings": {
+        "title": "Approche 3D",
+        "description": "<p>L’aménagement a été repensé pour offrir des volumes fluides, généreux et adaptés au quotidien. La cuisine se prolonge vers la salle à manger autour d’un îlot maçonné convivial, tandis que le séjour s’ouvre largement sur l’extérieur.</p>",
+        "desc_size": 20,
+        "desc_width": 570,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96
+      }
+    },
+    "equipes_fBQjX9": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "Moodboard",
+        "image": "shopify://shop_images/Design_sans_titre_3.webp"
+      }
+    },
+    "equipes_3QicrF": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "Plan éclairage",
+        "image": "shopify://shop_images/20.jpg"
+      }
+    }
+  },
+  "order": [
+    "project_header_3c89hg",
+    "equipes_UjiNT6",
+    "gallery",
+    "equipes_fBQjX9",
+    "equipes_3QicrF"
+  ]
+}
