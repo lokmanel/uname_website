@@ -26,11 +26,12 @@
         "image_2": "shopify://shop_images/FOCUS_VALIER_5.webp"
       }
     },
-    "moodboard": {
+    "equipes_9ppG7q": {
       "type": "equipes",
+      "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/Design_sans_titre_6.webp"
+        "image": "shopify://shop_images/VALIER_12.webp"
       }
     },
     "gallery": {
@@ -45,37 +46,10 @@
             "project_name": ""
           }
         },
-        "img2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ARRONDI_VALIER_1.webp",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
         "img3": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/FOCUS_VALIER_10.webp",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/FOCUS_VALIER_1.webp",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/VALIER_17.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -90,10 +64,19 @@
             "project_name": ""
           }
         },
+        "image_WfyQ4z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VALIER_2.webp",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
         "img7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/FOCUS_VALIER_11.webp",
+            "image": "shopify://shop_images/VALIER_16.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -102,7 +85,7 @@
         "img8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/OMBRE_VALIER_1.webp",
+            "image": "shopify://shop_images/FOCUS_VALIER_4.webp",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -111,11 +94,9 @@
       },
       "block_order": [
         "img1",
-        "img2",
         "img3",
-        "img4",
-        "img5",
         "img6",
+        "image_WfyQ4z",
         "img7",
         "img8"
       ],
@@ -133,25 +114,16 @@
       "type": "project-duo",
       "name": "Duo images",
       "settings": {
-        "image_1": "shopify://shop_images/VALIER_16.webp",
-        "image_2": "shopify://shop_images/FOCUS_VALIER_1.webp"
-      }
-    },
-    "equipes_9ppG7q": {
-      "type": "equipes",
-      "name": "Les équipes",
-      "settings": {
-        "title": "",
-        "image": "shopify://shop_images/VALIER_8.webp"
+        "image_1": "shopify://shop_images/OMBRE_VALIER_1.webp",
+        "image_2": "shopify://shop_images/ARRONDI_VALIER_1.webp"
       }
     }
   },
   "order": [
     "header",
     "duo",
-    "moodboard",
+    "equipes_9ppG7q",
     "gallery",
-    "project_duo_4kUFqT",
-    "equipes_9ppG7q"
+    "project_duo_4kUFqT"
   ]
 }
