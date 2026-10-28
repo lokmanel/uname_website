@@ -26,13 +26,6 @@
         "image_2": "shopify://shop_images/Uname_Endoume_Sejour1.jpg"
       }
     },
-    "moodboard": {
-      "type": "equipes",
-      "settings": {
-        "title": "",
-        "image": "shopify://shop_images/Ilot_central_5.jpg"
-      }
-    },
     "gallery": {
       "type": "gallery",
       "blocks": {
@@ -63,19 +56,10 @@
             "project_name": ""
           }
         },
-        "img4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_Endoume_Cuisine3_eb7ac0d8-2555-4508-9926-72ca22343eb1.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
         "img5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_Endoume_Sejour2.jpg",
+            "image": "shopify://shop_images/Uname_Endoume_Sejour4.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -84,7 +68,7 @@
         "img6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_Endoume_Sejour6.jpg",
+            "image": "shopify://shop_images/Uname_Endoume_Sejour8.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -93,16 +77,7 @@
         "img7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Uname_Endoume_Cuisine1_60db46c6-3745-479e-b2b2-635289ae1740.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
-        "img8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_Endoume_Sejour9.jpg",
+            "image": "shopify://shop_images/Uname_Endoume_Sejour6.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -113,11 +88,9 @@
         "img1",
         "img2",
         "img3",
-        "img4",
         "img5",
         "img6",
-        "img7",
-        "img8"
+        "img7"
       ],
       "settings": {
         "title": "",
@@ -137,26 +110,9 @@
         "image_2": "shopify://shop_images/Uname_Endoume_Sejour3.jpg"
       }
     },
-    "equipes_kALeec": {
-      "type": "equipes",
-      "name": "Les équipes",
-      "settings": {
-        "title": "",
-        "image": "shopify://shop_images/INTERIEUR-EXTERIEUR.jpg"
-      }
-    },
     "gallery_2": {
       "type": "gallery",
       "blocks": {
-        "img1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_Endoume_Sejour8.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
         "img2": {
           "type": "image",
           "settings": {
@@ -202,15 +158,6 @@
             "project_name": ""
           }
         },
-        "img7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/CUISINE-ETE-03.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": ""
-          }
-        },
         "img8": {
           "type": "image",
           "settings": {
@@ -222,13 +169,11 @@
         }
       },
       "block_order": [
-        "img1",
         "img2",
         "img3",
         "img4",
         "img5",
         "img6",
-        "img7",
         "img8"
       ],
       "settings": {
@@ -245,10 +190,8 @@
   "order": [
     "header",
     "duo",
-    "moodboard",
     "gallery",
     "project_duo_m3wnE3",
-    "equipes_kALeec",
     "gallery_2"
   ]
 }
