@@ -47,7 +47,7 @@
             "image": "shopify://shop_images/9R1A3137-2.jpg",
             "alt": "",
             "link": "",
-            "project_name": ""
+            "project_name": "BLANC"
           }
         },
         "img1": {
@@ -113,40 +113,13 @@
             "project_name": "Lices"
           }
         },
-        "img7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9494.jpg",
-            "alt": "",
-            "link": "shopify://pages/gagliardo",
-            "project_name": "Gagliardo"
-          }
-        },
         "img8": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/VALIER_4.webp",
             "alt": "",
             "link": "shopify://pages/valier",
-            "project_name": "Vallier"
-          }
-        },
-        "image_hJU36n": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ENSUES_RDV_4_3D.webp",
-            "alt": "",
-            "link": "",
-            "project_name": "Ensues"
-          }
-        },
-        "image_FMRJUD": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/LIBERATION_RDV_5.webp",
-            "alt": "",
-            "link": "shopify://pages/liberation",
-            "project_name": "Liberation"
+            "project_name": "Valier"
           }
         },
         "image_KNhEDC": {
@@ -163,8 +136,8 @@
           "settings": {
             "image": "shopify://shop_images/fong_gvt_91_c05dcb18-fa65-4dc1-9485-edf49f4b9858.jpg",
             "alt": "",
-            "link": "",
-            "project_name": ""
+            "link": "shopify://pages/fongate",
+            "project_name": "FONGATE"
           }
         },
         "image_bFbN73": {
@@ -172,26 +145,8 @@
           "settings": {
             "image": "shopify://shop_images/CASA_L_AMOROSSA_RDV6-3.webp",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/sauve",
             "project_name": "amorossa"
-          }
-        },
-        "image_tftUhg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/MEYREUIL_-_RDV_10_HARMONISATION_6d3c07f9-1660-4fd7-9388-5e377499a5b7.webp",
-            "alt": "",
-            "link": "",
-            "project_name": "Meyreuil"
-          }
-        },
-        "image_8N6DYA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Uname_TILSIT_7.jpg",
-            "alt": "",
-            "link": "",
-            "project_name": "Tilsit"
           }
         }
       },
@@ -204,15 +159,10 @@
         "img5",
         "img6",
         "image_3HRVN6",
-        "img7",
         "img8",
-        "image_hJU36n",
-        "image_FMRJUD",
         "image_KNhEDC",
         "image_U3Pjfk",
-        "image_bFbN73",
-        "image_tftUhg",
-        "image_8N6DYA"
+        "image_bFbN73"
       ],
       "settings": {
         "title": "",
