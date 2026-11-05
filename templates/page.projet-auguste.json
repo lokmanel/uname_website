@@ -23,7 +23,8 @@
       "type": "project-duo",
       "settings": {
         "image_1": "shopify://shop_images/Uname_AUGUSTE_6_3607067b-9776-4b61-9050-2a6180c45957.jpg",
-        "image_2": "shopify://shop_images/Uname_AUGUSTE_8_27470e6d-1a8a-45af-a935-637dafd71fd7.jpg"
+        "image_2": "shopify://shop_images/Uname_AUGUSTE_8_27470e6d-1a8a-45af-a935-637dafd71fd7.jpg",
+        "image_size": 100
       }
     },
     "gallery": {
@@ -99,14 +100,16 @@
         "desc_width": 480,
         "desc_align": "left",
         "padding_top": 64,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "image_size": 100
       }
     },
     "moodboard": {
       "type": "equipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/Uname_AUGUSTE_5_15d97f41-4508-4615-a07a-08224360ecf1.jpg"
+        "image": "shopify://shop_images/Uname_AUGUSTE_5_15d97f41-4508-4615-a07a-08224360ecf1.jpg",
+        "image_size": 65
       }
     }
   },
