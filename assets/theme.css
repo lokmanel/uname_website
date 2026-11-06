@@ -57,7 +57,10 @@
   --c-black:      #1a1a1a;
   --c-muted:      #8a8a8a;
   --c-border:     #e8e8e8;
-  --c-footer-bg:  #747A4D;
+  --c-brown:      #48281c; /* charte : brun */
+  --c-cream:      #f4eacf; /* charte : crème */
+  --c-footer-bg:  var(--c-brown);
+  --c-footer-fg:  var(--c-cream);
 
   /* Typography */
   --f-display: 'Canora', Georgia, serif;
@@ -1371,13 +1374,14 @@ ul, ol { list-style: none; }
 
 .site-footer {
   background: var(--c-footer-bg);
+  color: var(--c-footer-fg);
 }
 
 /* Niveau 1 — deux colonnes */
 .footer__main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-bottom: 2px solid var(--c-black);
+  border-bottom: 2px solid var(--c-footer-fg);
 }
 
 /* Colonne gauche — nav centrée */
@@ -1386,7 +1390,7 @@ ul, ol { list-style: none; }
   align-items: center;
   justify-content: center;
   padding: var(--sp-xl) var(--gutter);
-  border-right: 2px solid var(--c-black);
+  border-right: 2px solid var(--c-footer-fg);
 }
 
 .footer__nav-list {
@@ -1401,7 +1405,7 @@ ul, ol { list-style: none; }
   font-family: var(--f-body);
   font-size: 18px;
   font-weight: 400;
-  color: var(--c-black);
+  color: var(--c-footer-fg);
   position: relative;
   padding-bottom: 2px;
 }
@@ -1411,7 +1415,7 @@ ul, ol { list-style: none; }
   position: absolute;
   bottom: 0; left: 0;
   width: 0; height: 1px;
-  background: var(--c-black);
+  background: var(--c-footer-fg);
   transition: width 0.4s ease;
 }
 
@@ -1427,7 +1431,7 @@ ul, ol { list-style: none; }
   font-size: 35px;
   font-weight: 400;
   line-height: 35px;
-  color: var(--c-black);
+  color: var(--c-footer-fg);
   margin-bottom: var(--sp-sm);
 }
 
@@ -1436,7 +1440,7 @@ ul, ol { list-style: none; }
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
-  color: var(--c-black);
+  color: var(--c-footer-fg);
   margin-bottom: var(--sp-md);
 }
 
@@ -1445,18 +1449,18 @@ ul, ol { list-style: none; }
   width: 100%;
   padding: 11px 14px;
   background: var(--c-footer-bg);
-  border: 1px solid var(--c-black);
+  border: 1px solid var(--c-footer-fg);
   border-radius: 2px;
   font-family: var(--f-body);
   font-size: 0.85rem;
   font-weight: 400;
-  color: var(--c-black);
+  color: var(--c-footer-fg);
   outline: none;
   transition: border-color var(--ease);
   margin-bottom: var(--sp-md);
 }
 
-.footer__email-input:focus { border-color: var(--c-black); }
+.footer__email-input:focus { border-color: var(--c-footer-fg); }
 
 .footer__social-list {
   display: flex;
@@ -1467,7 +1471,7 @@ ul, ol { list-style: none; }
 .footer__social-link {
   display: flex;
   align-items: center;
-  color: var(--c-black);
+  color: var(--c-footer-fg);
   transition: opacity var(--ease);
 }
 
@@ -1489,6 +1493,21 @@ ul, ol { list-style: none; }
   object-fit: contain;
 }
 
+/* Grand logo en crème : le PNG noir sert de masque, la couleur vient du thème */
+@supports ((mask-image: url("")) or (-webkit-mask-image: url(""))) {
+  .footer__brand { position: relative; }
+  .footer__brand-logo { opacity: 0; }
+  .footer__brand::after {
+    content: '';
+    position: absolute;
+    inset: var(--sp-lg) var(--gutter);
+    background: var(--c-footer-fg);
+    -webkit-mask: url('logo-uname.png') center / contain no-repeat;
+            mask: url('logo-uname.png') center / contain no-repeat;
+    pointer-events: none;
+  }
+}
+
 /* Niveau 3 — mentions légales */
 .footer__legal {
   display: flex;
@@ -1501,7 +1520,7 @@ ul, ol { list-style: none; }
   font-family: var(--f-body);
   font-size: 0.75rem;
   font-weight: 400;
-  color: var(--c-black);
+  color: var(--c-footer-fg);
   text-decoration: underline;
   text-underline-offset: 3px;
   transition: opacity var(--ease);
@@ -1857,7 +1876,7 @@ ul, ol { list-style: none; }
 
   /* Footer */
   .footer__main { grid-template-columns: 1fr; }
-  .footer__col--nav { border-right: none; border-bottom: 2px solid var(--c-black); }
+  .footer__col--nav { border-right: none; border-bottom: 2px solid var(--c-footer-fg); }
   .footer__brand-logo { height: clamp(80px, 18vw, 160px); }
 
   /* Contact card — tailles réduites proportionnellement aux réglages */
@@ -1889,10 +1908,9 @@ ul, ol { list-style: none; }
 
 .is-project .section-project-header { padding-bottom: 0; }
 
-/* Duo : aligné sur la gouttière, écart --space ; le duo juste sous l'en-tête garde ses photos collées */
+/* Duo : aligné sur la gouttière, écart --space entre les deux photos */
 .is-project .section-project-duo { padding: 0 var(--gutter); }
 .is-project .section-project-duo__grid { gap: var(--space); }
-.is-project #main-content > .shopify-section:first-child + .shopify-section .section-project-duo__grid { gap: 0; }
 
 /* Grande photo */
 .is-project .section-equipes { padding: 0 var(--gutter); }
