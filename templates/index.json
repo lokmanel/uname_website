@@ -46,7 +46,7 @@
           "settings": {
             "image": "shopify://shop_images/9R1A3137-2.jpg",
             "alt": "",
-            "link": "",
+            "link": "shopify://pages/blanc",
             "project_name": "BLANC"
           }
         },
@@ -171,7 +171,8 @@
         "desc_width": 470,
         "desc_align": "left",
         "padding_top": 64,
-        "padding_bottom": 96
+        "padding_bottom": 96,
+        "image_size": 100
       }
     },
     "services": {
