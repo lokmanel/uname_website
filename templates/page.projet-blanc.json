@@ -13,9 +13,9 @@
       "type": "project-header",
       "settings": {
         "title": "Blanc",
-        "description": "",
+        "description": "<p>Au pied de Notre-Dame, une maison ancienne entièrement repensée et surélevée pour ouvrir de nouvelles perspectives sur Marseille et les îles. Les pièces de vie prennent place à l’étage, dans le prolongement de la terrasse, tandis qu’un escalier sculptural en béton relie les deux niveaux.&nbsp;</p>",
         "desc_size": 20,
-        "desc_width": 510,
+        "desc_width": 620,
         "desc_align": "left"
       }
     },
@@ -23,7 +23,7 @@
       "type": "project-duo",
       "settings": {
         "image_1": "shopify://shop_images/Capture_d_ecran_2026-11-11_a_09.46.18.png",
-        "image_2": "shopify://shop_images/ROUCAS-31.jpg",
+        "image_2": "shopify://shop_images/ROUCAS-27.jpg",
         "image_size": 100
       }
     },
@@ -32,7 +32,7 @@
       "settings": {
         "title": "",
         "image": "shopify://shop_images/Chloe-cuisine_1.png",
-        "image_size": 80
+        "image_size": 60
       }
     },
     "gallery": {
@@ -41,6 +41,7 @@
         "img1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ROUCAS-27.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -49,6 +50,7 @@
         "img2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ROUCAS-22.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -57,6 +59,7 @@
         "img3": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ROUCAS-26.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -65,6 +68,7 @@
         "img4": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Chloe-sejour.png",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -73,6 +77,7 @@
         "img5": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ROUCAS-16.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -81,6 +86,7 @@
         "img6": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ROUCAS-24.jpg",
             "alt": "",
             "link": "",
             "project_name": ""
@@ -109,13 +115,173 @@
     "duo_2": {
       "type": "project-duo",
       "settings": {
+        "image_1": "shopify://shop_images/Chloe-escalier.png",
+        "image_2": "shopify://shop_images/Chloe-escalier_1.png",
+        "image_size": 80
+      }
+    },
+    "gallery_rGpXf8": {
+      "type": "gallery",
+      "blocks": {
+        "image_9HtAj3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-11-11_a_09.46.18.png",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_wPHc4D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ROUCAS-04.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_hcxP7w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Chloe-chambre.png",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_jGP3hd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ROUCAS-08.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_tPk4hc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ROUCAS-09.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_NP9pyH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ROUCAS-14.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_UiG4WK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ROUCAS-13.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_Q4z8xK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ROUCAS-12.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_RhCybn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ROUCAS-16.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9HtAj3",
+        "image_wPHc4D",
+        "image_hcxP7w",
+        "image_jGP3hd",
+        "image_tPk4hc",
+        "image_NP9pyH",
+        "image_UiG4WK",
+        "image_Q4z8xK",
+        "image_RhCybn"
+      ],
+      "name": "Galerie",
+      "settings": {
+        "title": "",
+        "description": "",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96,
         "image_size": 100
       }
     },
-    "equipes_2": {
-      "type": "equipes",
+    "project_duo_jMpqLq": {
+      "type": "project-duo",
+      "name": "Duo images",
+      "settings": {
+        "image_1": "shopify://shop_images/ROUCAS-17.jpg",
+        "image_2": "shopify://shop_images/ROUCAS-45.jpg",
+        "image_size": 80
+      }
+    },
+    "gallery_HgEUDN": {
+      "type": "gallery",
+      "blocks": {
+        "image_BmKcpb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ROUCAS-10.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_jhdQKg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ROUCAS-41.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        },
+        "image_nTGDBi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ROUCAS-11.jpg",
+            "alt": "",
+            "link": "",
+            "project_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BmKcpb",
+        "image_jhdQKg",
+        "image_nTGDBi"
+      ],
+      "name": "Galerie",
       "settings": {
         "title": "",
+        "description": "",
+        "desc_size": 20,
+        "desc_width": 480,
+        "desc_align": "left",
+        "padding_top": 64,
+        "padding_bottom": 96,
         "image_size": 100
       }
     }
@@ -126,6 +292,8 @@
     "moodboard",
     "gallery",
     "duo_2",
-    "equipes_2"
+    "gallery_rGpXf8",
+    "project_duo_jMpqLq",
+    "gallery_HgEUDN"
   ]
 }
