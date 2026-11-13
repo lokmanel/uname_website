@@ -25,7 +25,17 @@
       "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/9.jpg"
+        "image": "shopify://shop_images/9.jpg",
+        "image_size": 100
+      }
+    },
+    "equipes_MekEh7": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "Moodboard extérieur",
+        "image": "shopify://shop_images/10.jpg",
+        "image_size": 100
       }
     },
     "gallery_NqkTeV": {
@@ -132,22 +142,15 @@
         "desc_width": 570,
         "desc_align": "left",
         "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "equipes_MekEh7": {
-      "type": "equipes",
-      "name": "Les équipes",
-      "settings": {
-        "title": "Moodboard extérieur",
-        "image": "shopify://shop_images/10.jpg"
+        "padding_bottom": 64,
+        "image_size": 100
       }
     }
   },
   "order": [
     "project_header_6zYbzA",
     "equipes_KBYVaX",
-    "gallery_NqkTeV",
-    "equipes_MekEh7"
+    "equipes_MekEh7",
+    "gallery_NqkTeV"
   ]
 }

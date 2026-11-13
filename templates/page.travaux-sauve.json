@@ -25,7 +25,8 @@
       "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/PLANS_-_SITE.png"
+        "image": "shopify://shop_images/PLANS_-_SITE.png",
+        "image_size": 100
       }
     },
     "equipes_Wapthx": {
@@ -33,7 +34,8 @@
       "name": "Les équipes",
       "settings": {
         "title": "Moodboard",
-        "image": "shopify://shop_images/PLANS_ET_MOODBOARDS_-_SITE-3.jpg"
+        "image": "shopify://shop_images/PLANS_ET_MOODBOARDS_-_SITE-3.jpg",
+        "image_size": 100
       }
     },
     "gallery": {
@@ -139,7 +141,8 @@
         "desc_width": 570,
         "desc_align": "left",
         "padding_top": 64,
-        "padding_bottom": 96
+        "padding_bottom": 96,
+        "image_size": 100
       }
     },
     "equipes_986Jd9": {
@@ -147,15 +150,16 @@
       "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/CASA_L_AMOROSSA_-_3D_22.09-3.jpg"
+        "image": "shopify://shop_images/CASA_L_AMOROSSA_-_3D_22.09-3.jpg",
+        "image_size": 100
       }
     }
   },
   "order": [
     "project_header_BTaLUV",
     "equipes_XrjAEp",
-    "gallery",
     "equipes_Wapthx",
+    "gallery",
     "equipes_986Jd9"
   ]
 }

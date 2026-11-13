@@ -25,7 +25,17 @@
       "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/14.jpg"
+        "image": "shopify://shop_images/14.jpg",
+        "image_size": 100
+      }
+    },
+    "equipes_AexjM3": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "Plan",
+        "image": "shopify://shop_images/12.jpg",
+        "image_size": 100
       }
     },
     "gallery_m7rCaK": {
@@ -132,22 +142,15 @@
         "desc_width": 570,
         "desc_align": "left",
         "padding_top": 64,
-        "padding_bottom": 96
-      }
-    },
-    "equipes_AexjM3": {
-      "type": "equipes",
-      "name": "Les équipes",
-      "settings": {
-        "title": "Plan",
-        "image": "shopify://shop_images/12.jpg"
+        "padding_bottom": 96,
+        "image_size": 100
       }
     }
   },
   "order": [
     "project_header_MaVCPG",
     "equipes_FgDeTq",
-    "gallery_m7rCaK",
-    "equipes_AexjM3"
+    "equipes_AexjM3",
+    "gallery_m7rCaK"
   ]
 }

@@ -25,7 +25,17 @@
       "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/19.jpg"
+        "image": "shopify://shop_images/19.jpg",
+        "image_size": 100
+      }
+    },
+    "equipes_fBQjX9": {
+      "type": "equipes",
+      "name": "Les équipes",
+      "settings": {
+        "title": "Moodboard",
+        "image": "shopify://shop_images/Design_sans_titre_3.webp",
+        "image_size": 100
       }
     },
     "gallery": {
@@ -101,15 +111,8 @@
         "desc_width": 570,
         "desc_align": "left",
         "padding_top": 64,
-        "padding_bottom": 96
-      }
-    },
-    "equipes_fBQjX9": {
-      "type": "equipes",
-      "name": "Les équipes",
-      "settings": {
-        "title": "Moodboard",
-        "image": "shopify://shop_images/Design_sans_titre_3.webp"
+        "padding_bottom": 96,
+        "image_size": 100
       }
     },
     "equipes_3QicrF": {
@@ -117,15 +120,16 @@
       "name": "Les équipes",
       "settings": {
         "title": "Plan éclairage",
-        "image": "shopify://shop_images/20.jpg"
+        "image": "shopify://shop_images/20.jpg",
+        "image_size": 100
       }
     }
   },
   "order": [
     "project_header_3c89hg",
     "equipes_UjiNT6",
-    "gallery",
     "equipes_fBQjX9",
+    "gallery",
     "equipes_3QicrF"
   ]
 }
