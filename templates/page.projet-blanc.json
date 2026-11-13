@@ -24,7 +24,7 @@
       "settings": {
         "image_1": "shopify://shop_images/Capture_d_ecran_2026-11-11_a_09.46.18.png",
         "image_2": "shopify://shop_images/ROUCAS-27.jpg",
-        "image_size": 100
+        "image_size": 80
       }
     },
     "moodboard": {
@@ -109,7 +109,7 @@
         "desc_align": "left",
         "padding_top": 64,
         "padding_bottom": 96,
-        "image_size": 100
+        "image_size": 80
       }
     },
     "duo_2": {
