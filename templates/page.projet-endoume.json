@@ -23,7 +23,8 @@
       "type": "project-duo",
       "settings": {
         "image_1": "shopify://shop_images/Uname_Endoume_Cuisine4_52de8613-0a34-4a68-adbc-48613ad0253d.jpg",
-        "image_2": "shopify://shop_images/Uname_Endoume_Sejour1.jpg"
+        "image_2": "shopify://shop_images/Uname_Endoume_Sejour1.jpg",
+        "image_size": 80
       }
     },
     "gallery": {
@@ -99,7 +100,8 @@
         "desc_width": 480,
         "desc_align": "left",
         "padding_top": 64,
-        "padding_bottom": 96
+        "padding_bottom": 96,
+        "image_size": 80
       }
     },
     "project_duo_m3wnE3": {
@@ -107,7 +109,8 @@
       "name": "Duo images",
       "settings": {
         "image_1": "shopify://shop_images/Uname_Endoume_Sejour7.jpg",
-        "image_2": "shopify://shop_images/Uname_Endoume_Sejour3.jpg"
+        "image_2": "shopify://shop_images/Uname_Endoume_Sejour3.jpg",
+        "image_size": 80
       }
     },
     "gallery_2": {
@@ -183,7 +186,8 @@
         "desc_width": 480,
         "desc_align": "left",
         "padding_top": 64,
-        "padding_bottom": 96
+        "padding_bottom": 96,
+        "image_size": 80
       }
     }
   },

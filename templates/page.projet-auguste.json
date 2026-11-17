@@ -13,9 +13,9 @@
       "type": "project-header",
       "settings": {
         "title": "Auguste",
-        "description": "<p>Rénovation complète et aménagement d’un appartement de 68 m² dans le 5ᵉ arrondissement de Marseille. </p><p>Un projet pensé comme un dialogue entre héritage marseillais, influences vintage et lignes contemporaines.</p>",
+        "description": "<p>Rénovation complète et aménagement d’un appartement de 68 m² dans le 5ᵉ arrondissement de Marseille.&nbsp;</p><p>Un projet pensé comme un dialogue entre héritage marseillais, influences vintage et lignes contemporaines.</p>",
         "desc_size": 20,
-        "desc_width": 510,
+        "desc_width": 830,
         "desc_align": "left"
       }
     },
@@ -24,7 +24,7 @@
       "settings": {
         "image_1": "shopify://shop_images/Uname_AUGUSTE_6_3607067b-9776-4b61-9050-2a6180c45957.jpg",
         "image_2": "shopify://shop_images/Uname_AUGUSTE_8_27470e6d-1a8a-45af-a935-637dafd71fd7.jpg",
-        "image_size": 100
+        "image_size": 80
       }
     },
     "gallery": {
@@ -101,7 +101,7 @@
         "desc_align": "left",
         "padding_top": 64,
         "padding_bottom": 0,
-        "image_size": 100
+        "image_size": 80
       }
     },
     "moodboard": {
@@ -109,7 +109,7 @@
       "settings": {
         "title": "",
         "image": "shopify://shop_images/Uname_AUGUSTE_5_15d97f41-4508-4615-a07a-08224360ecf1.jpg",
-        "image_size": 65
+        "image_size": 80
       }
     }
   },
