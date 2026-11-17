@@ -225,7 +225,7 @@
         "desc_align": "left",
         "padding_top": 64,
         "padding_bottom": 96,
-        "image_size": 100
+        "image_size": 80
       }
     },
     "project_duo_jMpqLq": {
@@ -282,7 +282,7 @@
         "desc_align": "left",
         "padding_top": 64,
         "padding_bottom": 96,
-        "image_size": 100
+        "image_size": 80
       }
     }
   },
