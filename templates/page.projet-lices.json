@@ -23,14 +23,16 @@
       "type": "project-duo",
       "settings": {
         "image_1": "shopify://shop_images/lices_gvoinot_44_w.jpg",
-        "image_2": "shopify://shop_images/lices_gvoinot_8_w.jpg"
+        "image_2": "shopify://shop_images/lices_gvoinot_8_w.jpg",
+        "image_size": 80
       }
     },
     "moodboard": {
       "type": "equipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/lices_gvoinot_202_w.jpg"
+        "image": "shopify://shop_images/lices_gvoinot_202_w.jpg",
+        "image_size": 80
       }
     },
     "gallery": {
@@ -106,7 +108,8 @@
         "desc_width": 480,
         "desc_align": "left",
         "padding_top": 64,
-        "padding_bottom": 96
+        "padding_bottom": 96,
+        "image_size": 80
       }
     },
     "project_duo_RHPgEd": {
@@ -114,7 +117,8 @@
       "name": "Duo images",
       "settings": {
         "image_1": "shopify://shop_images/lices_gvoinot_192_w.jpg",
-        "image_2": "shopify://shop_images/lices_gvoinot_168_w.jpg"
+        "image_2": "shopify://shop_images/lices_gvoinot_168_w.jpg",
+        "image_size": 80
       }
     },
     "equipes_caDVUg": {
@@ -122,7 +126,8 @@
       "name": "Les équipes",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/lices_gvoinot_151_w.jpg"
+        "image": "shopify://shop_images/lices_gvoinot_151_w.jpg",
+        "image_size": 80
       }
     }
   },
